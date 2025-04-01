@@ -1,0 +1,230 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Packages %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Usual ones
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes} %Guillemets français
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{braket}
+\usepackage{multirow}
+\usepackage{wasysym} %Pour des intégrales doubles fermées
+\usepackage{color}
+\usepackage{slashed}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage[output-open-uncertainty=\pm,output-close-uncertainty=,
+output-decimal-marker={,}, inter-unit-product={}\cdot{}, range-units = single, range-phrase=\text{ à },separate-uncertainty=true]
+{siunitx}
+\sisetup{detect-all}
+\usepackage{todonotes}
+\usepackage{epigraph}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{fontawesome}
+\usepackage[tikz]{bclogo} %Helps for creation of colored boxes
+\usepackage{caption}
+%\usepackage{graphbox}
+\usepackage{listingsutf8}
+\usepackage{pythonhighlight} %Pour insérer du python
+%\usepackage{mhchem}
+%%%%%%%%%%%%%%%%%%%%%%
+
+%Packages used to provide commands depending on an argument
+\usepackage{ifthen}
+\usepackage{ifmtarg}
+\usepackage{etoolbox}
+
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+%tikz
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usepackage[europeanresistor]{circuitikz}
+\usetikzlibrary{%
+	shapes.geometric,calc,intersections,%
+	decorations.markings,decorations.text,decorations,%
+	patterns,decorations.pathmorphing,fpu,%
+	positioning,automata,shapes.multipart,%
+	arrows.meta, backgrounds,%
+	tikzmark, babel, perspective
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+% Page geometry
+\usepackage[top=2cm, bottom=2cm, left=1.5cm, right=1.5cm]{geometry}
+	
+%%%%%%%%%%%%%%%%%%%%%%
+
+%Appendices
+\usepackage[toc,page]{appendix}
+
+%%%%%%%%%%%%%%%%%%%%%%
+
+%Bibliography
+% \usepackage[square]{natbib}
+\usepackage[nottoc]{tocbibind} 
+\usepackage[
+	backend=biber,
+	defernumbers=true,
+	natbib=true,
+	maxbibnames=99,
+	giveninits=true,
+	style=numeric,
+	url=false,
+	isbn=false]{biblatex}
+\addbibresource{bib/biblio.bib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%hyperref
+\usepackage[%
+  pdftex,colorlinks=true,
+	pdfstartview=FitV,
+	linkcolor= linkcolor,
+	citecolor= linkcolor,
+	urlcolor= linkcolor,
+	hyperindex=true,
+	hyperfigures=true]{hyperref}
+	
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Clever Referencing
+\usepackage[noabbrev]{cleveref}
+\crefname{appendixchapter}{annexe}{annexes}
+\Crefname{appendixchapter}{Annexe}{Annexes}
+\crefname{appendixsection}{section annexe}{Sections annexes}
+\Crefname{appendixsection}{Section annexe}{Sections annexes}
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Defined commands and functions
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Linkcolor
+\definecolor{linkcolor}{rgb}{0.7,0.2,0.2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Short usual commands
+
+\newcommand{\me}{\mathrm{e}}
+\newcommand{\mi}{\mathrm{i}}
+\newcommand{\mj}{\mathrm{j}}
+\newcommand{\md}{\mathrm{d}}
+\newcommand{\eo}{\epsilon_0}
+\newcommand{\heaviside}{\mathrm{H}}
+\newcommand{\ve}[1]{\vbox{\halign{##\cr 
+  \tiny\rightarrowfill\cr\noalign{\nointerlineskip\vskip1pt} 
+  $#1\mskip2mu$\cr}}}
+\newcommand{\co}[1]{\underline{#1}}
+\newcommand{\tf}[1]{\hat{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Mathematical operators
+
+\DeclareMathOperator{\mRe}{Re}
+\DeclareMathOperator{\mIm}{Im}
+\DeclareMathOperator{\sinc}{sinc}
+\DeclareMathOperator{\trace}{Tr}
+\DeclareMathOperator{\diverg}{div}
+\DeclareMathOperator{\grad}{\ve{\mathrm{grad}}}
+\DeclareMathOperator{\rot}{\ve{\mathrm{rot}}}
+\DeclareMathOperator{\laplac}{\Delta}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Special trick to allow moving of the \in character up or down, by 
+%putting a length as first argument
+%Usage for sum indices : n \in[-0.6pt] \mathbb{R} for example
+\newcommand{\myin}[1][0pt]{%
+  \mathchoice{\raisebox{#1}{$\displaystyle\in$}}
+             {\raisebox{#1}{$\in$}}
+             {\raisebox{#1}{$\scriptstyle\in$}}
+             {\raisebox{#1}{$\scriptscriptstyle\in$}}
+             }
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Personal todo command
+\newcommand{\mytodo}[1]{{\todo[inline,backgroundcolor=blue!10!white]
+{#1}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Defining commands allowing to create parts that are printed
+%only for the teacher and/or only for students.
+%IMPORTANT : the forstudent toggle MUST be set to True or False
+%when compiling the document
+
+\newtoggle{forstudent}
+
+%This command allows to create teacher notes, that should not be
+%visible to students. 
+\newcommand{\teacher}[1]{%
+	\iftoggle{forstudent}%
+		{}	%nothing printed if forstudent=true
+		{#1}%print the text if forstudent=false
+	}
+	
+%This command allows to create student notes, that should be printed
+%only in the student version
+\newcommand{\student}[1]{%
+	\iftoggle{forstudent}%
+		{#1}%print the text if forstudent=true
+		{}	%nothing printed if forstudent=false
+	}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Defining some specific useful environments
+
+%This command creates a small box in which the text will be displayed. 
+\newcommand{\important}[1]{\begin{center}\fbox{
+\vspace{0.1cm}
+\begin{minipage}{0.9\textwidth}
+#1
+\end{minipage}
+\vspace{0.1cm}
+}\end{center}
+}
+
+%This command can be used for exemples
+\newcommand{\exemple}[1]{\begin{center}
+\vspace{0.1cm}
+\begin{minipage}{0.9\textwidth}
+\textbf{Exemple} :
+#1
+\end{minipage}
+\vspace{0.1cm}
+\end{center}
+}
+
+%This command creates a specific environment for oral information
+%to be given. Can only be displayed in the teacher version.
+\newcommand{\oral}[1]{%
+	\teacher{	
+		\begin{bclogo}[avecBarre = false,arrondi = 0.1,
+		couleur = green!20!white,logo=\ ]{}
+		\vspace{-0.3cm} \faComment~#1  
+		\end{bclogo}
+		}
+	}
+	
+%This command creates a box for remarks.
+\newcommand{\remark}[1]{%
+	\begin{bclogo}[avecBarre = true,noborder=true,logo=\ ]{}
+		\textcolor{gray}{
+	 #1  }
+	\end{bclogo}
+	}
+	

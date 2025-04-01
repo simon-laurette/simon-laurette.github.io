@@ -1,0 +1,2164 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.24)  30 MAR 2025 20:49
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**./ListeExos.tex
+(ListeExos.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/entete_TD.tex
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count195
+\U@D=\dimen141
+\l@unhyphenated=\language79
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count196
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.l
+df
+Language: french 2024-07-25 v3.6c French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language22). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language22). Reported on input line 92.
+\FB@stdchar=\count197
+Package babel Info: Making : an active character on input line 421.
+Package babel Info: Making ; an active character on input line 422.
+Package babel Info: Making ! an active character on input line 423.
+Package babel Info: Making ? an active character on input line 424.
+\FBguill@level=\count198
+\FBold@everypar=\toks19
+\FB@Mht=\dimen142
+\mc@charclass=\count199
+\mc@charfam=\count266
+\mc@charslot=\count267
+\std@mcc=\count268
+\dec@mcc=\count269
+\FB@parskip=\dimen143
+\listindentFB=\dimen144
+\descindentFB=\dimen145
+\labelindentFB=\dimen146
+\labelwidthFB=\dimen147
+\leftmarginFB=\dimen148
+\parindentFFN=\dimen149
+\FBfnindent=\dimen150
+))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babel
+-french.tex
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 11.
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen151
+))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen152
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count270
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count271
+\leftroot@=\count272
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count273
+\DOTSCASE@=\count274
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen153
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count275
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count276
+\dotsspace@=\muskip16
+\c@parentequation=\count277
+\dspbrk@lvl=\count278
+\tag@help=\toks21
+\row@=\count279
+\column@=\count280
+\maxfields@=\count281
+\andhelp@=\toks22
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
+\@envbody=\toks23
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
+\thm@preskip=\skip53
+\thm@postskip=\skip54
+\thm@headsep=\skip55
+\dth@everypar=\toks30
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks31
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count282
+\Gm@cntv=\count283
+\c@Gm@tempcnt=\count284
+\Gm@bindingoffset=\dimen160
+\Gm@wd@mp=\dimen161
+\Gm@odd@mp=\dimen162
+\Gm@even@mp=\dimen163
+\Gm@layoutwidth=\dimen164
+\Gm@layoutheight=\dimen165
+\Gm@layouthoffset=\dimen166
+\Gm@layoutvoffset=\dimen167
+\Gm@dimlist=\toks32
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen168
+\Gin@req@width=\dimen169
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip56
+\enit@outerparindent=\dimen170
+\enit@toks=\toks33
+\enit@inbox=\box53
+\enit@count@id=\count285
+\enitdp@description=\count286
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count287
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count288
+)
+\@linkdim=\dimen171
+\Hy@linkcounter=\count289
+\Hy@pagecounter=\count290
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count291
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count292
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen172
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count293
+\Field@Width=\dimen173
+\Fld@charsize=\dimen174
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring OFF on input line 6085.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count294
+\c@Item=\count295
+\c@Hfootnote=\count296
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count297
+\c@bookmark@seq@number=\count298
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip57
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2025-02-27 v3.4.6 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count299
+\l__siunitx_number_exponent_fixed_int=\count300
+\l__siunitx_number_min_decimal_int=\count301
+\l__siunitx_number_min_integer_int=\count302
+\l__siunitx_number_round_precision_int=\count303
+\l__siunitx_number_lower_threshold_int=\count304
+\l__siunitx_number_upper_threshold_int=\count305
+\l__siunitx_number_group_first_int=\count306
+\l__siunitx_number_group_size_int=\count307
+\l__siunitx_number_group_minimum_int=\count308
+\l__siunitx_angle_tmp_dim=\dimen175
+\l__siunitx_angle_marker_box=\box54
+\l__siunitx_angle_unit_box=\box55
+\l__siunitx_compound_count_int=\count309
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_table_tmp_box=\box56
+\l__siunitx_table_tmp_dim=\dimen176
+\l__siunitx_table_column_width_dim=\dimen177
+\l__siunitx_table_integer_box=\box57
+\l__siunitx_table_decimal_box=\box58
+\l__siunitx_table_uncert_box=\box59
+\l__siunitx_table_before_box=\box60
+\l__siunitx_table_after_box=\box61
+\l__siunitx_table_before_dim=\dimen178
+\l__siunitx_table_carry_dim=\dimen179
+\l__siunitx_unit_tmp_int=\count310
+\l__siunitx_unit_position_int=\count311
+\l__siunitx_unit_total_int=\count312
+ (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen180
+\ar@mcellbox=\box62
+\extrarowheight=\dimen181
+\NC@list=\toks34
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box63
+))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen182
+\lightrulewidth=\dimen183
+\cmidrulewidth=\dimen184
+\belowrulesep=\dimen185
+\belowbottomsep=\dimen186
+\aboverulesep=\dimen187
+\abovetopsep=\dimen188
+\cmidrulesep=\dimen189
+\cmidrulekern=\dimen190
+\defaultaddspace=\dimen191
+\@cmidla=\count313
+\@cmidlb=\count314
+\@aboverulesep=\dimen192
+\@belowrulesep=\dimen193
+\@thisruleclass=\count315
+\@lastruleclass=\count316
+\@thisrulewidth=\dimen194
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\fontawesome
+.sty
+Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\fontawesome
+symbols-generic.tex)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\fontawesome
+symbols-pdftex.tex))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip60
+\multirow@cntb=\count317
+\multirow@dima=\skip61
+\bigstrutjot=\dimen195
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count318
+\float@exts=\toks35
+\float@box=\box64
+\@float@everytoks=\toks36
+\@floatcapt=\box65
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip62
+\f@nch@offset@elh=\skip63
+\f@nch@offset@erh=\skip64
+\f@nch@offset@olh=\skip65
+\f@nch@offset@orh=\skip66
+\f@nch@offset@elf=\skip67
+\f@nch@offset@erf=\skip68
+\f@nch@offset@olf=\skip69
+\f@nch@offset@orf=\skip70
+\f@nch@height=\skip71
+\f@nch@footalignment=\skip72
+\f@nch@widthL=\skip73
+\f@nch@widthC=\skip74
+\f@nch@widthR=\skip75
+\@temptokenb=\toks37
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks38
+\pgfutil@tempdima=\dimen196
+\pgfutil@tempdimb=\dimen197
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box66
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks39
+\pgfkeys@temptoks=\toks40
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks41
+))
+\pgf@x=\dimen198
+\pgf@y=\dimen199
+\pgf@xa=\dimen256
+\pgf@ya=\dimen257
+\pgf@xb=\dimen258
+\pgf@yb=\dimen259
+\pgf@xc=\dimen260
+\pgf@yc=\dimen261
+\pgf@xd=\dimen262
+\pgf@yd=\dimen263
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count319
+\c@pgf@countb=\count320
+\c@pgf@countc=\count321
+\c@pgf@countd=\count322
+\t@pgf@toka=\toks42
+\t@pgf@tokb=\toks43
+\t@pgf@tokc=\toks44
+\pgf@sys@id@count=\count323
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count324
+\pgfsyssoftpath@bigbuffer@items=\count325
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen264
+\pgfmath@count=\count326
+\pgfmath@box=\box67
+\pgfmath@toks=\toks45
+\pgfmath@stack@operand=\toks46
+\pgfmath@stack@operation=\toks47
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count327
+))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen265
+\pgf@picmaxx=\dimen266
+\pgf@picminy=\dimen267
+\pgf@picmaxy=\dimen268
+\pgf@pathminx=\dimen269
+\pgf@pathmaxx=\dimen270
+\pgf@pathminy=\dimen271
+\pgf@pathmaxy=\dimen272
+\pgf@xx=\dimen273
+\pgf@xy=\dimen274
+\pgf@yx=\dimen275
+\pgf@yy=\dimen276
+\pgf@zx=\dimen277
+\pgf@zy=\dimen278
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen279
+\pgf@path@lasty=\dimen280
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen281
+\pgf@shorten@start@additional=\dimen282
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box68
+\pgf@hbox=\box69
+\pgf@layerbox@main=\box70
+\pgf@picture@serial@count=\count328
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen283
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen284
+\pgf@pt@y=\dimen285
+\pgf@pt@temp=\dimen286
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen287
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen288
+\pgf@sys@shading@range@num=\count329
+\pgf@shadingcount=\count330
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box71
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box72
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen289
+\pgf@nodesepend=\dimen290
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks48
+\verbatim@line=\toks49
+\verbatim@in@stream=\read4
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
+ty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box73
+\tcb@upperbox=\box74
+\tcb@lowerbox=\box75
+\tcb@phantombox=\box76
+\c@tcbbreakpart=\count331
+\c@tcblayer=\count332
+\c@tcolorbox@number=\count333
+\l__tcobox_tmpa_box=\box77
+\l__tcobox_tmpa_dim=\dimen291
+\tcb@temp=\box78
+\tcb@temp=\box79
+\tcb@temp=\box80
+\tcb@temp=\box81
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen292
+\pgffor@skip=\dimen293
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
+))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count334
+\pgfplotmarksize=\dimen294
+)
+\tikz@lastx=\dimen295
+\tikz@lasty=\dimen296
+\tikz@lastxsaved=\dimen297
+\tikz@lastysaved=\dimen298
+\tikz@lastmovetox=\dimen299
+\tikz@lastmovetoy=\dimen300
+\tikzleveldistance=\dimen301
+\tikzsiblingdistance=\dimen302
+\tikz@figbox=\box82
+\tikz@figbox@bg=\box83
+\tikz@tempbox=\box84
+\tikz@tempbox@bg=\box85
+\tikztreelevel=\count335
+\tikznumberofchildren=\count336
+\tikznumberofcurrentchild=\count337
+\tikz@fig@count=\count338
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count339
+\pgfmatrixcurrentcolumn=\count340
+\pgf@matrix@numberofcolumns=\count341
+)
+\tikz@expandcount=\count342
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/bclogo\bclogo.sty
+Package: bclogo 2024/01/23 v3.15
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks52
+\XKV@tempa@toks=\toks53
+)
+\XKV@depth=\count343
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\bc@invboxh=\skip76
+\bc@invboxd=\skip77
+\bc@titleLength=\skip78
+\logowidth=\skip79
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-01-04 L3 programming layer (loader) 
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count344
+\l__pdf_internal_box=\box86
+))
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
+Package: zref-abspage 2023-09-14 v2.35 Module abspage for zref (HO)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-base.sty
+Package: zref-base 2023-09-14 v2.35 Module base for zref (HO)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count345
+Package zref Info: New property: abspage on input line 67.
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip80
+\c@mdf@globalstyle@cnt=\count346
+\mdf@skipabove@length=\skip81
+\mdf@skipbelow@length=\skip82
+\mdf@leftmargin@length=\skip83
+\mdf@rightmargin@length=\skip84
+\mdf@innerleftmargin@length=\skip85
+\mdf@innerrightmargin@length=\skip86
+\mdf@innertopmargin@length=\skip87
+\mdf@innerbottommargin@length=\skip88
+\mdf@splittopskip@length=\skip89
+\mdf@splitbottomskip@length=\skip90
+\mdf@outermargin@length=\skip91
+\mdf@innermargin@length=\skip92
+\mdf@linewidth@length=\skip93
+\mdf@innerlinewidth@length=\skip94
+\mdf@middlelinewidth@length=\skip95
+\mdf@outerlinewidth@length=\skip96
+\mdf@roundcorner@length=\skip97
+\mdf@footenotedistance@length=\skip98
+\mdf@userdefinedwidth@length=\skip99
+\mdf@needspace@length=\skip100
+\mdf@frametitleaboveskip@length=\skip101
+\mdf@frametitlebelowskip@length=\skip102
+\mdf@frametitlerulewidth@length=\skip103
+\mdf@frametitleleftmargin@length=\skip104
+\mdf@frametitlerightmargin@length=\skip105
+\mdf@shadowsize@length=\skip106
+\mdf@extratopheight@length=\skip107
+\mdf@subtitleabovelinewidth@length=\skip108
+\mdf@subtitlebelowlinewidth@length=\skip109
+\mdf@subtitleaboveskip@length=\skip110
+\mdf@subtitlebelowskip@length=\skip111
+\mdf@subtitleinneraboveskip@length=\skip112
+\mdf@subtitleinnerbelowskip@length=\skip113
+\mdf@subsubtitleabovelinewidth@length=\skip114
+\mdf@subsubtitlebelowlinewidth@length=\skip115
+\mdf@subsubtitleaboveskip@length=\skip116
+\mdf@subsubtitlebelowskip@length=\skip117
+\mdf@subsubtitleinneraboveskip@length=\skip118
+\mdf@subsubtitleinnerbelowskip@length=\skip119
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-1.mdf
+File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
+)
+\mdf@frametitlebox=\box87
+\mdf@footnotebox=\box88
+\mdf@splitbox@one=\box89
+\mdf@splitbox@two=\box90
+\mdf@splitbox@save=\box91
+\mdfsplitboxwidth=\skip120
+\mdfsplitboxtotalwidth=\skip121
+\mdfsplitboxheight=\skip122
+\mdfsplitboxdepth=\skip123
+\mdfsplitboxtotalheight=\skip124
+\mdfframetitleboxwidth=\skip125
+\mdfframetitleboxtotalwidth=\skip126
+\mdfframetitleboxheight=\skip127
+\mdfframetitleboxdepth=\skip128
+\mdfframetitleboxtotalheight=\skip129
+\mdffootnoteboxwidth=\skip130
+\mdffootnoteboxtotalwidth=\skip131
+\mdffootnoteboxheight=\skip132
+\mdffootnoteboxdepth=\skip133
+\mdffootnoteboxtotalheight=\skip134
+\mdftotallinewidth=\skip135
+\mdfboundingboxwidth=\skip136
+\mdfboundingboxtotalwidth=\skip137
+\mdfboundingboxheight=\skip138
+\mdfboundingboxdepth=\skip139
+\mdfboundingboxtotalheight=\skip140
+\mdf@freevspace@length=\skip141
+\mdf@horizontalwidthofbox@length=\skip142
+\mdf@verticalmarginwhole@length=\skip143
+\mdf@horizontalspaceofbox=\skip144
+\mdfsubtitleheight=\skip145
+\mdfsubsubtitleheight=\skip146
+\c@mdfcountframes=\count347
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count348
+\c@mdf@env@i=\count349
+\c@mdf@env@ii=\count350
+\c@mdf@zref@counter=\count351
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryfadings.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+decorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen303
+\pgfdecoratedremainingdistance=\dimen304
+\pgfdecoratedinputsegmentcompleteddistance=\dimen305
+\pgfdecoratedinputsegmentremainingdistance=\dimen306
+\pgf@decorate@distancetomove=\dimen307
+\pgf@decorate@repeatstate=\count352
+\pgfdecorationsegmentamplitude=\dimen308
+\pgfdecorationsegmentlength=\dimen309
+)
+\tikz@lib@dec@box=\box92
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+\c@bclogocompteur=\count353
+\bcval@epBarre=\skip147
+\bcval@framesep=\skip148
+\bcval@tailleOndu=\skip149
+\bcval@borderWidth=\skip150
+\bcval@margeG=\skip151
+\bcval@margeD=\skip152
+\bc@envbox=\box93
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box94
+\beforetitleunit=\skip153
+\aftertitleunit=\skip154
+\ttl@plus=\dimen310
+\ttl@minus=\dimen311
+\ttl@toksa=\toks54
+\titlewidth=\dimen312
+\titlewidthlast=\dimen313
+\titlewidthfirst=\dimen314
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fmtcount.sty
+Package: fmtcount 2025/02/09 v3.10 Displaying the values of LaTeX counters (NT,
+VB,NE)
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcnumparser.st
+y
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count354
+))
+\c@padzeroesN=\count355
+\fc@tmpcatcode=\count356
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fc-french.def
+File: fc-french.def 2017/06/15
+)
+\@DT@modctr=\count357
+\@ordinalctr=\count358
+\@orgargctr=\count359
+\@strctr=\count360
+\@tmpstrctr=\count361
+\@DT@loopN=\count362
+\@DT@X=\count363
+) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/qrcode\qrcode.sty
+Package: qrcode 2015/01/08 v1.51 QR code generation
+\c@qr@i=\count364
+\c@qr@j=\count365
+\qr@a=\count366
+\qr@b=\count367
+\qr@c=\count368
+\qr@for@depth=\count369
+\qr@for@maxdepth=\count370
+\qr@for@start=\count371
+\qr@for@end=\count372
+\qr@for@step=\count373
+\qr@newforcount=\count374
+\qr@newforcount=\count375
+\qr@desiredheight=\skip155
+\qr@modulesize=\skip156
+\qr@minipagewidth=\skip157
+\c@maski=\count376
+\c@maskj=\count377
+\c@totalones=\count378
+\c@penaltyi=\count379
+\c@penaltyii=\count380
+\c@penaltyiii=\count381
+\c@penaltyiv=\count382
+\c@qr@hexchars=\count383
+\qr@newforcount=\count384
+\c@qr@divisionsremaining=\count385
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/marginnote\marginnote.s
+ty
+Package: marginnote 2018/08/09 1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count386
+))
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 10
+.
+ (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+(ListeExos.aux
+<Reading QR code for "https://drive.google.com/file/d/1JipDTi6Nh8sdjgsWXTbV0Rbv
+xS6KE2JE/view?usp=sharing" at level 5-M from aux file.>
+
+<Reading QR code for "https://drive.google.com/file/d/1IfDzPdHmr1eMg9zXedigZsGW
+GT2bBuXL/view?usp=sharing" at level 5-M from aux file.>
+)
+\openout1 = `ListeExos.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Info: Redefining \degres on input line 10.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 10.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 10.
+LaTeX Info: Redefining \up on input line 10.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=103.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemargintrue
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count387
+\scratchdimen=\dimen315
+\scratchbox=\box95
+\nofMPsegments=\count388
+\nofMParguments=\count389
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count390
+\MPscratchDim=\dimen316
+\MPnumerator=\count391
+\makeMPintoPDFobject=\count392
+\everyMPtoPDFconversion=\toks56
+)
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 10.
+ (ListeExos.out) (ListeExos.out)
+\@outlinefile=\write4
+\openout4 = `ListeExos.out'.
+
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-french.trsl
+File: translations-basic-dictionary-french.trsl (french translation file `trans
+lations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `french'. on input line 10.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
+3.
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+(ListeExos.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
+.
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
+.
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+3.
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+3.
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+[1
+
+{C:/Users/simon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/simo
+n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}])
+\tf@toc=\write5
+\openout5 = `ListeExos.toc'.
+
+ [2] [3]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 34.
+
+LaTeX Font Info:    Trying to load font information for U+fontawesomethree on i
+nput line 36.
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\ufontawesom
+ethree.fd
+File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
+)
+
+LaTeX Font Warning: Font shape `U/fontawesomethree/bx/n' undefined
+(Font)              using `U/fontawesomethree/m/n' instead on input line 36.
+
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
+ut line 36.
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\ufontawesom
+etwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
+
+LaTeX Font Warning: Font shape `U/fontawesometwo/bx/n' undefined
+(Font)              using `U/fontawesometwo/m/n' instead on input line 36.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 37.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 37.
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/rl.png, id=249, 210.24pt x 81.1395pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/rl.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/rl.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/rl.png  used on input line 40.
+(pdftex.def)             Requested size: 318.66948pt x 122.99776pt.
+[4{C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fon
+tawesomethree.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
+/fontawesome/fontawesometwo.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX/f
+onts/enc/dvips/lm/lm-mathit.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX/f
+onts/enc/dvips/lm/lm-rm.enc} <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE
+ Wallon/Latex/Exercices/images/rl.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/bode.png, id=269, 578.16pt x 433.62pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/bode.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/bode.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/bode.png  used on input line 95.
+(pdftex.def)             Requested size: 250.38564pt x 187.78949pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+[5 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/im
+ages/bode.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/metal1.png, id=280, 337.7418pt x 208.1376pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/metal1.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/metal1.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/metal1.png  used on input line 115.
+(pdftex.def)             Requested size: 159.33821pt x 98.19308pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/metal2.png, id=281, 208.1376pt x 88.1694pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/metal2.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/metal2.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/metal2.png  used on input line 127.
+(pdftex.def)             Requested size: 318.66948pt x 134.99962pt.
+[6{C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.en
+c} <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/im
+ages/metal1.png> <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Late
+x/Exercices/images/metal2.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/rc2.png, id=297, 165.2574pt x 120.9318pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/rc2.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/rc2.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/rc2.png  used on input line 156.
+(pdftex.def)             Requested size: 227.62206pt x 166.57419pt.
+ [7 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/rc2.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/electrocar1.png, id=308, 294.3798pt x 62.634pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/electrocar1.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/electrocar1.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/electrocar1.png  used on input line 173.
+(pdftex.def)             Requested size: 364.19667pt x 77.48949pt.
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/electrocar2.png, id=309, 178.7478pt x 109.8504pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/electrocar2.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/electrocar2.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/electrocar2.png  used on input line 182.
+(pdftex.def)             Requested size: 273.14923pt x 167.89117pt.
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/electrocar3.png, id=310, 281.853pt x 91.0602pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/electrocar3.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/electrocar3.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/electrocar3.png  used on input line 192.
+(pdftex.def)             Requested size: 364.19667pt x 117.66682pt.
+ [8 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/electrocar1.png> <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallo
+n/Latex/Exercices/images/electrocar2.png> <C:/Users/simon/Google Drive/Enseigne
+ment/CPGE/MPE Wallon/Latex/Exercices/images/electrocar3.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/rc3.png, id=323, 163.812pt x 133.9404pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/rc3.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/rc3.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/rc3.png  used on input line 208.
+(pdftex.def)             Requested size: 227.62206pt x 186.1296pt.
+ [9 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/rc3.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/resonance.png, id=329, 1271.5003pt x 810.02625pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/resonance.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/resonance.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/resonance.png  used on input line 225.
+(pdftex.def)             Requested size: 455.24411pt x 290.01479pt.
+ [10 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/resonance.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/deriv.png, id=336, 261.1356pt x 80.4606pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/deriv.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/deriv.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/deriv.png  used on input line 240.
+(pdftex.def)             Requested size: 364.19667pt x 112.21927pt.
+ [11 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/deriv.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/dephaseur.png, id=342, 148.3944pt x 118.5228pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/dephaseur.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/dephaseur.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/dephaseur.png  used on input line 280.
+(pdftex.def)             Requested size: 227.62206pt x 181.80586pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+
+ []
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 275--300
+[][]  [] 
+ []
+
+[12 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/dephaseur.png>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 307.
+
+[13{C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.e
+nc}]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/guide1.png, id=370, 132.0132pt x 60.225pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/guide1.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/guide1.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/guide1.png  used on input line 355.
+(pdftex.def)             Requested size: 227.62206pt x 103.85144pt.
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/guide2.png, id=371, 87.2058pt x 82.8696pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/guide2.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/guide2.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/guide2.png  used on input line 385.
+(pdftex.def)             Requested size: 109.26108pt x 103.83075pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
+
+ []
+
+[14 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/guide1.png> <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Lat
+ex/Exercices/images/guide2.png>] [15] [16] [17]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/creux.png, id=419, 118.5228pt x 66.9702pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/creux.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/creux.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/creux.png  used on input line 502.
+(pdftex.def)             Requested size: 204.85846pt x 115.75977pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
+
+ []
+
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/coax.png, id=420, 103.587pt x 56.3706pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/coax.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/coax.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/coax.png  used on input line 539.
+(pdftex.def)             Requested size: 136.57462pt x 74.32768pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
+
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 526--544
+[][]  [] 
+ []
+
+[18 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/creux.png> <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Late
+x/Exercices/images/coax.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/helm.png, id=432, 622.57594pt x 234.1247pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/helm.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/helm.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/helm.png  used on input line 553.
+(pdftex.def)             Requested size: 364.19667pt x 136.9606pt.
+ [19 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/helm.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/carte.png, id=442, 160.4394pt x 144.0582pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/carte.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/carte.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/carte.png  used on input line 587.
+(pdftex.def)             Requested size: 227.62206pt x 204.3816pt.
+ [20 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/carte.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/cadre.png, id=453, 137.313pt x 135.3858pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/cadre.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/cadre.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/cadre.png  used on input line 602.
+(pdftex.def)             Requested size: 182.09486pt x 179.5382pt.
+ [21 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/cadre.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/amp.png, id=463, 333.4056pt x 127.677pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/amp.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/amp.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/amp.png  used on input line 646.
+(pdftex.def)             Requested size: 455.24411pt x 174.3495pt.
+ [22 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/amp.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/rail.png, id=474, 915.42pt x 312.41719pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/rail.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/rail.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/rail.png  used on input line 664.
+(pdftex.def)             Requested size: 318.66948pt x 108.75653pt.
+ [23 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/rail.png>] [24]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/tore.png, id=493, 155.1396pt x 57.3342pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/tore.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/tore.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/tore.png  used on input line 723.
+(pdftex.def)             Requested size: 182.09486pt x 67.30206pt.
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/tore2.png, id=494, 96.81453pt x 64.08849pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/tore2.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/tore2.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/tore2.png  used on input line 729.
+(pdftex.def)             Requested size: 68.28383pt x 45.20193pt.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
+37.
+
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [25{C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.en
+c} <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/im
+ages/tore.png> <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/
+Exercices/images/tore2.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/plas.png, id=508, 103.1052pt x 89.133pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/plas.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/plas.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/plas.png  used on input line 768.
+(pdftex.def)             Requested size: 136.57462pt x 118.07887pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 768--769
+
+ []
+
+[26 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/plas.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/cord.png, id=518, 111.2958pt x 137.7948pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/cord.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/cord.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/cord.png  used on input line 794.
+(pdftex.def)             Requested size: 182.09486pt x 225.47818pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 794--795
+
+ []
+
+[27 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/cord.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/lig.png, id=528, 300.3722pt x 131.74219pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/lig.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/lig.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/lig.png  used on input line 827.
+(pdftex.def)             Requested size: 227.62206pt x 99.83763pt.
+ [28 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/lig.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/piec.png, id=540, 239.39438pt x 124.96687pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/piec.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/piec.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/piec.png  used on input line 871.
+(pdftex.def)             Requested size: 113.81102pt x 59.41136pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 871--872
+
+ []
+
+
+Overfull \hbox (3.1102pt too wide) in paragraph at lines 892--893
+[]\T1/lmr/m/n/10.95 Établir la re-la-tion de dis-per-sion en cher-chant une so-
+lu-tion de la forme $\OML/lmm/m/it/10.95 ^^R[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it
+/10.95 t\OT1/lmr/m/n/10.95 ) = \OML/lmm/m/it/10.95 ^^R[] []\OT1/lmr/m/n/10.95 (
+\OML/lmm/m/it/10.95 i\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 !t \OMS/lmsy/m/n/1
+0.95 ^^@
+ []
+
+[29 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/piec.png>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 903.
+
+[30] [31]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/eph.png, id=572, 317.5062pt x 161.403pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/eph.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/eph.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/eph.png  used on input line 1006.
+(pdftex.def)             Requested size: 318.66948pt x 161.99614pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/eph.png>] [33] [34]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/eph2.png, id=603, 237.5274pt x 153.2124pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/eph2.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/eph2.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/eph2.png  used on input line 1089.
+(pdftex.def)             Requested size: 227.62206pt x 146.82973pt.
+
+Overfull \hbox (71.86308pt too wide) in paragraph at lines 1093--1097
+[]\T1/lmr/m/n/10.95 Placer en jus-ti-fiant les es-pèces sui-vantes sur le dia-g
+ramme E-pH ci-dessus : $[][]$ 
+ []
+
+[35 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/eph2.png>] [36]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/pred.png, id=623, 178.7478pt x 175.857pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/pred.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/pred.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/pred.png  used on input line 1138.
+(pdftex.def)             Requested size: 227.62206pt x 223.95575pt.
+ [37 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/pred.png>] [38]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/ie.png, id=642, 524.71031pt x 338.76563pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/ie.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/ie.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/ie.png  used on input line 1184.
+(pdftex.def)             Requested size: 227.62206pt x 146.95865pt.
+ [39 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/ie.png>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 1204.
+
+[40]
+
+
+<QR code requested for "https://drive.google.com/file/d/1JipDTi6Nh8sdjgsWXTbV0R
+bvxS6KE2JE/view?usp=sharing" in version 0-M.>
+
+<Copying the QR code for "https://drive.google.com/file/d/1JipDTi6Nh8sdjgsWXTbV
+0RbvxS6KE2JE/view?usp=sharing" in version 5-M as previously calculated.>
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/ice.png, id=661, 115.632pt x 126.2316pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/ice.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/ice.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/ice.png  used on input line 1274.
+(pdftex.def)             Requested size: 182.09486pt x 198.79654pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+[42 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/ice.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/planc.png, id=673, 169.5936pt x 121.4136pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/planc.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/planc.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/planc.png  used on input line 1286.
+(pdftex.def)             Requested size: 227.62206pt x 162.9694pt.
+
+
+
+<QR code requested for "https://drive.google.com/file/d/1IfDzPdHmr1eMg9zXedigZs
+GWGT2bBuXL/view?usp=sharing" in version 0-M.>
+
+<Copying the QR code for "https://drive.google.com/file/d/1IfDzPdHmr1eMg9zXedig
+ZsGWGT2bBuXL/view?usp=sharing" in version 5-M as previously calculated.>
+[43 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/planc.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/disq.png, id=685, 517.935pt x 277.035pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/disq.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/disq.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/disq.png  used on input line 1320.
+(pdftex.def)             Requested size: 273.14923pt x 146.10922pt.
+ [44 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/disq.png>] [45]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/emb.png, id=701, 669.2503pt x 542.77782pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/emb.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/emb.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/emb.png  used on input line 1407.
+(pdftex.def)             Requested size: 273.14923pt x 221.53821pt.
+ [46 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/emb.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/deviat.png, id=707, 300.6432pt x 128.1588pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/deviat.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/deviat.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/deviat.png  used on input line 1440.
+(pdftex.def)             Requested size: 318.66948pt x 135.84962pt.
+ [47 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/deviat.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/tob.png, id=723, 120.45pt x 69.861pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/tob.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/tob.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/tob.png  used on input line 1469.
+(pdftex.def)             Requested size: 136.57462pt x 79.22127pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1469--1470
+
+ []
+
+[48 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/tob.png>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 1529.
+
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/doub.png, id=741, 934.24031pt x 365.11406pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/doub.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/doub.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/doub.png  used on input line 1547.
+(pdftex.def)             Requested size: 455.24411pt x 177.91577pt.
+[49 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/doub.png>] [50] [51]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/young.png, id=768, 175.857pt x 80.4606pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/young.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/young.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/young.png  used on input line 1600.
+(pdftex.def)             Requested size: 318.66948pt x 145.81238pt.
+ [52 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/young.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/michelson.png, id=783, 275.5896pt x 137.313pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/michelson.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/michelson.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/michelson.png  used on input line 1627.
+(pdftex.def)             Requested size: 318.66948pt x 158.7908pt.
+ [53 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/michelson.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/lloyd.png, id=793, 216.3282pt x 116.1138pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/lloyd.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/lloyd.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/lloyd.png  used on input line 1648.
+(pdftex.def)             Requested size: 227.62206pt x 122.18352pt.
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/cd.png, id=794, 437.38406pt x 307.1475pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/cd.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/cd.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/cd.png  used on input line 1661.
+(pdftex.def)             Requested size: 227.62206pt x 159.84415pt.
+ [54 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/lloyd.png> <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Lat
+ex/Exercices/images/cd.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/fres.png, id=805, 602.25pt x 481.04718pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/fres.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/fres.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/fres.png  used on input line 1686.
+(pdftex.def)             Requested size: 318.66948pt x 254.54274pt.
+ [55 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/fres.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/couche.png, id=816, 372.64218pt x 239.39438pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/couche.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/couche.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/couche.png  used on input line 1720.
+(pdftex.def)             Requested size: 227.62206pt x 146.2276pt.
+
+Underfull \vbox (badness 2781) has occurred while \output is active []
+
+ [56 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/couche.png>] [57] [58]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/figure1.jpg, id=843, 475.7775pt x 301.8778pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/figure1.jpg Graphic file (type jpg)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/figure1.jpg>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/figure1.jpg  used on input line 1774.
+(pdftex.def)             Requested size: 318.66948pt x 202.2018pt.
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/figure2.jpg, id=844, 602.25pt x 342.5297pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/figure2.jpg Graphic file (type jpg)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/figure2.jpg>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/figure2.jpg  used on input line 1781.
+(pdftex.def)             Requested size: 364.19667pt x 207.14487pt.
+ [59 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/figure1.jpg> <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/L
+atex/Exercices/images/figure2.jpg>] [60]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 1807.
+
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/pome.jpg, id=857, 67.9995pt x 68.328pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/pome.jpg Graphic file (type jpg)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/pome.jpg>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/pome.jpg  used on input line 1831.
+(pdftex.def)             Requested size: 91.04742pt x 91.49646pt.
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/barreau.png, id=858, 309.07924pt x 187.72018pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/barreau.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/barreau.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/barreau.png  used on input line 1850.
+(pdftex.def)             Requested size: 227.62206pt x 138.24622pt.
+
+Underfull \vbox (badness 1831) has occurred while \output is active []
+
+ [61 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/pome.jpg>] [62 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon
+/Latex/Exercices/images/barreau.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/conductivite.png, id=874, 156.585pt x 132.9768pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/conductivite.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/conductivite.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/conductivite.png  used on input line 1884.
+(pdftex.def)             Requested size: 273.14923pt x 231.99864pt.
+ [63 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/conductivite.png>] [64]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/conduite.png, id=887, 359.84438pt x 97.11281pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/conduite.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/conduite.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/conduite.png  used on input line 1961.
+(pdftex.def)             Requested size: 318.66948pt x 86.0078pt.
+ [65 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/conduite.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/resistance.png, id=896, 134.4222pt x 37.0986pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/resistance.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/resistance.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/resistance.png  used on input line 1978.
+(pdftex.def)             Requested size: 182.09486pt x 50.26094pt.
+
+[66 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/resistance.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/barre2.png, id=902, 453.23615pt x 160.02643pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/barre2.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/barre2.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/barre2.png  used on input line 2013.
+(pdftex.def)             Requested size: 273.14923pt x 96.44391pt.
+ [67 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/barre2.png>] [68]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/iceman.png, id=922, 1232.35406pt x 590.95781pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/iceman.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/iceman.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/iceman.png  used on input line 2059.
+(pdftex.def)             Requested size: 455.24411pt x 218.29929pt.
+ [69 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/iceman.png>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 2085.
+
+[70]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/hexatriene.png, id=942, 216.4336pt x 69.25874pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/hexatriene.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/hexatriene.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/hexatriene.png  used on input line 2122.
+(pdftex.def)             Requested size: 227.62206pt x 72.84216pt.
+ [71 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/hexatriene.png>]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/carotene.png, id=950, 356.83313pt x 88.45547pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/carotene.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/carotene.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/carotene.png  used on input line 2163.
+(pdftex.def)             Requested size: 227.62206pt x 56.42503pt.
+ [72 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/carotene.png>] [73]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/photo.png, id=966, 1140.51094pt x 523.20468pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/photo.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/photo.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/photo.png  used on input line 2210.
+(pdftex.def)             Requested size: 455.24411pt x 208.83907pt.
+ [74 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/photo.png>]
+[75]
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/potentiel.png, id=987, 602.25pt x 336.50719pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/potentiel.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/potentiel.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/potentiel.png  used on input line 2270.
+(pdftex.def)             Requested size: 318.66948pt x 178.06041pt.
+ [76 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/potentiel.png>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 2288.
+
+<C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/image
+s/barrage.png, id=999, 362.75786pt x 96.67285pt>
+File: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/
+images/barrage.png Graphic file (type png)
+<use C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/barrage.png>
+Package pdftex.def Info: C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wall
+on/Latex/Exercices/images/barrage.png  used on input line 2294.
+(pdftex.def)             Requested size: 364.19667pt x 97.0576pt.
+[77 <C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/i
+mages/barrage.png>] [78] [79] (ListeExos.aux
+<Reading QR code for "https://drive.google.com/file/d/1JipDTi6Nh8sdjgsWXTbV0Rbv
+xS6KE2JE/view?usp=sharing" at level 5-M from aux file.>
+
+<Reading QR code for "https://drive.google.com/file/d/1IfDzPdHmr1eMg9zXedigZsGW
+GT2bBuXL/view?usp=sharing" at level 5-M from aux file.>
+)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `ListeExos.out' has not changed.
+(rerunfilecheck)             Checksum: 385AABEB2F0DC66DF6D9337B1D6E7AB1;4639.
+ ) 
+Here is how much of TeX's memory you used:
+ 36835 strings out of 474486
+ 772342 string characters out of 5743755
+ 2001542 words of memory out of 5000000
+ 58077 multiletter control sequences out of 15000+600000
+ 631331 words of font info for 83 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 99i,16n,110p,1618b,1295s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/
+FontAwesome.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/lm/lmbx10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/lm/lmbx12.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/lm/lmex10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/lm/lmmi10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/lm/lmmi6.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/lm/lmmi8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+lm/lmmi9.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
+m/lmr10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
+/lmr6.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
+mr8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr
+i10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr
+i9.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss
+bx10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
+sy10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
+sy6.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lms
+y8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/symbols/msam10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb>
+Output written on ListeExos.pdf (79 pages, 4621450 bytes).
+PDF statistics:
+ 1226 PDF objects out of 1440 (max. 8388607)
+ 456 named destinations out of 1000 (max. 500000)
+ 727 words of extra memory for PDF output out of 10000 (max. 10000000)
+

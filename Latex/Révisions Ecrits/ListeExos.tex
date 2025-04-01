@@ -1,0 +1,176 @@
+\input{C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/entete_TD}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Début du document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\begin{document}
+
+
+
+
+\begin{tcolorbox}[colback=white,colframe=black!75!black]
+\gauchedroite{Physique-Chimie }{M$\pi$E Wallon}\par
+\begin{center}
+    \LARGE{\textbf{Sujets de Révisions}}
+\vspace{0.5em}
+\end{center}
+\end{tcolorbox}
+
+\section*{Extrait Mines-Ponts - MP 2019 - Physique 1}
+
+
+\subsubsection*{Un traîneau sur la glace}
+\sousinfo{Thèmes : Mécanique du point, Frottement solide }
+
+
+
+Un traîneau à chiens est un dispositif de masse totale $M$ (le pilote, ou musher, est compris dans cette masse) qui peut glisser sur la surface de la glace avec des coefficients de glissement statique (avant le démarrage) $\mu_s$ et dynamique (en mouvement) $\mu_d$.
+\begin{enumerate}
+  \setcounter{enumi}{11}
+\item \dur Les chiens sont reliés au traîneau par des éléments de corde tendus, de masse négligeable et inextensibles. Montrer qu'un tel élément de corde transmet les tensions et que celles-ci sont colinéaires à la corde.
+\item \moyen  Le trajet se fait soit à l'horizontale, soit sur une faible pente ascendante caractérisée par l'angle $\alpha$ avec l'horizontale. Montrer que, dans ce dernier cas, tout se passe comme dans un mouvement horizontal sous réserve de remplacer $\mu_d$ par $\mu_d^{\prime}$, que l'on exprimera.
+\end{enumerate}
+
+
+
+
+
+L'intensité de la force de traction totale $F$ exercée par l'ensemble des chiens dépend de leur vitesse $v$ et on adoptera le modèle $F=F_0-\beta v$ où $F_0$ et $\beta$ sont des constantes positives. On prendra les valeurs $M=5,0 \times 10^2 \mathrm{~kg}, \alpha=0, \mu_d=5,0 \times 10^{-2}$ et $\mu_s=8,0 \times 10^{-2}$.
+
+\begin{enumerate}[resume]
+\item \facile Déterminer la valeur minimale de $F_0$ permettant le démarrage du traîneau.
+\item \facile La vitesse du traîneau en régime stationnaire est $v_0=3 \mathrm{~m} \cdot \mathrm{~s}^{-1}$, atteinte à $5 \%$ près au bout d'un temps $t_1=5 \mathrm{~s}$. Exprimer d'une part $\beta$ en fonction de $M$ et $t_1$ et d'autre part $F_0$ en fonction de $\beta, v_0, \mu_d, M$ et $g$. Calculer leurs valeurs respectives.
+\end{enumerate}
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphic{0.4}{images/traineau.png}
+\end{center}
+\end{figure}
+
+Toujours à vitesse constante $v_0$, le traîneau aborde une courbe à plat qu'on assimilera à un cercle de centre $O$ et de rayon $R$ (cf. fig. 4). Les chiens (modélisés ici en un seul point $C$ ) doivent donc tirer vers l'intérieur du cercle.
+
+
+\begin{enumerate}[resume]
+\item \moyen Déterminer en fonction des données la tension $\vec{T}$ de la corde et l'angle $\theta$ entre la force de traction et la trajectoire.
+\end{enumerate}
+
+
+
+
+\begin{bclogo}[logo=\bcoutil , noborder=True, couleur=yellow!10!white]{\hfill{Indications }}
+
+\begin{enumerate}
+  \setcounter{enumi}{11}
+\item Considérer un élément de corde situé entre $x$ et $x+dx$. Lister les actions mécaniques et appliquer le principe fondamental de la dynamique pour montrer que la tension est conservée. Pour montrer la colinéarité de la tension à la corde, il fau tappliquer un théorème du moment cinétique au tronçon.
+\item Projeter le théorème de la résultante dynamique sur l'axe dirigeant le mouvement et l'axe perpendiculaire au sol. Utiliser la loi de Coulomb pour le glissement et chercher à exprimer la réaction tangentielle sous la forme $\mu_{\mathrm{d}}^{\prime} \mathrm{M} g$.
+\item Procéder de manière analogue à la question précédente. Cette fois, c'est la loi de Coulomb pour l'adhérence qui permet de répondre.
+\item Le théorème de la résultante dynamique permet d'obtenir une équation différentielle linéaire, du premier ordre, à coefficients constants, en $v$, qu'il faut intégrer. À l'instant $t_1, v\left(t_1\right)=0,95 v_0$. Remarquer que $5 \%=1 / 20$.
+\item Pour un mouvement circulaire uniforme, l'accélération est centripète et s'exprime en fonction de la vitesse et du rayon du cercle. Exprimer $\tan \theta$ et exploiter la relation $\sin ^2 \theta+\cos ^2 \theta=1$.
+\end{enumerate}
+
+\end{bclogo}
+
+\lcorr{https://drive.google.com/file/d/1CdielEZREsc_xQOld7du1l-FBHFruHCf/view?usp=sharing}
+
+\newpage
+\section*{Extrait Mines-Ponts - MP 2016 - Chimie}
+
+
+\subsubsection*{Corrosion d'un béton armé}
+\sousinfo{Thèmes : Corrosion, courbes i(E)}
+
+Un béton armé contient des armatures internes en acier (alliage fer-carbone qui sera modélisé par le seul fer). Une éventuelle corrosion peut avoir lieu par réaction entre l'armature en fer et l'eau (ou avec le dioxygène dissous). Le diagramme potentiel-pH du fer est donné (en traits gras), pour une concentration de tracé égale à $10^{-2}$ mol. $L^{-1}$. Il fait intervenir les espèces $\mathrm{Fe}(\mathrm{s}), \mathrm{Fe}^{2+}, \mathrm{Fe}^{3+}, \mathrm{FeOOH}(\mathrm{s})$ et $\mathrm{Fe}_3 \mathrm{O}_4(\mathrm{~s})$. Les traits pointillés correspondent au diagramme potentiel-pH de l'eau.
+
+\begin{figure*}[h]
+\begin{center}
+\includegraphic{0.8}{images/ephb.png}
+\caption{Diagramme E-pH du fer}
+\end{center}
+\end{figure*}
+
+\begin{enumerate}
+  \setcounter{enumi}{16}
+\item \facile Quels sont les degrés d'oxydation du fer dans les solides considérés?
+\item \facile Attribuer à chaque domaine du diagramme une espèce du fer. Expliquer le raisonnement.
+\item \facile Ecrire l'équation-bilan de la réaction concernant le fer métallique en présence d'eau et en absence de dioxygène dissous, dans un milieu fortement basique.
+\item \moyen On observe que dans un béton armé sain (non carbonaté) on risque peu la corrosion des armatures métalliques internes. Expliquer et nommer le phénomène ainsi observé.
+\end{enumerate}
+La carbonatation du béton est un phénomène susceptible d'initier la corrosion, car il est associé à une diminution du pH des solutions interstitielles. On étudie le phénomène sur un béton armé carbonaté. L'étude est menée à partir de courbes densité de courant-potentiel. La figure suivante représente les courbes relatives à l'oxydation du fer en ions $F e^{2+}$ et à la réduction de l'eau en dihydrogène.
+
+\begin{figure*}[h]
+\begin{center}
+\includegraphic{0.8}{images/ief.png}
+\caption{Courbes intensité-potentiel}
+\end{center}
+\end{figure*}
+
+\begin{enumerate}[resume]
+\item \moyen Reproduire la figure et associer à chaque courbe le phénomène correspondant. Justifier notamment par l'écriture de demi-équations d'oxydoréduction. Faire figurer la position du potentiel de corrosion $E_{c o r}$ et de la densité de courant de corrosion $j_{c o r}$.
+\end{enumerate}
+
+Les valeurs de potentiel mis en jeu dans les phénomènes de corrosion correspondent souvent au domaine de validité de l'approximation de Tafel : les courbes densité de courant-potentiel sont alors généralement des exponentielles et on a la relation $E=a+b \log |j|$.
+On fournit les résultats expérimentaux suivants, indiquant la valeur de la densité de courant $j$ mesurée dans une armature immergée dans un béton (en A. $m^{-2}$ ), en fonction du potentiel $E$ (en $V$ ) auquel est soumis l'armature.
+\begin{center}
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline$E / V$ & $-0,7$ & $-0,6$ & $-0,5$ & $-0,2$ & $-0,1$ & 0,0 \\
+\hline $\log |j|$ & $-5,7$ & $-5,5$ & $-5,3$ & $-5,7$ & $-6,1$ & $-6,5$ \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{enumerate}[resume]
+\item \dur A partir d'une construction à préciser, déterminer la valeur numérique du potentiel de corrosion et de la densité de courant de corrosion.
+\end{enumerate}
+
+
+
+\begin{bclogo}[logo=\bcoutil , noborder=True, couleur=yellow!10!white]{\hfill{Indications }}
+
+\begin{enumerate}
+  \setcounter{enumi}{18}
+\item L'oxydation du fer par l'eau en milieu basique aboutit au domaine C.
+\item Une couche protectrice peut se former en surface.
+\item Le potentiel de corrosion correspond au point de fonctionnement pour lequel les intensités anodique et cathodique sont égales en valeur absolue.
+\item Les points donnés dans l'énoncé forment deux droites sécantes.
+\end{enumerate}
+
+\end{bclogo}
+
+
+\lcorr{https://drive.google.com/file/d/1actdHVfTWaBJpyKJw53fhg6S4UKB9nc1/view?usp=sharing}
+
+
+\newpage
+\section*{Extrait Centrale - MP 2016 - Physique 1}
+
+
+\subsubsection*{Oscillateur harmonique quantique à l'équilibre thermique}
+\sousinfo{Thèmes : Physique Statistique}
+
+
+Nous allons préciser les propriétés physiques d'un unique oscillateur harmonique quantique à une dimension en équilibre thermodynamique avec un thermostat à la température $T$. Comme indiqué dans la partie précédente, la résolution de l'équation de Schrödinger pour un tel oscillateur de pulsation $\omega$ conduit à des états stationnaires d'énergie $E_n=E_0+n \hbar \omega$ avec $n \in \mathbb{N}$.
+On admet qu'à l'équilibre avec le thermostat, cet oscillateur ne se trouve pas dans un état stationnaire mais dans un mélange statistique des états stationnaires d'énergie $E_n$ affectés des poids respectivement proportionnels au facteur de Boltzmann $e^{-\frac{E_n}{k_B T}}$.
+\begin{itemize}
+\item[\textbf{II.B.1}] \facile Exprimer la probabilité d'occupation $p_n$ de l'état d'énergie $E_n$.
+\item[\textbf{II.B.2}] \facile En déduire le rapport $r$ entre la probabilité d'occupation de l'état d'énergie $E_{n+1}$ et celle de l'état d'énergie $E_n$. Comment la température influence-t-elle ce résultat?
+\item[\textbf{II.B.3}] \moyen Déterminer l'énergie moyenne $\langle E\rangle$ de l'oscillateur harmonique quantique en équilibre thermodynamique.
+\item[\textbf{II.B.4}] \moyen La figure 6 représente la variation en fonction de la température des énergies moyennes d'un oscillateur harmonique quantique et d'un oscillateur harmonique classique. Identifier, en justifiant votre réponse, chacune des courbes. Commenter le comportement de ces oscillateurs : à $T=0 \mathrm{~K}$ ; à basse température ; à haute température.
+\end{itemize}
+
+\begin{figure*}[h]
+\begin{center}
+\includegraphic{0.6}{images/fig6.jpg}
+\end{center}
+\end{figure*}
+
+\lcorr{https://drive.google.com/file/d/10aEwyycS9eBhUgiWMx1BNEojwL5bBreR/view?usp=sharing}
+
+\end{document}
+
+% Fin du document

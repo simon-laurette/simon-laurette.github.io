@@ -1,0 +1,2386 @@
+\input{C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/entete_TD}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Début du document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Définir les pieds de page pour les pages impaires (RO) et paires (LE)
+
+\pagestyle{fancy} 
+\fancyhead{}
+\fancyhead[RE]{\textit{Préparation à l'oral - $M\pi E$ Wallon - Physique-Chimie}}
+%
+
+
+
+\begin{document}
+
+
+
+
+\begin{tcolorbox}[colback=white,colframe=black!75!black]
+\gauchedroite{Physique-Chimie }{$\text{M}\pi\text{E}$ Wallon}\par
+\begin{center}
+    \LARGE{\textbf{Préparation à l'Oral}}
+\vspace{0.5em}
+\end{center}
+\end{tcolorbox}
+
+\vspace{2cm}
+
+\begin{minipage}[t]{0.8\textwidth} % Colonne de gauche (48% de la largeur du texte)
+
+Vous trouverez dans ce fascicule des recueils d’exercices d’oraux des dernières années, classés par Thème et par Concours.
+
+Avant d’entamer un exercice, assurez-vous tout d’abord d’avoir révisé le cours associé.
+
+Lorsque le logo \indications \hspace{0.5em}  apparaît, c’est que vous pourrez trouver des indications, en cas de blocage lors de la recherche de cet exercice, sur le fichier pdf « Indications ».
+
+Lorsque le logo \corrige \hspace{0.5em} apparaît, c’est que :
+\begin{itemize}
+\item	Vous pourrez trouver les éléments de solution sur le fichier pdf « Indications ». 
+\item Vous pourrez obtenir un corrigé détaillé sur demande par mail.  \textit{
+Certains de ces corrigés sont d’ores et déjà présents sur le Drive. Les autres seront mis après la séance de TD consacré aux thèmes des exercices en question.}
+\end{itemize}
+\end{minipage}
+\hfill % Espace entre les colonnes
+\begin{minipage}[t]{0.15\textwidth} % Colonne de droite (48% de la largeur du texte)
+\vspace{0.5em}
+ \includegraphic{}{images/einstein.png}
+\end{minipage}
+
+\vspace{1em}
+
+
+
+Nous traiterons une partie de ces exercices lors des séances de TD. Je vous encourage à en chercher davantage de manière autonome ou en petits groupes. Toutefois… ne cherchez dans ce cas que ceux dont la présence d’un corrigé est signalée : il ne sert à rien de chercher un sujet si vous n’avez pas la possibilité de vous auto-corriger ensuite. Il est possible également de chercher un sujet pour lequel la présence d’un corrigé n’est pas stipulée… mais dans ce cas, il faudra me rendre une version papier de votre corrigé pour que je vérifie ce que vous avez fait.
+
+Par ailleurs, les feuilles de TD de l’année regorgent d’exos d’oraux corrigés, parfois avec indications. Si vous souhaitez réviser en particulier certains cours, n’hésitez pas non plus à retourner les étudier.
+
+
+\begin{bclogo}[logo=\bcoutil , noborder=True, couleur=yellow!10!white]{\hfill{Les 5 étapes indispensables du travail des exercices}}
+
+\begin{itemize}
+
+\item[$\bullet$] Relire et s’assurer de maîtriser le cours associé à l’exercice
+
+\item[$\bullet$] Chercher l’exercice seul
+
+\item[$\bullet$] En cas de blocage, consulter les indications ou demander conseil. Si le blocage persiste, insister et consulter le corrigé détaillé.
+
+\item[$\bullet$] Vérifier ses résultats à l’aide du corrigé détaillé ou lors de la séance de correction en classe.
+
+\item[$\bullet$] Prendre du recul et dégager la problématique et la structure de l’exercice.
+
+\end{itemize}
+\end{bclogo}
+
+
+\newpage
+\tableofcontents
+\newpage
+~
+\vfill
+
+Lien vers le dossier avec le fichier d’Indications et les Corrigés :
+
+\begin{flushright}
+\includegraphic{0.2}{images/qrcode.png}
+\end{flushright}
+
+
+\newpage
+
+\section*{Electricité}
+\addcontentsline{toc}{section}{Electricité}
+
+\subsection*{Concours CCINP}
+\addcontentsline{toc}{subsection}{CCINP}
+
+\subsubsection*{INP22.01 - Circuit RL \difficulte{1} \lesdeux}
+\sousinfo{Exercice retranscrit par Pauline N. - $M\pi E$ 2022 \\ Thèmes : Régimes Transitoires, Circuit RL }
+
+\begin{center}
+\includegraphic{0.7}{images/rl.png}
+\end{center}
+On considère le circuit ci-dessus. On donne $e(t)=E$ constante. On ferme $K$ à $t=0$. 
+
+\begin{enumerate}
+\item Donner $i_L$ à $t=0^+$, puis $i, i_R$ et $u$.
+\item Donner, en régime permanent, la tension $u$ aux bornes de la bobine et aux bornes de la résistance $R$. En déduire l'expression de $i_R$ et de $i$.
+\item Montrer que $i_L (t)$ et $u(t)$ vérifient les équations différentielles suivantes :
+$$
+\frac{di_L}{dt}+\frac{1}{\tau} i_L (t)= b   
+$$
+$$
+\frac{du}{dt}(t)+\frac{1}{\tau} u(t)= 0
+$$
+
+Déterminer $\tau$  et $b$ en fonction de $E,R,R_0$ et $L$.
+
+\item Donner l'expression de $i_L(t)$. Donner $u(t),i_R (t)$ et $i(t)$.
+\item Tracer sur un même graphique $i_L (t),i_R (t)$ et $i(t)$. 
+
+\end{enumerate}
+
+\newpage
+\subsubsection*{EL1.INP15-01 -- Filtrage \difficulte{1} \lesdeux}
+\sousinfo{Thèmes : Filtrage, Diagramme de Bode}
+
+On considère un signal périodique $e(t)$ de fréquence fondamentale $f_0 = 100\, \text{Hz}$, de valeur moyenne $2\, \text{V}$. Il comporte deux harmoniques : pour $n = 1$, une amplitude de $0.5\, \text{V}$ et pour $n = 3$ une amplitude de $0.2\, \text{V}$. Les autres harmoniques sont nulles.
+
+
+
+
+
+\begin{minipage}[t]{0.4\textwidth} % Colonne de gauche (48% de la largeur du texte)
+
+\begin{enumerate}
+    \item Donner l'expression de $e(t)$.
+    \item Tracer son spectre en amplitude.
+\end{enumerate}
+
+On fait passer ce signal dans un filtre dont le diagramme de Bode est donné ci-contre.
+
+\begin{enumerate}[resume]
+    
+    \item Déterminer le type de filtre et son ordre.
+    \item Calculer l'amplitude des harmoniques du signal de sortie $s(t)$, puis leur argument.
+    \item Simplifier l'expression de $s(t)$.
+\end{enumerate}
+
+\end{minipage}
+\hfill % Espace entre les colonnes
+\begin{minipage}[t]{0.55\textwidth} % Colonne de droite (48% de la largeur du texte)
+~
+\vspace{-1em}
+
+
+ \includegraphic{}{images/bode.png}
+
+
+\end{minipage}
+
+
+\newpage
+\subsubsection*{EL1.INP15.03 -- Détecteur de métal \difficulte{1} \lesdeux}
+\sousinfo{Thèmes : Régime Transitoire, Circuit RLC, Ordre 2}
+
+\begin{minipage}[t]{0.6\textwidth} % Colonne de gauche (48% de la largeur du texte)
+
+À $t = 0$, on ferme $K$ qui était initialement ouvert. L'ensemble constitué de l'inductance et de la résistance caractérise une bobine réelle. La valeur de $L$ peut être modifiée par la présence de métal à l'intérieur du bobinage. Avant la fermeture de l'interrupteur, la tension aux bornes du condensateur est $V_c(0^-) = U_0$.
+
+\end{minipage}
+\hfill % Espace entre les colonnes
+\begin{minipage}[t]{0.35\textwidth} % Colonne de droite (48% de la largeur du texte)
+~
+\vspace{-2em}
+
+ \includegraphic{}{images/metal1.png}
+
+\end{minipage}
+
+
+\begin{enumerate}
+    \item Déterminer, en justifiant précisément, les valeurs de $V_c(0^+)$, $i(0^+)$ et des tensions aux bornes de la résistance et de l'inductance en $0^+$. Déterminer ces quatre valeurs en régime permanent.
+\end{enumerate}
+
+On observe le graphique ci-dessous à l'oscilloscope.
+
+\begin{center}
+\includegraphic{0.7}{images/metal2.png}
+\end{center}
+
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item Quelle est la grandeur représentée ? Comment s'y est-on pris pour la mesurer ? Indiquer précisément le montage utilisé.
+\end{enumerate}
+
+On introduit $\omega_0 = \frac{1}{\sqrt{LC}}$ et $m = \frac{R}{2L\omega_0}$.
+
+\begin{enumerate}
+    \setcounter{enumi}{2}
+    \item Déterminer l'équation différentielle vérifiée par $i$, en fonction des deux paramètres précédents.
+    \item Déterminer sa solution générale en fonction de $\Omega = \omega_0\sqrt{1 - m^2}$. Que représente $\Omega$ et comment peut-on l'évaluer ?
+\end{enumerate}
+
+À l'aide de curseurs, on a repéré deux valeurs $y_1$ et $y_2$ sur le relevé de l'oscilloscope.
+
+\begin{enumerate}
+    \setcounter{enumi}{4}
+    \item Trouver une relation entre le rapport $\frac{y_1}{y_2}$ et $m\omega_0$. Déduire une relation entre $m$ et $y_1/y_2$.
+    \item Comment se servir de ce montage pour réaliser une détection de métal ? Détailler ce point à l'aide d'un schéma.
+\end{enumerate}
+
+\newpage
+\subsubsection*{EL1.INP15.02 -- Circuits RC \difficulte{2} \corrige}
+\sousinfo{Thèmes : Régime Transitoire, Circuits RC, Energétique}
+
+\begin{center}
+\includegraphic{0.5}{images/rc2.png}
+\end{center}
+
+On branche un générateur de fem $E$, deux condensateurs de capacités identiques $C$ et deux résistances de valeurs $R$ et $R/2$, comme définies sur le schéma ci-dessus. Le condensateur de droite est initialement chargé alors que celui de gauche est initialement déchargé. À l'instant $t = 0$, on déplace l'interrupteur $K$ de la position 1 à la position 2.
+
+\begin{enumerate}
+    \item Donner les équations différentielles vérifiées par $u_1$ et $u_2$.
+    \item À l'aide des conditions initiales, exprimer les tensions $u_1$ et $u_2$.
+    \item Exprimer $i_1(t)$, $i_2(t)$, $i_1'(t)$ et $i_2'(t)$ (où $i_1'(t) = i(t) - i_1(t)$). En déduire $i(t)$.
+    \item Calculer l'énergie dissipée dans le circuit du temps $t = 0$ au temps du régime stationnaire.
+\end{enumerate}
+
+\newpage
+\subsubsection*{EL2.INP17.01 -- Electrocardiogramme \difficulte{1} \corrige}
+\sousinfo{Thèmes : Echantillonnage}
+
+\begin{center}
+\includegraphic{0.8}{images/electrocar1.png}
+\end{center}
+
+\begin{enumerate}
+    \item Déterminer la fréquence de l'électrocardiogramme ci-dessus en Hz puis en battements par minute.
+    \item L'électrocardiogramme d'un patient est réalisé et le spectre associé est donné ci-dessous. Justifier ce spectre.
+\end{enumerate}
+
+\begin{center}
+\includegraphic{0.6}{images/electrocar2.png}
+\end{center}
+
+\begin{enumerate}[resume]
+    \item Déterminer la fréquence $f_m$ minimale d'échantillonnage à choisir pour ce signal.
+\end{enumerate}
+
+On numérise le signal de la question 2 (représenté à gauche ci-dessous), on obtient le signal représenté sur la figure suivante, à droite.
+
+\begin{center}
+\includegraphic{0.8}{images/electrocar3.png}
+\end{center}
+
+\begin{enumerate}[resume]
+    \item Expliquer la figure de droite. Quelle est la fréquence d'échantillonnage choisie ?
+    \item Comment s'appelle le phénomène observé ? Si une sinusoïde de fréquence $300\, \text{Hz}$ était présente initialement, qu'obtiendrait-on à droite ?
+    \item Proposer un type de filtre permettant d'atténuer ce phénomène et préciser sa fréquence de coupure $f_c$. Préciser et dimensionner sa réalisation pratique.
+\end{enumerate}
+
+\newpage
+\subsection*{Concours Mines-Télécom}
+\addcontentsline{toc}{subsection}{Mines-Télécom}
+\subsubsection*{MT23.03 -- Régime Transitoire \difficulte{1}}
+\sousinfo{Exercice retranscrit par Julien M. - $M\pi E$ 2023 \\ Thèmes : Circuit RC en régime transitoire}
+
+\begin{center}
+\includegraphic{0.5}{images/rc3.png}
+\end{center}
+
+
+\begin{enumerate}
+    \item Donner la valeur de $u_1$ et $u_2$ en régime permanent. Au bout de combien de temps le système a atteint 99\% en régime permanent.
+\end{enumerate}
+
+\newpage
+\subsection*{Concours Centrale-Supélec}
+\addcontentsline{toc}{subsection}{Centrale-Supélec}
+\subsubsection*{EL1.Cent16-01 -- Résonance \difficulte{2} \lesdeux}
+\sousinfo{Thèmes : Régime Sinusoïdal Forcé, Résonance}
+
+On dispose des deux circuits A et B ci-dessous, qui sont alimentés par un GBF de résistance interne notée $R_g$. La tension fournie par le générateur idéal de tension qui, avec $R_g$, constitue le GBF, est sinusoïdale de fréquence $f$ et a une amplitude $E_0$ qui est constante et la même pour les deux montages.
+
+\begin{center}
+\includegraphic{}{images/resonance.png}
+\end{center}
+
+
+\begin{enumerate}
+    \item Identifier les graphiques pour $i$ et $u$. Dans chaque graphique, déterminer quelle est la courbe pour le montage A et quelle est la courbe pour le montage B. Déterminer enfin les valeurs de $E_0$, $R$, $R_g$, $L$ et $C$.
+\end{enumerate}
+
+\newpage
+\subsubsection*{Cent23.01 -- Mesure de résistance \difficulte{1} \lesdeux}
+\sousinfo{Exercice retranscrit par Erwann H. - $M\pi E$ 2023 \\ Thèmes : Régime Permanent}
+
+On cherche à mesurer la valeur d'une résistance $R$. Pour ce faire, on dispose d'un ampèremètre et d'un voltmètre, de résistances internes respectives $R_A$ et $R_V$. On s'intéresse aux deux montages suivants :
+
+\begin{center}
+\includegraphic{0.8}{images/deriv.png}
+\end{center}
+
+\begin{enumerate}
+    \item Comparer les deux montages.
+\end{enumerate}
+
+Application numérique : $R_A = 10\, \Omega$, $R_V = 10\, \text{M}\Omega$, $R = 1\, \text{k}\Omega$.
+
+\newpage
+\subsection*{Concours Mines-Ponts}
+\addcontentsline{toc}{subsection}{Mines-Ponts}
+\subsubsection*{Questions de Cours}
+
+
+\begin{enumerate}
+    \item Le circuit RLC.
+    \item Oscillateur mécanique et électrique soumis à une oscillation sinusoïdale forcée. Réponse fréquentielle. Résonance en intensité / vitesse.
+\end{enumerate}
+
+\subsubsection*{MP21.03 -- Radar \difficulte{1}}
+\sousinfo{Exercice retranscrit par Enzo S. - $M\pi E$ 2021 \\ Thèmes : Filtrage, Multiplieurs}
+
+\begin{enumerate}
+    \item Proposer un montage permettant de réaliser un filtre passe-bas d'ordre 2. Déterminer ses caractéristiques.
+    \item Soit deux signaux $f(t)$ et $g(t)$ de fréquences très proches $f_1$ et $f_1 + \Delta f$. Ces signaux passent dans un multiplieur de sortie $k \times f(t) \times g(t)$. Montrer que le filtre précédent permet de déterminer $\Delta f$.
+    \item Expliquer comment, grâce à l'effet Doppler, ce système électronique peut être utilisé dans les radars.
+\end{enumerate}
+
+\subsubsection*{MP22.01 -- Déphaseur \difficulte{1} \lesdeux}
+\sousinfo{Exercice retranscrit par Jules D. - $M\pi E$ 2021/2022 \\ Thèmes : Filtrage}
+
+
+
+
+\begin{minipage}[t]{0.5\textwidth} % Colonne de gauche (48% de la largeur du texte)
+
+~
+
+\vspace{0em}
+ \includegraphic{}{images/dephaseur.png}
+
+
+\end{minipage}
+\hfill % Espace entre les colonnes
+\begin{minipage}[t]{0.5\textwidth} % Colonne de droite (48% de la largeur du texte)
+
+~
+
+\vspace{1em}
+
+
+On considère le montage ci-contre. Les deux résistances à gauche sont identiques.
+
+\vspace{2em}
+
+\begin{enumerate}
+    \item Montrer que le montage est un déphaseur.
+\end{enumerate}
+\end{minipage}
+
+
+
+\newpage
+\section*{Electromagnétisme}
+\addcontentsline{toc}{section}{Electromagnétisme}
+\subsection*{Concours CCINP}
+\addcontentsline{toc}{subsection}{CCINP}
+\subsubsection*{INP21.01 - Atome d'hydrogène \difficulte{1} \lesdeux}
+\sousinfo{Exercice retranscrit par Pierre B. - $MPE$ 2021 \\ Thèmes : Electrostatique}
+
+On étudie un atome d'hydrogène modélisé par une charge ponctuelle $+e$ en $O$ comme une distribution de charge à symétrie sphérique autour de $O$ avec une densité volumique de charge :
+
+\[
+\rho_V = \frac{C}{r} \exp\left(-\frac{r}{a}\right)
+\]
+
+avec $a$ le rayon de l'atome.
+
+\begin{enumerate}
+    \item Donner un ordre de grandeur de $a$.
+    \item Donner $C$ en fonction de $a$ et $e$.
+    \item Quelle est la charge contenue dans la sphère de rayon $a$ ?
+    \item À l'aide du théorème de Gauss, déterminer $\overrightarrow{E}(M)$.
+    \item Donner les relations (différentielle et intégrale) liant le potentiel $V$ et le champ $\overrightarrow{E}$.
+    \item Donner le potentiel en tout point sachant qu'il est nul en $+\infty$.
+\end{enumerate}
+
+\subsubsection*{INP23.07 - Potentiel \difficulte{1} \lesdeux}
+\sousinfo{Exercice retranscrit par Paula S. - $M\pi E$ 2023 \\ Thèmes : Electrostatique}
+
+On considère un point $O$ et on note $r = OM$. On pose le potentiel :
+
+\[
+V(M) = \frac{q}{4\pi\varepsilon_0} \frac{1}{r} e^{-\frac{r}{a}}
+\]
+
+avec $q$ et $a$ des constantes positives.
+
+\begin{enumerate}
+    \item Déterminer $\overrightarrow{E}(M)$.
+    \item Soit $S$ la surface de centre $O$ et de rayon $r$. Déterminer $\phi(r)$ le flux de $\overrightarrow{E}$ à travers $S$.
+    \item Donner $\phi(r)$ lorsque $r \rightarrow 0$.
+    \item Déterminer la densité volumique de charge à la distance $r$, notée $\rho(r)$.
+\end{enumerate}
+\newpage
+\subsubsection*{INP21.05 - Guide d'onde \difficulte{1} \lesdeux}
+\sousinfo{Exercice retranscrit par Léa L.D. - $M\pi E$ 2021 \\ Thèmes : Ondes électromagnétiques, Conducteurs parfaits}
+
+On considère le guide d'onde suivant, dont les parois sont parfaitement conductrices, et au sein duquel :
+\[
+\overrightarrow{E} = E_n \sin(\alpha x) \cos(\omega t - kz) \vec{e}_y
+\]
+
+\begin{center}
+\includegraphic{0.5}{images/guide1.png}
+\end{center}
+
+
+\begin{enumerate}
+    \item En écrivant les équations de Maxwell dans le vide, déterminer l'équation de propagation de $\overrightarrow{E}$.
+    \item Déterminer la relation de dispersion.
+    \item Montrer que $\alpha$ ne peut prendre que certaines valeurs discrètes.
+    \item On prend $\alpha = \pi / a$ dans la suite. Tracer $\overrightarrow{E} \cdot \vec{e}_y$ en $t = 0$ et $z = 0$, en fonction de $x$.
+    \item Montrer que le guide agit comme un filtre dont on donnera la pulsation de coupure $\omega_c$.
+    \item Déterminer la vitesse de groupe et la vitesse de phase en fonction de la fréquence $\nu$, de la fréquence de coupure $\nu_c$ et de $c$.
+\end{enumerate}
+
+\subsubsection*{INP22.02 - Guide d'onde 2 \difficulte{1} \lesdeux}
+\sousinfo{Exercice retranscrit par Jules D. - $MPE$ 2021/2022 \\ Thèmes : Ondes électromagnétiques, Conducteurs parfaits, Vecteur de Poynting}
+
+\begin{minipage}[t]{0.65\textwidth} % Colonne de gauche (48% de la largeur du texte)
+
+On considère un guide d'onde de section un rectangle de longueurs $a$ et $b$, dont les parois sont parfaitement conductrices et dans lequel règne le vide. Une onde électromagnétique se déplace à l'intérieur du guide d'onde, son champ électrique ayant pour expression :
+
+\[
+\overrightarrow{E} = E_m \sin\left(\frac{\pi x}{a}\right) e^{j(\omega t - kz)} \overrightarrow{e}_y
+\]
+
+\end{minipage}
+\hfill % Espace entre les colonnes
+\begin{minipage}[t]{0.24\textwidth} % Colonne de droite (48% de la largeur du texte)
+~
+\vspace{-2em}
+
+ \includegraphic{}{images/guide2.png}
+\end{minipage}
+
+\begin{enumerate}
+    \item Déterminer le champ magnétique $\overrightarrow{B}$.
+    \item Établir l'équation différentielle du champ électrique $\overrightarrow{E}$. En déduire la relation de dispersion.
+    \item Calculer le vecteur de Poynting.
+    \item Calculer la puissance moyenne rayonnée à travers une section.
+\end{enumerate}
+
+\newpage
+\subsubsection*{INP22.03 - Electron élastiquement lié \difficulte{1} \lesdeux}
+\sousinfo{Exercice retranscrit par Jules D. - $MPE$ 2021/2022 \\ Thèmes : Rayonnement dipolaire, Modèle de Thomson, Résonance}
+
+On considère le modèle de Thomson de l'électron élastiquement lié. On se place dans le référentiel cartésien dont l'origine $O$ est le noyau d'un atome d'hydrogène et on étudie l'électron représenté par un point $M$ de coordonnées $(x, y, z)$. Ce dernier est soumis à une force de rappel élastique $\overrightarrow{F_r} = -k. \overrightarrow{OM}$ et à une force dissipative modélisée par une force de frottement fluide $\overrightarrow{F_f} = -h \overrightarrow{v}$. De plus, on tient compte d'un champ électrique d'expression : $\overrightarrow{E} = E_0 \cos(\omega t) \overrightarrow{e_x}$.
+
+\begin{enumerate}
+    \item En supposant que le mouvement de l'électron n'est que selon $\overrightarrow{e}_x$, déterminer l'équation du mouvement. Faire apparaître la pulsation caractéristique $\omega_0$ et le facteur de qualité $Q$. Calculer les valeurs de ces paramètres.
+    \item On suppose que le régime permanent est atteint. $\underline{x}$ est de la forme : $\underline{x} = \underline{X}_m e^{j\omega t}$. Déterminer le module et l'argument de $\underline{X}_m$.
+    \item Déterminer la pulsation $\omega$ qui maximise le module de $\underline{X}_m$.
+    \item Le spectre du visible s'étendant du bleu ($400\, \text{nm}$) au rouge ($800\, \text{nm}$), comparer les pulsations associées au bleu et au rouge à $\omega_0$.
+    \item En déduire une expression simplifiée du module de $\underline{X}_m$.
+    \item On définit la puissance rayonnée : $P_r = K |\ddot{x}|^2$ où $K$ est une constante arbitraire. Calculer le rapport entre la puissance rayonnée par le bleu et celle rayonnée par le rouge.
+    \item Justifier pourquoi le ciel est bleu en l'absence de nu
+
+\end{enumerate}
+
+Données :
+\begin{itemize}
+\item masse d'un électron : $m_e=9,1.10^{-31}\text{ kg}$
+\item charge d'un proton : $e=1,6.10^{-19}\text{ C}$
+\item coefficient de frottement : $h=9,1.10^{-23}\text{ kg}$
+\item raideur : $k=3,6.10^2 \text{ kg.s}^{-2}$
+\end{itemize}
+
+
+\newpage
+\subsubsection*{INP21.07 - Paratonnerre \difficulte{1} \corrige}
+\sousinfo{Exercice retranscrit par Dimitri S. - $MPE$ 2020/2021 \\ Thèmes : Loi d'Ohm locale, Electrostatique}
+
+On s'intéresse à un paratonnerre normal au sol, le touchant en un point $O$. Il reçoit un éclair, et l'intensité qui circule dans le paratonnerre est $I$. On repère un point $M$ du sol par sa distance $r$ au point $O$, et on pose $\overrightarrow{u}_r = \frac{\overrightarrow{OM}}{r}$. On note $\overrightarrow{j}$ le vecteur densité de courant dans le sol, on a : $\overrightarrow{j} = j(r) \overrightarrow{u}_r$. Un humain est debout sur le sol, ses pieds et $O$ sont alignés. La distance entre $O$ et son pied le plus proche est $D$, et la distance entre ses pieds est $a \ll D$.
+
+Données :
+\begin{itemize}
+\item $I=5\text{ kA}$
+\item $a=20\text{ cm}$
+\item conductivité du sol : $2.10^{-2}\text{ S.m}^{-1}$
+\item courant maximal supportable par un humain sans séquelle : $25\text{ mA}$
+\end{itemize}
+
+
+\begin{enumerate}
+    \item Déterminer $j(r)$ dans le sol.
+    \item Déterminer le champ électrique dans le sol. Justifier que $\overrightarrow{E}$ dérive d'un potentiel $V(r)$, puis déterminer $V(r)$.
+    \item On modélise un humain par une résistance $R = 2.5\, \text{k}\Omega$. Déterminer $D_{\min}$, la distance minimale à laquelle l'individu peut rester du paratonnerre en restant en sécurité. Application numérique.
+    \item Commenter l'expression précédente. Comment augmenter la sécurité autour des paratonnerres ?
+\end{enumerate}
+
+\newpage
+\subsubsection*{INP17.03 - Onde dans un plasma \difficulte{1}}
+\sousinfo{Thèmes : Plasma}
+
+Le plasma est un milieu ionisé globalement neutre, composé d'ions et d'électrons de densité volumique $n$ et de masses respectives $M$ et $m$. Le champ électrique au sein du plasma est de la forme $\overrightarrow{\underline{E}} = \overrightarrow{E_0} \exp\left(i(\omega t - kx)\right)$. On admet de plus que l'onde de champ électrique est transverse dans le plasma.
+
+\begin{enumerate}
+    \item Établir l'expression de la conductivité électrique complexe $\underline{\sigma}$ du plasma, et celle du vecteur densité de courant $\overrightarrow{j}$.
+    \item Établir la relation entre $\overrightarrow{k}$, $\overrightarrow{E}$ et $\overrightarrow{B}$.
+    \item Établir la relation de dispersion, de la forme :
+    \[
+    k^2 = \frac{\omega^2}{c^2} \left(1 - \frac{\omega_p^2}{\omega^2}\right)
+    \]
+    Exprimer $\omega_p$ et $c$.
+    \item Déterminer les vitesses de phase et de groupe.
+    \item Montrer qu'une onde qui se propage dans le plasma se propage comme dans un milieu d'indice $n_s = \sqrt{\frac{\varepsilon}{\varepsilon_0}}$. Quelle est l'expression de $\varepsilon$ ?
+\end{enumerate}
+
+La partie inférieure de l'atmosphère se compose d'une couche de ionosphère d'indice $n$ et la partie supérieure possède l'indice $n_s$ établi précédemment. Un rayon lumineux provient du sol.
+
+\begin{enumerate}
+    \setcounter{enumi}{5}
+    \item Établir l'expression de l'angle limite $i_l$ que doit faire ce rayon pour qu'il y ait réflexion totale.
+\end{enumerate}
+
+\subsubsection*{INP21.08 - Cylindres coaxiaux \difficulte{1} \corrige}
+\sousinfo{Exercice retranscrit par Gauthier M. - $MPE$ 2020/2021 \\ Thèmes : Electrostatique}
+
+On considère deux cylindres coaxiaux de rayons $R_1$ et $R_2 > R_1$. Entre ces deux cylindres ($r \in [R_1; R_2]$), se trouve une distribution de charges définie par une densité volumique de charges $\rho$ uniforme.
+
+\begin{enumerate}
+    \item Déterminer $\overrightarrow{E}$ et $V$ en tout point.
+\end{enumerate}
+
+On donne, en coordonnées cylindriques :
+
+\[
+\overrightarrow{\text{grad}}(f) = \frac{\partial f}{\partial r} \overrightarrow{e}_r + \frac{1}{r} \frac{\partial f}{\partial \theta} \overrightarrow{e}_\theta + \frac{\partial f}{\partial z} \overrightarrow{e}_z
+\]
+
+\textit{\underline{Commentaire :}}
+\textit{\small{Examinateur très sec et directif, ce qui permet d’avance vite mais qui peut aussi être très froid. Il ne faut pas perdre pieds. Il faut se dire qu’il est comme cela avec tout le monde et que la note sera probablement agréablement surprenante. Dans tous les cas, dans ce type de moment : connaître parfaitement son cours pour répondre du tac au tac est indispensable.}}
+
+\newpage
+\subsubsection*{INP21.09 -- Cylindre creux et champ B \difficulte{2} \corrige}
+\sousinfo{Exercice retranscrit par Lucas S. - $MPE$ 2020/2021 \\ Thèmes : Magnétostatique, Energie électromagnétique}
+
+On considère un conducteur cylindrique creux dans lequel :
+\[
+\overrightarrow{j} = j \overrightarrow{e_\theta} \quad \text{si} \quad a \leq r \leq b
+\]
+\[
+\overrightarrow{j} = \overrightarrow{0} \quad \text{sinon}
+\]
+
+\begin{minipage}[t]{0.45\textwidth} % Colonne de gauche (48% de la largeur du texte)
+~
+\vspace{0em}
+
+ \includegraphic{}{images/creux.png}
+\end{minipage}
+\hfill % Espace entre les colonnes
+\begin{minipage}[t]{0.5\textwidth} % Colonne de droite (48% de la largeur du texte)
+
+
+\begin{enumerate}
+    \item Déterminer $\overrightarrow{B}$ en tout point.
+    \item Donner $\mathcal{E}_m$ l'énergie magnétique entre deux plans perpendiculaires à $\overrightarrow{e_z}$ sous la forme :
+    \[
+    \mathcal{E}_m = \frac{\mu_0 j^2}{2} h (b - a)^2 K(b, a)
+    \]
+    où $h$ est la distance entre les plans et $K$ une fonction à déterminer.
+\end{enumerate}
+
+\end{minipage}
+
+
+
+\subsubsection*{EM3.INP19.01 -- Câble coaxial \difficulte{1} \lesdeux}
+\sousinfo{Exercice retranscrit par Jules D. - $MPE$ 2020/2021 \\ Thèmes : Magnétostatique}
+
+Les câbles coaxiaux sont très utilisés en télécommunications (ex : câble "antenne") ou simplement en TP. Nous allons ici voir une propriété qui explique leur intérêt.
+
+\begin{minipage}[t]{0.7\textwidth} % Colonne de gauche (48% de la largeur du texte)
+
+\begin{enumerate}
+    \item Déterminer $\overrightarrow{B}$ en tout point de l'espace.
+    \item Tracer l'allure de $\overrightarrow{B}$.
+    \item Conclure sur l'intérêt du câble coaxial pour transporter le courant (par rapport à deux simples fils aller et retour).
+\end{enumerate}
+\end{minipage}
+\hfill % Espace entre les colonnes
+\begin{minipage}[t]{0.3\textwidth} % Colonne de droite (48% de la largeur du texte)
+~
+\vspace{0em}
+
+ \includegraphic{}{images/coax.png}
+
+
+
+\end{minipage}
+
+
+\newpage
+\subsubsection*{INP23.10 -- Bobines de Helmholtz et Boussole \difficulte{1} }
+\sousinfo{Exercice retranscrit par Julien M. - MPE 2023 \\ Thèmes : Magnétostatique, Dipôle Magnétique}
+
+On considère deux bobines de rayons $R$ écartées d'une distance $R$. Le champ $\overrightarrow{B}$ est non nul en $O$ et est même maximum.
+
+\begin{center}
+ \includegraphic{0.8}{images/helm.png}
+\end{center}
+
+\begin{enumerate}
+    \item Déterminer par l'étude des symétries le sens du courant dans les bobines. Justifier que le champ $\overrightarrow{B}$ est suivant $(Ox)$.
+\end{enumerate}
+
+On considère une petite aiguille aimantée, de moment magnétique $\overrightarrow{M}$, de moment d'inertie $J$, pouvant tourner autour d'un axe vertical. L'aiguille est assimilable à son moment magnétique $\overrightarrow{M}$. On note $\theta = (\overrightarrow{B}, \overrightarrow{M})$.
+
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item Faire un schéma de la position d'équilibre stable en $x=0$.
+    \item Déterminer la période des petites oscillations autour de la position d'équilibre.
+    \item On considère le champ magnétique terrestre noté $\overrightarrow{B}_t$ colinéaire au champ $\overrightarrow{B}$ et uniforme. Sa composante horizontale est notée $B_h$ avec $B > B_h$. Déterminer la période des oscillations, notée $T_1$ lorsque $\overrightarrow{B}_t$ et $\overrightarrow{B}$ sont de même sens. Déterminer celle lorsque $\overrightarrow{B}_t$ et $\overrightarrow{B}$ sont de sens opposés, notée $T_2$. Donner l'expression de $B_h$ en fonction de $T_1$, $T_2$ et $B$.
+\end{enumerate}
+
+\newpage
+\subsection*{Concours Mines-Télécom}
+\addcontentsline{toc}{subsection}{Mines-Télécom}
+\subsubsection*{MT21.05 -- Bobine torique}
+\sousinfo{Exercice retranscrit par Léa L.D. - MPE 2021 \\ Thèmes : Magnétostatique}
+
+On considère une bobine torique constituée de $N$ spires uniformément espacées et parcourues par la même intensité $I$.
+
+\begin{enumerate}
+    \item Déterminer le champ magnétostatique en tout point de l'espace.
+\end{enumerate}
+
+\subsubsection*{MT22.01 -- Molécule d'eau \difficulte{2} \corrige}
+\sousinfo{Exercice retranscrit par Manon L. - MPE 2022 \\ Thèmes : Dipôle Electrostatique}
+
+On donne la carte du champ électrique créé par la molécule $H_2O$. On a un angle $2\alpha$ entre les 2 liaisons et on note $a$ la longueur de la liaison.
+
+\begin{center}
+ \includegraphic{0.5}{images/carte.png}
+\end{center}
+
+\begin{enumerate}
+    \item Commenter la carte de champ. Déterminer l'emplacement des charges puis des atomes en sachant que l'atome d'hydrogène a une charge $+q$.
+    \item La molécule est-elle polaire ? Calculer le moment dipolaire $p$ en fonction de $\alpha$, $q$ et $a$. Donner un ordre de grandeur de $p$.
+    \item Qu'est-ce que l'approximation dipolaire ? Dessiner alors la carte du champ électrique avec cette approximation.
+    \item Montrer qu'il existe sur l'axe de symétrie de la molécule un point d'arrêt pour lequel le champ est nul. Déterminer l'équation permettant de déterminer la position de ce point (sans la résoudre).
+\end{enumerate}
+
+\newpage
+\subsubsection*{MT17.01 -- Spire en mouvement \difficulte{1} \corrige}
+\sousinfo{Thèmes : Induction}
+
+\begin{center}
+ \includegraphic{0.4}{images/cadre.png}
+\end{center}
+
+La spire carrée ci-dessus rentre dans la zone où règne $\overrightarrow{B}$. On ne s'intéresse qu'au mouvement horizontal.
+
+\begin{enumerate}
+    \item Déterminer $\overrightarrow{v}(t)$.
+\end{enumerate}
+
+\subsubsection*{MT17.04 -- Propagation d'un onde \difficulte{1} \corrige}
+\sousinfo{Thèmes : Propagation d'onde électromagnétique, Polarisation, Relation de dispersion}
+
+On s'intéresse au champ $\overrightarrow{E} = E_0 \cos(bz) \sin(\omega t - kx) \overrightarrow{u}_y$ dans une zone vide de charge.
+
+\begin{enumerate}
+    \item Cette onde est-elle plane ? progressive ? polarisée ?
+    \item Déterminer le champ $\overrightarrow{B}$ associé.
+    \item Déterminer la relation de dispersion associée à cette onde.
+\end{enumerate}
+
+\subsubsection*{MT23.02-- Câble coaxial \difficulte{1}}
+\sousinfo{Exercice retranscrit par Paula S. - $M\pi E$ 2023 \\ Thèmes : Magnétostatique, Energie électromagnétique}
+
+On considère un câble coaxial composé d'un cylindre de rayon $R_1$ et d'un autre de rayon $R_2$. On note $I$ le courant parcourant le conducteur central et revenant par le conducteur périphérique.
+
+\begin{enumerate}
+    \item Déterminer le champ magnétique et l'énergie magnétique stockée par unité de longueur du câble coaxial.
+\end{enumerate}
+
+\newpage
+\subsection*{Concours Centrale-Supélec}
+\addcontentsline{toc}{subsection}{Centrale-Supélec}
+
+
+
+
+\subsubsection*{Cent17.01 -- Ampèremètre à induction (sans préparation) \difficulte{2} \lesdeux}
+\sousinfo{Thèmes : Magnétostatique, Induction, Filtrage}
+
+Un câble est parcouru par un courant alternatif $i(t)$ sinusoïdal de fréquence $f=50 \mathrm{~Hz}$. Un appareil de mesure contient 2 bobines (1) et (2), de même résistance $R=1 \Omega$ contenant chacune $N=100$ spires carrées de côté $a=2,0 \mathrm{~cm}$ supposées quasiment confondues.
+
+Chacune de ces bobines, mise en court-circuit, est équipée d'un capteur ampèremétrique mesurant les intensités efficaces $i_{1, \text { eff }}$ et $i_{2, \text { eff }}$ des courants dans (1) et (2).
+
+\begin{center}
+\includegraphic{}{images/amp.png}
+\end{center}
+
+\begin{enumerate}
+\item Expliquer pourquoi on observe des courants dans (1) et (2).
+\item Les capteurs relèvent $i_{1, \mathrm{eff}}=1,92 \mathrm{~mA}$ et $i_{2, \mathrm{eff}}=1,83 \mathrm{~mA}$ et on suppose que $D \gg a$. En déduire l'intensité efficace $i_{\text {eff }}$ du courant dans le câble.
+\item Discuter les hypothèses de travail.
+\item Quel est l'avantage de ce dispositif par rapport à un ampèremètre branché directement sur le câble ? par rapport à une pince ampèremétrique (petite bobine torique munie d'un ampèremètre, qu'on place autour du câble)?
+\end{enumerate}
+
+\newpage
+\subsubsection*{Cent17.04 -- Poursuite de tiges (avec préparation) \difficulte{3} \corrige}
+\sousinfo{Thèmes : Rails de Laplace, Induction, Force de Laplace}
+
+On considère $n+1$ tiges identiques, de masse $m$, de résistance $R$ et de coefficient d'auto-induction négligeable, pouvant glisser sans frottement sur deux rails horizontaux équidistants de $a$. L'ensemble est plongé dans un champ magnétique uniforme. La tige $T_0$ est maintenue fixe et on impose une vitesse $v_n=v_0$ constante à la tige $T_n$. À l'instant initial les tiges sont placées de telle sorte que $x_k(0)=k a$ et toutes les tiges sauf $T_n$ sont immobiles.
+
+
+\begin{center}
+\includegraphic{0.7}{images/rail.png}
+\end{center}
+
+\begin{enumerate}
+\item Dans le cas $n=1$, démontrer que la force électromotrice induite dans le circuit est $e_1=B a v_1$.
+\end{enumerate}
+
+En généralisant le résultat, on admet que pour $n \geqslant 1$, la force électromotrice qui apparaît dans chacune des tiges est $e_n=B a v_n$.
+
+\begin{enumerate}[resume]
+\item On se place dans le cas $n=2$. Quel est le schéma électrique équivalent du circuit ? Quelle équation vérifie la vitesse de la tige $T_1$ ? En déduire la loi $v_1(t)$.
+\item Quel est le mouvement des tiges en régime permanent ? Pouvait-on obtenir ce résultat sans faire une étude mécanique complète du système ?
+\end{enumerate}
+
+On considère maintenant $n=3$.
+
+\begin{enumerate}[resume]
+\item Exprimer les courants $i_n$ en fonction des vitesses $v_n$. En déduire $v_1(t)$ et $v_2(t)$. Que remarque-t-on ? Comparer au cas $n=2$. Quel est le mouvement en régime permanent ?
+\item En utilisant le programme Python joint, étudier l'évolution de l'énergie du système au cours du mouvement. Comment peut-on l'interpréter ?
+\end{enumerate}
+
+On se place enfin dans le cas où $n$ est quelconque.
+
+\begin{enumerate}[resume]
+\item Quel est le mouvement en régime permanent ? Comment varie l'énergie du système entre l'instant initial et le régime permanent final ?
+\end{enumerate}
+
+
+\newpage
+\subsubsection*{EM8.Cent15.01 -- Cavité et dissipation \difficulte{2} \lesdeux}
+\sousinfo{Thèmes : Onde stationnaire électromagnétique, Energie électromagnétique}
+
+On considère une onde électromagnétique se déplaçant dans le vide selon un axe $Oz$ et de longueur d'onde $\lambda$. Elle rencontre deux plaques métalliques de section $S$, orthogonales à l'axe $Oz$ et placées en $z=0$ et $z = \frac{n\lambda}{2} = l$, où $n$ est un entier. On négligera tout effet de bord. Le domaine compris entre les deux plaques est appelé "résonateur magnétique". On considère tout d'abord les plaques comme des conducteurs parfaits. Le champ électrique à l'intérieur de la cavité s'écrit sous la forme : $$\overrightarrow{E}(z, t) = E_0 \sin(\omega t) f(z) \overrightarrow{e_x}$$
+
+\begin{enumerate}
+    \item Déterminer l'expression de $f(z)$.
+    \item Déterminer l'énergie électromagnétique totale dans la cavité.
+    \item En réalité, chacune des plaques dissipe par effet Joule une puissance $P_J = \alpha E_0^2$. Déterminer le temps caractéristique $\tau$ d'amortissement de l'onde.
+\end{enumerate}
+
+\newpage
+\subsection*{Concours Mines-Ponts}
+\addcontentsline{toc}{subsection}{Mines-Ponts}
+\subsubsection*{Questions de Cours}
+\begin{enumerate}
+    \item Equations de conservation (Gauthier M. - MPE 2020/2021)
+    \item Plasmas peu denses non-relativistes.
+    \item OPPM dans un plasma.
+    \item Propagation d'une onde électromagnétique dans un plasma dilué (exposé de 15 minutes). \textit{\small{Pour la question de cours, beaucoup de questions de la part de l'examinateur, et notamment des exigences vis-à-vis d'exemples et d'ordres de grandeur (exemple de plasma dilué, ordre de grandeur de la densité électronique dans la ionosphère, dans un métal, de la pulsation plasma de la ionosphère, commentaires sur la conductivité imaginaire pur dans et son influence sur la puissance absorbée par le plasma, vitesses de phase, de groupe, et modèle de l'OPPM, ...).}}
+    \item Propagation d'une onde électromagnétique dans un conducteur ohmique, effet de peau.
+    \item Principales lois de l'électromagnétisme, hypothèses, énoncé et démonstrations.
+\end{enumerate}
+
+\subsubsection*{MP21.02 -- Tore \difficulte{2} \lesdeux}
+\sousinfo{Exercice retranscrit par Pierre B. -  MPE 2021 \\ Thèmes : Résistance électrique, Loi d'Ohm locale}
+
+Exercice donné oralement avec ce schéma au tableau :
+
+\begin{center}
+\includegraphic{0.4}{images/tore.png}
+\end{center}
+
+On considère un tore de conductivité $\sigma$, et on fait une minuscule ouverture.
+
+\begin{center}
+\includegraphic{0.15}{images/tore2.png}
+\end{center}
+
+
+
+ On connecte cette ouverture à un générateur. Le tore est de section rectangulaire.
+
+\begin{itemize}[label=\textbullet]
+    \item Déterminer la résistance $R$ du tore.
+\end{itemize}
+
+
+\subsubsection*{MP17.01 -- Capteur capacitif \difficulte{2}}
+\sousinfo{Thèmes : Electrostatique, Condensateurs}
+
+Soit un cylindre de hauteur $H$, de rayon $R_1 = 5.00\, \text{m}$, rempli à une hauteur $h$ de pétrole. On plonge à l'intérieur une sonde de rayon $R_2 = 3.00\, \text{m}$. On cherche à déterminer par une mesure de capacité la hauteur $h$. Comment faire ?
+
+On note $\varepsilon_r = 2.2$ la permittivité diélectrique relative du pétrole.
+
+\newpage
+\subsubsection*{MP21.06 -- Communication satellite \difficulte{1} \lesdeux}
+\sousinfo{Exercice retranscrit par Flavien M. - MPE 2021 \\ Thèmes : Plasmas}
+
+On considère un satellite à une hauteur $D$ par rapport à la surface de la Terre. Description rapide de l'ionosphère comme plasma considéré neutre et d'épaisseur $H$. Précisions sur la forme du champ $\vec{E}$ (OPPH)
+
+\begin{enumerate}
+    \item Déterminer une relation entre $\vec{j}$ et $\vec{E}$.
+    \item Montrer que la relation de dispersion dans le plasma peut s'écrire :
+    \[
+    k^2 = \frac{\omega^2 - \omega_p^2}{c^2}
+    \]
+    où $\omega_p$ est à déterminer.
+    \item On considère une onde envoyée par le satellite de fréquence $f \gg f_p$. Déterminer le temps que met l'onde à parvenir à la surface de la Terre.
+\end{enumerate}
+
+\begin{minipage}[t]{0.3\textwidth} % Colonne de gauche (48% de la largeur du texte)
+~
+\vspace{0em}
+
+ \includegraphic{}{images/plas.png}
+
+\end{minipage}
+\hfill % Espace entre les colonnes
+\begin{minipage}[t]{0.65\textwidth} % Colonne de droite (48% de la largeur du texte)
+On s'intéresse désormais à une onde envoyée depuis la Terre, avec toujours $f \gg f_p$.
+
+\begin{enumerate}
+    \setcounter{enumi}{3}
+    \item Déterminer le coefficient de réflexion en amplitude du champ électrique au niveau de l'interface atmosphère/ionosphère :
+    \[
+    r = \frac{\underline{E}_{0r}}{\underline{E}_0}
+    \]
+    et le coefficient de réflexion en puissance $R = r^2$. On supposera l'absence de charges surfaciques et de densités de courant surfacique à la frontière.
+\end{enumerate}
+\end{minipage}
+
+
+\newpage
+\subsubsection*{EM7.MP18.01 -- Rayon d'une sphère \difficulte{2}}
+\sousinfo{Thèmes : Ondes stationnaires, corde vibrante}
+
+\begin{minipage}[t]{0.4\textwidth} % Colonne de gauche (48% de la largeur du texte)
+~
+\vspace{0em}
+
+ \includegraphic{}{images/cord.png}
+
+\end{minipage}
+\hfill % Espace entre les colonnes
+\begin{minipage}[t]{0.55\textwidth} % Colonne de droite (48% de la largeur du texte)
+
+\vspace{2em}
+
+On fait apparaître des vibrations sur une corde, et on observe dans un premier temps le schéma (a). Dans un second temps, on immerge la sphère de masse $m$ dans un récipient contenant de l'eau et on observe le schéma (b).
+
+\begin{enumerate}
+    \item Expliquer comment estimer le rayon de la sphère à partir de cette expérience.
+\end{enumerate}
+\end{minipage}
+
+
+
+\subsubsection*{MP23.01 -- Condensateur sphérique \difficulte{2} }
+\sousinfo{Exercice retranscrit par Lucas D. - MPE 2023 \\ Thèmes : Electrostatique, Energie Electromagnétique}
+
+On considère deux armatures sphériques, l'une de rayon $R_1$ et l'autre de rayon $R_2$. L'armature au centre a une charge $Q_0$ et l'autre a une charge nulle. Entre ces deux armatures se situe du gaz isolant.
+
+\begin{enumerate}
+    \item Déterminer l'énergie initiale du système.
+    \item À $t=0$, le gaz devient "parfaitement conducteur". Déterminer l'énergie finale du système.
+    \item Étudier le régime transitoire et effectuer un bilan d'énergie.
+\end{enumerate}
+
+\newpage
+\subsubsection*{MP23.02 -- Ligne de transmission \difficulte{2} \corrige}
+\sousinfo{Exercice retranscrit par Pierre N. - MPE 2023 \\ Thèmes : Absorption, Dispersion}
+
+\begin{center}
+\includegraphic{0.5}{images/lig.png}
+\end{center}
+
+\begin{enumerate}
+    \item Montrer que $u$ vérifie une relation de la forme :
+    \[
+    \frac{\lambda^2}{\tau} \frac{\partial^2 u}{\partial x^2} = \frac{\partial u}{\partial t} + \frac{u}{\tau}
+    \]
+    \item Déterminer $u$ en régime permanent sachant que $\forall t$, $u\left(-\frac{L}{2}, t\right) = u\left(\frac{L}{2}, t\right) = U_0$.
+    \item Déterminer l'expression de $u$.
+\end{enumerate}
+
+On suppose maintenant le circuit de longueur infinie et que u vérifie la même équation. On cherche $u$ sous la forme $u(x,t)=Ae^{j(\omega t-\underbar{k} x)}$. 
+
+\begin{enumerate}
+    \item Déterminer la relation de dispersion.
+    \item Déterminer $u$ dans le cas où $\omega\tau \gg 1$ et $\omega\tau \ll 1$.
+\end{enumerate}
+
+\subsubsection*{MP23.06 -- Chauffage par un solénoide \difficulte{2}}
+\sousinfo{Exercice retranscrit par Thomas P. - MPE 2023 \\ Thèmes : ARQS, Equations de Maxwell}
+
+On considère un solénoïde infini comportant $n$ spires/m parcouru par un courant $i = I_0 \cos(\omega t)$ produisant un champ $B$. On note $B_0 = n I_0 \mu_0$.
+
+\begin{enumerate}
+    \item Justifier l'existence d'un champ électrique de la forme $\overrightarrow{E} = E(r) \overrightarrow{u_\theta}$.
+    \item Déterminer combien de temps est nécessaire pour que l'eau entre en ébullition.
+\end{enumerate}
+
+\newpage
+\subsection*{Concours X/ENS}
+\addcontentsline{toc}{subsection}{X-ENS}
+\subsubsection*{X23.01 -- Pièce de monnaie \difficulte{3} \corrige}
+\sousinfo{Thèmes : Résolution de problèmes}
+
+
+\begin{minipage}[t]{0.7\textwidth} % Colonne de gauche (48% de la largeur du texte)
+Un physicien joue avec une pièce de 50 centimes (conducteur non-magnétique). Il fait tourner la pièce sur une surface et remarque qu'en présence d'un champ magnétique, la pièce arrête de tourner plus vite.
+\end{minipage}
+\hfill % Espace entre les colonnes
+\begin{minipage}[t]{0.25\textwidth} % Colonne de droite (48% de la largeur du texte)
+~
+\vspace{-0.5em}
+
+ \includegraphic{}{images/piec.png}
+
+\end{minipage}
+
+
+
+
+
+\begin{itemize}[label=\textbullet]
+    \item Modéliser la situation et déterminer l'évolution de la vitesse de rotation de la pièce au cours du temps.
+\end{itemize}
+
+\subsubsection*{X23.02 - Chaîne de pendules \difficulte{3}}
+\sousinfo{Sujet tombé à l'oral X PC 2023 \\ Thèmes : Dispersion}
+
+On considère un ensemble de pendules pesants. Chaque pendule est constitué d'une tige de longueur $l$ et de masse $m$ et peut tourner librement autour de l'axe horizontal ( $O_n y$ ) ; les points $O_n$ sont sur l'axe horizontal $(O x)$, équidistants de $a$. Les extrémités de deux tiges consécutives sont liées par un ressort de longueur à vide $a$, et de raideur $k$.
+
+On repère la position de chaque pendule par l'angle $\theta_n(t)$ qu'il fait avec la verticale et on envisage de faibles déformations du dispositif par rapport à l'équilibre : $\left|\theta_n(t)\right| \ll 1$.
+
+\begin{enumerate}
+\item Établir l'équation du mouvement du pendule $n$.
+\item Établir la relation de dispersion en cherchant une solution de la forme $\theta_n(t)=\theta_0 \exp (i(\omega t-n k a))$.
+\item Comment passer à une modélisation continue ? Établir l'équation de propagation correspondante et discuter les possibilités de propagation, ainsi que le caractère dispersif de la propagation.
+\item Toutes les masses sont identiques, sauf une, de masse $M$. Que se passe-t-il ?
+\end{enumerate}
+
+
+\newpage
+\section*{Chimie}
+\addcontentsline{toc}{section}{Chimie}
+
+\subsection*{Concours CCINP}
+\addcontentsline{toc}{subsection}{CCINP}
+
+\subsubsection*{INP21.02 -- Redox et ions fer \difficulte{1} \lesdeux}
+\sousinfo{Exercice retranscrit par Rémi M. \& Dimitri S. - MPE 2020/2021 \\ Thèmes : Réaction redox, Cinétique}
+
+On s'intéresse à la cinétique de la réaction d'oxydo-réduction à $T_0 = 25^\circ C$ entre les ions ferriques $Fe^{3+}$ et les ions $Sn^{2+}$. La vitesse de réaction est de la forme :
+
+\[
+v = k \left[Fe^{3+}\right]^\alpha \left[Sn^{2+}\right]^\beta
+\]
+
+\begin{enumerate}
+    \item Écrire la réaction d'oxydo-réduction entre les ions $Fe^{3+}$ et les ions $Sn^{2+}$. Préciser les espèces réduites et les espèces oxydées.
+    \item À l'aide des potentiels standard, exprimer la constante d'équilibre de cette réaction à $T_0$ puis donner sa valeur numérique. Commenter.
+    \item On effectue une première série d'expériences dans laquelle les ions $Fe^{3+}$ sont en large excès. Le temps de demi-réaction $\tau_{1/2}$ associé à la disparition des ions $Sn^{2+}$ est indépendant de la concentration initiale en ions $Sn^{2+}$. Montrer que $\beta = 1$ est compatible avec cette série d'expériences.
+    \item On place désormais les réactifs en proportions stœchiométriques. Déterminer le nouveau temps de demi-réaction $T$. On pose $C_0 = [Fe](0)$.
+    \item On observe que si $C_0$ double, alors $T$ est divisé par 4. Déterminer $\alpha$.
+\end{enumerate}
+
+Données :
+\begin{itemize}
+\item Les potentiels standards des couples  : $Fe^{3+}/Fe^{2+} : 0.77\text{ V}$ et $Sn^{4+}/Sn^{2+} : 0.15\text{ V}$.
+\item $\mathcal{F}= 96500\text{ C.mol}^{-1}$
+\end{itemize}
+
+\newpage
+\subsubsection*{INP21.03 -- Décomposition de l'hydrazine  \corrige}
+\sousinfo{Exercice retranscrit par Anne-Charlotte D. - MPE 2021 \\ Thèmes : Thermochimie}
+
+On étudie la décomposition de l'hydrazine liquide en ammoniac gazeux et diazote gazeux, pour placer des satellites sur orbite.
+
+\[
+3 N_2H_{4(l)} \rightarrow 4 NH_{3(g)} + N_{2(g)}
+\]
+
+\begin{enumerate}
+    \item Déterminer l'enthalpie standard de réaction de la décomposition de l'hydrazine. La réaction est-elle exothermique ou endothermique ?
+    \item Calculer $\Delta H^0$ pour un volume $V_0 = 1\, \text{L}$ d'hydrazine.
+    \item L'énergie nécessaire pour placer un satellite sur son orbite est $E = 24\, \text{MJ}$. Combien de litres d'hydrazine sont-ils nécessaires ?
+\end{enumerate}
+
+Données :
+
+$
+\begin{array}{ll}
+\text { Enthalpie standard de formation de l'hydrazine } & \Delta_f H^{\circ}\left(\mathrm{N}_2 \mathrm{H}_4\right)=50,6 \mathrm{~kJ} \cdot \mathrm{~mol}^{-1} \\
+\text { Enthalpie standard de formation de l'ammoniac } & \Delta_f H^0\left(N H_{3(g)}\right)=-46,3 \mathrm{~kJ} . \mathrm{mol}^{-1} \\
+\text { Densité de l'hydrazine liquide à } 25^{\circ} \mathrm{C} & 1,005 \\
+\text { Masse molaire de l'hydrazine } & 32,0 \mathrm{~g} \cdot \mathrm{~mol}^{-1}
+\end{array}
+$
+
+\subsubsection*{INP22.04 -- Germanium \difficulte{2} \corrige}
+\sousinfo{Exercice retranscrit par Louis A. - MPE 2022 \\ Thèmes : Cristallographie, Equilibre gazeux, Thermochimie, Variance}
+
+\begin{enumerate}
+    \item Donner la structure électronique du Germanium (Z = 32) en détaillant les règles utilisées. [HP depuis 2022]
+\end{enumerate}
+
+On étudie désormais un oxyde de germanium $Ge_xO_y$ de paramètre de maille $a$ :
+\begin{itemize}
+    \item Les atomes Ge cristallisent selon une structure cubique centrée.
+    \item Les oxygènes occupent la moitié des sites tétraédriques.
+\end{itemize}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item Trouver $x$ et $y$.
+    \item Donner l'expression littérale de la masse volumique de ce solide.
+\end{enumerate}
+
+On s'intéresse désormais à l'équilibre hétérogène :
+\[
+GeO_{(s)} + H_{2(g)} = Ge_{(s)} + H_2O_{(g)}
+\]
+
+De constante d'équilibre $K^0 = 0.8$ à $790\, \text{K}$. On dispose initialement des quantités suivantes : $n_{GeO} = 1\, \text{mol}$, $n_{H_2} = 8\, \text{mol}$, $n_{Ge} = 1\, \text{mol}$ et $n_{H_2O} = 1\, \text{mol}$.
+
+\begin{enumerate}
+    \setcounter{enumi}{3}
+    \item Dans quel sens évolue la réaction ?
+    \item Déterminer l'état final du système.
+    \item Calculer la variance du système dans le cas général.
+\end{enumerate}
+
+\newpage
+\subsubsection*{INP15.02 -- Pile Argent-Cuivre}
+\sousinfo{Thèmes : Piles}
+
+On met dans un bécher une électrode d'argent et une solution de $AgNO_3$ de concentration $0.01\, \text{mol/L}$ et dans un autre bécher une électrode de cuivre et une solution de $CuSO_4$ de concentration $0.05\, \text{mol/L}$. On réalise ainsi une pile.
+
+\begin{enumerate}
+    \item Faire un dessin de la pile en indiquant le sens des porteurs de charges.
+    \item Écrire la réaction totale de la pile et calculer sa fem.
+    \item Donner les quantités de matière finale des composants et combien la pile a débité.
+\end{enumerate}
+
+Potentiels standards : $Ag^+/Ag : 0.8\text{ V}$, $Cu^{2+}/Cu : 0.34\text{ V}$
+
+\subsubsection*{INP16.01 -- Eau de Javel \difficulte{2} \lesdeux}
+\sousinfo{Thèmes : Diagrammes E-pH}
+
+On donne ci-dessous l'allure du diagramme E-pH du chlore. Les pressions partielles des gaz seront toujours prises égales à $P^\circ = 1\, \text{bar}$, et les concentrations des espèces dissoutes égales à $0.1\, \text{mol/L}$.
+\begin{center}
+\includegraphic{0.7}{images/eph.png}
+\end{center}
+
+\begin{enumerate}
+    \item Donner les nombres d'oxydation du chlore dans chacune de ces espèces, et les placer dans le diagramme.
+    \item Déterminer le potentiel standard du couple $HClO/Cl_2$.
+    \item Que se passe-t-il au point A ? Discutez de la stabilité de $Cl_2$ en fonction du pH.
+    \item Quelle est la pente de la droite délimitant les domaines de $Cl^-$ et $ClO^-$ ?
+\end{enumerate}
+
+L'eau de Javel contient un mélange de $ClO^-$ et $Cl^-$ à un pH = 11.
+
+\begin{enumerate}
+    \setcounter{enumi}{4}
+    \item Tracer le diagramme EpH de l'eau.
+    \item On met des ions $ClO^-$ en solution aqueuse. Sont-ils stables ? Quelle réaction a lieu ? Les espèces produites sont-elles stables ?
+\end{enumerate}
+
+\subsubsection*{INP21.10 -- Concentration d'un acide \corrige}
+\sousinfo{Exercice retranscrit par Lucas S. - MPE 2020/2021 \\ Thèmes : Acides/Bases, Conductimétrie}
+
+On étudie la réaction de $AH$ avec l'eau pour former $A^-$. On met dans un volume $V = 500\, \text{mL}$ une masse de $AH$. On note $S$ cette solution de concentration $c = 5.55 \times 10^{-3}\, \text{mol/L}$. On souhaite étudier la solution par pHmétrie et conductimétrie. À $T = 25^\circ C$, on mesure $pH = 2.9$.
+
+\begin{enumerate}
+    \item Donner la concentration en $H_3O^+$.
+    \item Donner la réaction de l'AH avec l'eau.
+    \item Donner l'avancement final $x_{\text{final}}$ de la réaction. Donner l'avancement maximal de la réaction. Donner le taux d'avancement : la réaction est-elle totale ?
+\end{enumerate}
+
+On dispose désormais de la conductivité $\sigma$ de la solution, mesurée à $T = 25^\circ C$. L'énoncé fournit également les conductivités ioniques molaires standard de toutes les ions en présence.
+
+\begin{enumerate}
+    \setcounter{enumi}{3}
+    \item Donner l'expression de $\sigma$ en fonction des conductivités ioniques molaires $\lambda_i$ et des concentrations.
+    \item En déduire l'expression de $x_{\text{final}}$ en fonction de $\sigma$, $V$ et des $\lambda_i$.
+\end{enumerate}
+
+\textit{Il restait une dernière question d’AN, et de comparaison entre les deux méthodes.}
+
+\newpage
+\subsection*{Concours Centrale-Supélec}
+\addcontentsline{toc}{subsection}{Centrale-Supélec}
+\subsubsection*{Cent15.01 -- Crampes musculaires \difficulte{2} \lesdeux}
+\sousinfo{Thèmes : Acides/Bases}
+
+Le but de cet exercice est d'expliquer, de façon très simplifiée, les processus mis en jeu lors de l'apparition d'une crampe pendant un exercice physique violent.
+
+Le pH du sang est principalement imposé par le couple $\mathrm{CO}_{2(\mathrm{aq})} / \mathrm{HCO}_3^{-}$.
+Dans le sang d'une personne au repos, les concentrations en $\mathrm{CO}_{2(\mathrm{aq})}$ et en $\mathrm{HCO}_3^{-}$sont respectivement de $2,2 \mathrm{mmol} \cdot \mathrm{L}^{-1}$ et de $22 \mathrm{mmol} \cdot \mathrm{L}^{-1}$.
+
+\begin{enumerate}
+\item D'où proviennent les espèces carbonées présentes dans le sang ? Calculer le pH du sang d'une personne au repos. Montrer que l'espèce $\mathrm{CO}_3^{2-}$ est négligeable à ce pH .
+\item Au cours d'efforts physiques importants, il se forme, dans les muscles, de l'acide lactique, noté HA. Cet acide passe dans le sang où, pour être éliminé, il doit être transformé en ions lactate, notés $A^{-}$, par :
+$$
+\mathrm{HA}+\mathrm{HCO}_3^{-}=\mathrm{H}_2 \mathrm{CO}_3+A^{-}
+$$
+$
+\left(\mathrm{H}_2 \mathrm{CO}_3 \text { est en fait } \mathrm{CO}_{2(\mathrm{aq})} \cdots\right)
+$. Pourquoi est-ce presque exclusivement la réaction 1 qui permet de transformer $\mathrm{H} A$ en $A^{-}$? Calculer sa constante d'équilibre ; conclure.
+\item Après un effort violent, l'acide lactique passe dans le sang à raison d'environ $3 \mathrm{mmol} \cdot \mathrm{L}^{-1}$. Une accumulation trop importante de cet acide lactique est responsable du phénomène de crampe. Indiquer intuitivement le sens de variation du pH dans le sang ; calculer ensuite précisément ce pH du sang après l'effort.
+\item Proposer une méthode permettant d'accéder à la quantité d'acide lactique passée dans le sang pendant l'effort ( $3 \mathrm{mmol} \cdot \mathrm{L}^{-1}$ donnés ci-dessus).
+\end{enumerate}
+
+Données :
+Constantes d'acidité relatives aux couples faisant intervenir les espèces issues de $\mathrm{CO}_{2(\mathrm{aq})}$ :
+$$
+K_{A 1}=4,0 \times 10^{-7} \quad \text { et } \quad K_{A 2}=5,0 \times 10^{-11}
+$$
+L'acide lactique $\mathrm{CH}_3-\mathrm{CHOH}-\mathrm{COOH}$ est un monoacide faible de constante d'acidité $K_{A 3}=1,4 \times 10^{-4}$.
+
+\newpage
+\subsubsection*{C.Cent14.01 -- Cristallographie et Diagramme EpH \difficulte{1} \lesdeux}
+\sousinfo{Thèmes : Cristallographie, Diagrammes EpH}
+
+On s'intéresse à l'élément Aluminium. L'aluminium cristallise dans un réseau cubique faces centrées.
+
+\begin{enumerate}
+    \item Dessiner la maille élémentaire de ce réseau et donner le nombre d'atomes présents dans la maille.
+    \item On note $a$ le paramètre de la maille et $r$ le rayon de l'atome. Donner la relation entre $r$ et $a$ d'après les propriétés de contact dans la maille. Définir la compacité et la calculer dans le cas du réseau cubique faces centrées.
+    \item À l'aide des données, calculer $r$. \textit{On disposait notamment de la masse volumique de l'aluminium, et des informations disponibles dans le tableau périodique.}
+    \item Dénombrer et placer sur un dessin les sites octaédriques et tétraédriques. Quel est le rayon maximal qu'un atome doit avoir pour s'insérer dans un de ces sites sans déformer la structure ?
+\end{enumerate}
+\begin{center}
+\includegraphic{0.5}{images/eph2.png}
+\end{center}
+
+\begin{enumerate}[resume]
+\item Placer en justifiant les espèces suivantes sur le diagramme E-pH ci-dessus :
+$
+{\mathrm{Al}, \mathrm{Al}^{3+}, \mathrm{Al}(\mathrm{OH})_3, \mathrm{Al}(\mathrm{OH})_4^{-} .}^{-}
+$
+\item Calculer les pH de séparation de ces domaines. On travaille à une concentration de frontière de $0.1 \mathrm{~mol} / L, p K s=33$, et on donne la constante d'équilibre de la réaction de formation de $\mathrm{Al}(\mathrm{OH})_4^{-}$ à partir de $A l^{3+}: \beta=10^{33}$
+\end{enumerate}
+
+\newpage
+\subsubsection*{C.Cent15.01 -- Cinétique du butadiène \difficulte{1} \lesdeux}
+\sousinfo{Thèmes : Cinétique, Mélange gazeux}
+
+Le butadiène, noté $B$, se dimérise en phase gazeuse pour donner le vinylcyclohexène, noté $B_2$, selon la réaction :
+\[
+2 B \rightarrow B_2
+\]
+\begin{enumerate}
+    \item Déterminer l'expression de la vitesse de réaction en fonction de la concentration de $B$.
+\end{enumerate}
+
+Une étude expérimentale menée à $326^{\circ} \mathrm{C}$ donne les variations en fonction du temps de pression totale $P$ du mélange réactionnel gazeux dans un réacteur fermé de volume constant $V$ :
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline$t$ (min) & 0 & 3,25 & 6,12 & 14,30 & 29,18 & 49,50 & 68,05 & 90,05 & 119,00 & 135,72 \\
+\hline$P$ (bar) & 0,842 & 0,824 & 0,808 & 0,767 & 0,713 & 0,663 & 0,632 & 0,604 & 0,576 & 0,563 \\
+\hline
+\end{tabular}
+\end{center}
+
+Par ailleurs, d'autres expériences montrent que le temps de demi-réaction varie lorsque la quantité de matière initiale varie.
+
+\begin{enumerate}[resume]
+\item Exprimer à l'instant $t$, la concentration $[B]$ en fonction de $P, P_0=P(t=0), R$ et $T$.
+\item Montrer simplement que l'ordre de la réaction par rapport au butadiène ne peut être égal ni à 0 , ni à 1 .
+\item Montrer qu'une cinétique d'ordre 2 est compatible avec le tableau de valeurs expérimentales. En déduire la valeur de la constante de vitesse.
+\end{enumerate}
+
+\newpage
+\subsection*{Autres Exercices}
+\subsubsection*{C.EE01 -- Dosage Acido-basique \difficulte{2} \corrige}
+\sousinfo{Thèmes : Acides/Bases, Dosages}
+
+L'éthylènediamine est une dibase faible notée En. On dose $20\, \text{mL}$ d'une solution d'éthylènediamine de concentration $C$ par de l'acide chlorhydrique HCl à $0.050\, \text{mol/L}$. On réalise également la simulation informatisée de ce dosage (cf. figure ci-dessous) : suivi pH-métrique et pourcentage des espèces contenant En en solution.
+
+\begin{center}
+\includegraphic{0.5}{images/pred.png}
+\end{center}
+
+\begin{enumerate}
+    \item Faire un schéma du dosage expérimental. Comment mesure-t-on le pH ?
+    \item Écrire les couples de l'éthylènediamine notée En. Identifier chacune des courbes tracées.
+    \item Écrire les équations des réactions de dosage. Déterminer les coordonnées du ou des points équivalents et en déduire la concentration de la solution étudiée.
+    \item Déterminer les pKa de l'éthylènediamine. Justifier.
+    \item Retrouver par le calcul le pH initial et les pH obtenus pour un volume de solution d'acide versé $V = 3.0\, \text{mL}$ puis $V = 6.0\, \text{mL}$ puis $V = 12.0\, \text{mL}$.
+\end{enumerate}
+
+\newpage
+\subsubsection*{C.EE02 -- Dosage de l'éthanol dans le vin \difficulte{2} \corrige}
+\sousinfo{Thèmes : Oxydo-réduction, Dosages}
+
+Le vin comporte un grand nombre de constituants dont des alcools. Le principal alcool contenu dans le vin est l'éthanol. On dispose des solutions suivantes :
+
+\begin{itemize}
+    \item Une solution de dichromate de potassium $K_2Cr_2O_7$ de concentration $0.117\, \text{mol/L}$.
+    \item Une solution d'ion fer II de concentration $0.684\, \text{mol/L}$.
+\end{itemize}
+
+On réalise les opérations suivantes :
+
+\begin{enumerate}
+    \item Expliquer comment on réalise la dilution.
+    \item Quelle verrerie utilise-t-on dans les différentes étapes ?
+    \item Déterminer le degré alcoolique du vin dosé, défini comme le nombre de millilitres d'alcool liquide contenus dans $100\, \text{mL}$ de vin, les volumes étant mesurés à $20^\circ C$.
+\end{enumerate}
+
+Données :
+\begin{itemize}
+\item Masse volumique éthanol $=0,7936 \mathrm{~g} \cdot \mathrm{~mL}^{-1}$
+\item Masse molaire éthanol $=46,07 \mathrm{~g} \cdot \mathrm{~mol}^{-1}$
+\item Acide éthanoïque / éthanol : $\mathrm{CH}_3 \mathrm{COOH} / \mathrm{C}_2 \mathrm{H}_5 \mathrm{OH}: \mathrm{E}^{\circ}=0,05 \mathrm{~V}$
+\item $\mathrm{Cr}_2 \mathrm{O}_7{ }^{2-} / \mathrm{Cr}^{3+}: \mathrm{E}^{\circ}=1,36 \mathrm{~V}$
+\item $\mathrm{Fe}^{3+} / \mathrm{Fe}^{2+}: \mathrm{E}^{\circ}=0,77 \mathrm{~V}$
+
+\end{itemize}
+
+\newpage
+\subsubsection*{EC3.EE01 -- Electrolyse du Manganèse \difficulte{1} \corrige}
+\sousinfo{Thèmes : Electrolyse, Thermodynamique de l'oxydo-réduction}
+
+La préparation industrielle du métal manganèse $M n$ se fait par électrolyse d'une solution de sulfate de manganèse à une concentration $c_0=1 \mathrm{~mol} \mathrm{~L}^{-1}$, acidifiée par du sulfate d'ammonium inerte électrochimiquement. La cathode est en manganèse pur et l'anode en graphite. Le pH de la solution vaut 5 . On donne les courbes intensité-potentiel correspondantes :
+\begin{center}
+\includegraphic{0.5}{images/ie.png}
+\end{center}
+Données:
+$$
+E_{O_2 / H_2 \mathrm{O}}^0=1,23 \mathrm{~V}  \text{ } ; E_{M n^{2+} / M n}^0=-1,17 \mathrm{~V} \text{ } ; M_{M n}=55 \mathrm{~g} \cdot \mathrm{~mol}^{-1}
+$$
+\begin{enumerate}
+\item Donner les réactions pouvant se produire aux électrodes.
+\item Quelle est la tension minimale à appliquer au système pour mettre en œuvre l'électrolyse ? Quel phénomène permet la formation du manganèse métallique ?
+\item Pour une densité de courant de $500 \mathrm{~A} . \mathrm{m}^{-2}$, la chute ohmique aux bornes de la cellule est de $1,25 \mathrm{~V}$. Déterminer la tension de fonctionnement de la cellule d'électrolyse ainsi que les surtensions anodiques $\eta_a$ et cathodique $\eta_c$. On prendra $P_{O_2}=1$ bar.
+\item Déterminer l'enthalpie libre de réaction $\Delta_r G$ de la réaction d'électrolyse. Commenter.
+\item L'électrolyse a lieu avec une intensité de $35,0 \mathrm{kA}$. L'usine fonctionne 24 h sur 24. Quelle est la masse de manganèse métalliqeu que l'on peut obtenir chaque jour ?
+\item Déterminer, en kWh , l'énergie nécessaire pour déposer 1 kg de manganèse.
+\end{enumerate}
+
+\newpage
+\section*{Mécanique}
+\addcontentsline{toc}{section}{Mécanique}
+
+\subsection*{Concours CCINP}
+\addcontentsline{toc}{subsection}{CCINP}
+
+\subsubsection*{INP15.01 -- Décollement d'une masse \difficulte{1}}
+\sousinfo{Thèmes : Système masse-ressort}
+
+On considère un système composé d'un ressort de longueur à vide $l_0$ et de constante de raideur $k$ sous lequel est accroché un plateau de masse négligeable. On pose sur ce plateau une masse $m$ et on étire initialement le plateau vers le bas d'une longueur $a$. On lâche alors le plateau qui oscille.
+
+\begin{itemize}[label=\textbullet]
+    \item Déterminer la(les) condition(s) sur $a$ pour que la masse ne décolle jamais du plateau.
+\end{itemize}
+
+\subsubsection*{INP21.12 -- Pendule dans un véhicule \difficulte{1} \corrige}
+\sousinfo{Exercice retranscrit par Benjamin L. - MPE 2021 \\ Thèmes : Référentiels non galiléens, Solide en rotation autour d'un axe fixe}
+
+Un pendule pesant est accroché au sein d'un véhicule possédant une accélération rectiligne et uniforme $\overrightarrow{\gamma}$.
+
+\begin{enumerate}
+    \item Déterminer la position d'équilibre du pendule.
+    \item Étudier les petites oscillations du pendule autour de l'équilibre et déterminer la période des oscillations.
+\end{enumerate}
+
+\newpage
+\subsection*{Concours Mines-Télécom}
+\addcontentsline{toc}{subsection}{Mines-Télécom}
+\subsubsection*{MT21.01 -- Satellite \difficulte{1} \corrige}
+\sousinfo{Exercice retranscrit par Jules D. - MPE 2021/2022 \\ Thèmes : Satellites}
+
+\begin{enumerate}
+    \item Définition d'un satellite géostationnaire.
+    \item Déterminer la hauteur d'un satellite géostationnaire.
+    \item Considérons un satellite en trajectoire circulaire de rayon $R$. Estimer la différence de vitesse qu'il faut lui apporter via ses moteurs pour qu'il passe sur une trajectoire elliptique de demi-grand axe $a > R$.
+\end{enumerate}
+
+\subsubsection*{MT21.03 -- Bascule d'une armoire \difficulte{1} \corrige}
+\sousinfo{Exercice retranscrit par Zoé D. - MPE 2021 \\ Thèmes : Mécanique du solide}
+
+\begin{itemize}[label=\textbullet]
+    \item Une armoire est posée sur un plan incliné. A quelle condition sur sa hauteur et sa largeur bascule-t-elle ?
+\end{itemize}
+
+\subsubsection*{MT17.03 -- Iceberg \difficulte{1}}
+\sousinfo{Thèmes : Mécanique du point}
+
+À l'aide de la photographie ci-dessous, estimer la densité de la glace.
+\begin{center}
+\includegraphic{0.4}{images/ice.png}
+\end{center}
+
+\newpage
+\subsection*{Concours Centrale-Supélec}
+\addcontentsline{toc}{subsection}{Centrale-Supélec}
+\subsubsection*{Cent22.01 -- Chute d'une bille (sans préparation) \difficulte{2} \corrige}
+\sousinfo{Exercice retranscrit par Fabien M. - $M\pi E$ 2022 \\ Thèmes : Solide en rotation autour d'un axe fixe}
+
+On considère une planche en bois de longueur $L$, accrochée à un support fixe, sur laquelle un gobelet et une bille sont posés à l'instant $t = 0$. Le gobelet est très léger en comparaison de la planche, et lui est solidaire. On lâche la planche à $t = 0$.
+
+\begin{center}
+\includegraphic{0.5}{images/planc.png}
+\end{center}
+On note $\theta(t)$ l'angle formé par la planche à l'instant $t$, et on pose $\theta_0=\theta(0)$. On observe que lorsque la planche est au sol, la bille est à l'intérieur du gobelet.
+
+Données :
+\begin{itemize}
+\item On note $m$ la masse de la bille et $M$ celle de la planche.
+\item Le moment d'inertie de la planche est $J=\frac{1}{3} M L^2$
+\item La vitesse initiale de la planche est nulle.
+\item $\theta_0=30^{\circ} ; \quad L=1,0 \mathrm{~m}$
+\end{itemize}
+
+\begin{enumerate}
+    \item Exprimer le temps de chute de la bille $T_{\text{bille}}$ et le calculer.
+    \item Déterminer l'équation différentielle vérifiée par $\theta(t)$.
+    \item Déterminer l'expression de $\frac{d\theta}{dt}$ en fonction de $\theta$ et des autres paramètres du problème.
+    \item On donne :
+    \[
+    \int_0^{\theta_0} \frac{d\theta}{\sqrt{\sin(\theta_0) - \sin(\theta)}} = 1.52
+    \]
+    Calculer le temps de chute de la planche. Cette valeur est-elle cohérente avec les observations ?
+\end{enumerate}
+
+\newpage
+\subsubsection*{Cent22.02 -- Disque d'embrayage (avec préparation) \difficulte{2} \corrige}
+\sousinfo{Thèmes : Solide en rotation autour d'un axe fixe, Frottement solide}
+
+Ce sujet est associé à un document décrivant le principe de fonctionnement d'un dispositif d'embrayage, par exemple automobile. On modélise cet embrayage par deux disques de même rayon $R$ et de même moment d'inertie $J$ par rapport à leur axe de rotation commun $(O z)$. Soit $\vec{F}=F \vec{e}_z$ la force de contact exercée par (1) sur (2) ; la force exercée par un élément de surface d'aire $\mathrm{d} S$ sur l'élément en vis à vis de (2) est, en coordonnées polaires d'axe $(O z)$ :
+$$
+\mathrm{d} \vec{F}=\frac{F}{\pi R^2} \mathrm{~d} S \vec{e}_z+\mathrm{d} F^{\prime} \vec{e}_\theta
+$$
+\begin{center}
+\includegraphic{0.6}{images/disq.png}
+\end{center}
+
+\begin{enumerate}
+\item Rappeler les lois de Coulomb du frottement de glissement. On notera $\mu_d$ et $\mu_s$ les coefficients de frottement, dont on rappellera les définitions, unités et ordres de grandeur.
+\end{enumerate}
+
+On suppose que le frottement des éléments de surface $\mathrm{d} S$ en contact des disques d'embrayage vérifie ces lois. 
+\begin{enumerate}[resume]
+\item Quelle est l'expression de $\mathrm{d} F^{\prime}$ si $\Omega_1 \neq \Omega_2$ ? On distinguera deux cas.
+\item Que peut-on dire si $\Omega_1=\Omega_2$ ?
+\end{enumerate}
+
+On étudie une phase de démarrage, le dispositif étant embrayé à partir de $\Omega_1(t=0)=\omega_0$ et $\Omega_2(t=0)=0$. Le moteur est accouplé au disque (1) et exerce sur celui-ci le couple moteur $\vec{\Gamma}_1=\Gamma_1 \vec{e}_z$. La charge utile du dispositif (les roues du véhicule, etc.), de moment d'inertie $J^{\prime}$, est accouplée au disque (2). On posera $J_2=J+J^{\prime}$. Cet ensemble mobile est soumis à un couple de frottement $\vec{\Gamma}_2=-\Gamma_2 \vec{e}_z ; \Gamma_1$ et $\Gamma_2$ sont supposés constants.
+
+\begin{enumerate}[resume]
+\item Calculer le moment $\vec{\Gamma}_{12}$ des efforts de contact exercés par (1) sur (2) pendant le patinage.
+\item À quelle(s) condition(s) observe-t-on une accélération du véhicule se terminant sans patinage ? Quelle serait l'évolution ultérieure du système?
+\item Calculer l'énergie dissipée par les frottements pendant la phase de patinage. Que devient-elle ?
+\end{enumerate}
+
+À partir d'un fonctionnement de régime permanent sans patinage, l'arbre moteur tournant à la vitesse angulaire $\omega_0$, on déclenche le freinage (sans débrayage) du véhicule. Dans ces conditions, le couple moteur exercé sur le disque (1) est remplacé par un couple de frein moteur $\vec{\Gamma}^{\prime}{ }_1=-\Gamma_1^{\prime} \vec{e}_z$ et un couple de frottement proportionnel à sa vitesse de rotation s'exerce sur le disque (2), $\vec{\Gamma}_f=-K \Omega_2 \vec{e}_z$.
+
+\begin{enumerate}[resume]
+\item À quelle condition l'embrayage ne patinera-t-il pas ?
+\end{enumerate}
+
+\begin{center}
+\large{\textbf{Annexe}}
+\end{center}
+
+L'embrayage est un dispositif d'accouplement entre un arbre dit moteur et un autre dit récepteur. Du fait de sa transmission par adhérence, il permet une mise en charge progressive de l'accouplement ce qui évite les àcoups qui pourraient provoquer la rupture d'éléments de transmission ou l'arrêt du moteur dans le cas d'une transmission avec un moteur thermique.
+L'embrayage est nécessaire sur les véhicules automobiles à moteurs thermiques qui doivent continuer à tourner même si le véhicule est à l'arrêt. Le désaccouplement facilite aussi le changement de rapport de vitesses. L'embrayage trouve donc sa place sur la chaîne de transmission, entre le moteur et la boîte de vitesses, où, de plus, le couple à transmettre est le moins élevé. Il est souvent fixé sur le volant moteur sur les voitures ou camions où le grand diamètre disponible permet d'utiliser un système monodisque ou bidisque. Il est plutôt en bout de vilebrequin sur les motos ou cyclos, en version multi-disque à bain d'huile (boîte manuelle) ou centrifuge à tambour (transmission automatique).
+«Embrayage » désigne également la phase de fonctionnement où l'accouplement est établi ; il s'agit de l'opération inverse du «débrayage » pendant laquelle les arbres sont désolidarisés.
+
+\textbf{Les phases de fonctionnement d'un embrayage}
+
+On distingue trois phases de fonctionnement pour un dispositif d'embrayage.
+- En position embrayée : l'embrayage transmet intégralement la puissance fournie (la voiture roule, le moteur est lié à la boîte de vitesses). C'est le plus souvent la position stable du dispositif (absence d'action de commande).
+- En position débrayée : la transmission est interrompue. Roue libre, ou voiture arrêtée, le moteur peut continuer à tourner sans entraîner les roues. La situation est équivalente au point mort.
+- Phase transitoire de glissement : en particulier pendant l'embrayage, la transmission de puissance est progressivement rétablie. Ce moment est appelé point de patinage. Pendant cette phase, l'arbre d'entrée et de sortie ne tournent pas à la même vitesse ; il y a alors glissement entre les disques, donc dissipation d'énergie, sous forme de chaleur. Cette phase est à limiter dans le temps, même si elle est inévitable et permet de solidariser graduellement le moteur et la boîte de vitesses. L'usure des disques a lieu pendant cette phase, souvent utilisée lors des démarrages en côte.
+C'est la situation de glissement qui donne les conditions de dimensionnement de l'embrayage. Elle détermine le couple maximum transmissible. Au-delà, le glissement est systématique. La même configuration technologique est d'ailleurs adoptée sur les systèmes limiteurs de couple, qui vont donc patiner lorsque le couple sollicité devient trop important.
+
+\textbf{Classification}
+
+Les solutions technologiques retenues pour ce dispositif se distinguent suivant plusieurs critères.
+
+Selon la géométrie de la surface de friction :
+\begin{itemize}
+\item disques, le contact étant effectif suivant une couronne par face de disque ;
+\item tambour (dans le cas de certains embrayages centrifuges) ;
+\item conique (abandonné aujourd'hui sauf quelques applications à faible puissance). Son intérêt réside dans le fait qu'il est autobloquant : l'assemblage conique reste coincé en l'absence d'effort presseur. Il faut agir pour débrayer.
+\end{itemize}
+
+Selon le nombre de disques (quand il s'agit de disques) :
+\begin{itemize}
+\item monodisque;
+\item bidisque à sec à commande unique ou à commande séparée (double) ;
+\item multidisque humide ou à sec.
+\end{itemize}
+
+Les surfaces de contact peuvent :
+\begin{itemize}
+\item fonctionner à sec avec refroidissement par air ;
+\item être lubrifiées et refroidies par bain d'huile.
+\end{itemize}
+
+\newpage
+La commande peut être :
+\begin{itemize}
+\item mécanique;
+\item hydraulique;
+\item électrique asservie électroniquement ;
+\item centrifuge (dans ce cas la commande n'est pas directe mais induite par l'action sur l'accélérateur).
+\end{itemize}
+
+\textbf{Architecture}
+
+Un embrayage comporte plusieurs pièces (figure 1) :
+\begin{itemize}
+\item le volant moteur 2, solidaire de l'arbre moteur 1, peut porter l'ensemble et constituer une des faces de friction du disque ;
+\item le disque d'embrayage 3 est solidarisé en rotation à l'arbre d'entrée (primaire) de la boîte de vitesses 6 par des cannelures ;
+\item le plateau de pression 4 assure l'adhérence du disque d'embrayage sur le volant moteur en position embrayée ;
+\item les ressorts 5 (à diaphragme dans notre cas) appuient sur le plateau de pression et peuvent être comprimés par la butée d'embrayage 7 .
+\end{itemize}
+
+\begin{center}
+\includegraphic{0.6}{images/emb.png}
+\end{center}
+
+Lorsque la commande (hydraulique ou à câble) de débrayage est actionnée :
+\begin{itemize}
+\item la butée exerce une force sur les ressorts ou le ressort à diaphragme,
+\item le plateau de pression s'écarte pour libérer la pression sur le disque de friction. Le mouvement est de moins en moins transmis, rendant indépendante la boîte de vitesses du moteur. Cela permet de rester à l'arrêt sans caler le moteur ou de changer de vitesse.
+\end{itemize}
+
+La manœuvre inverse consiste à relâcher progressivement la commande de débrayage, pour rétablir la liaison moteur-boîte de vitesses. Cette manœuvre s'appelle «faire patiner l'embrayage».
+
+\newpage
+\subsection*{Concours Mines-Ponts}
+\addcontentsline{toc}{subsection}{Mines-Ponts}
+\subsubsection*{Questions de Cours}
+
+\begin{enumerate}
+    \item Lois de la dynamique en référentiel non galiléen. Exemples. (Flavien M. - MPE 2021)
+    \item Forces Centrales.
+    \item Solide en rotation autour d'un axe fixe, dans un référentiel galiléen. Étude dynamique, étude énergétique et applications.
+\end{enumerate}
+
+\subsubsection*{MP21.05 -- Déviation gravitationnelle \difficulte{3} \corrige}
+\sousinfo{Exercice retranscrit par Gauthier M. - $M\pi E$ 2020/2021 \\ Thèmes : Mécanique du point, Satellites}
+
+On considère un objet ponctuel soumis à l'attraction gravitationnelle d'un astre de masse $M$.
+
+\begin{enumerate}
+    \item Déterminer $\alpha$ tel que le vecteur $\overrightarrow{e} = \alpha \overrightarrow{v} + \overrightarrow{e}_\theta$ soit constant en fonction de la constante des aires, de la constante gravitationnelle et de $M$.
+\end{enumerate}
+
+On considère un objet de masse $m$ venant de l'infini avec une vitesse $v_{-\infty}$ et passant dans le champ de gravitation de l'astre :
+\begin{center}
+\includegraphic{0.7}{images/deviat.png}
+\end{center}
+
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item Déterminer $r_m$.
+    \item Déterminer $\phi$ sachant que $v_{-\infty}$ et $b$ sont connus.
+\end{enumerate}
+
+\subsubsection*{MP17.02 -- Force Centrale \difficulte{2} \corrige}
+\sousinfo{Thèmes : Energétique, Mouvement à force centrale}
+
+En $M$ se trouve un point matériel de masse $m$. Il subit la force $\overrightarrow{F} = -\frac{k}{r^n} \overrightarrow{u}_r$ avec $k > 0$ et $n > 1$. On note $\overrightarrow{\sigma_0} = \overrightarrow{\sigma_0}(M)$.
+
+\begin{enumerate}
+    \item Montrer que le mouvement est plan.
+    \item Calculer $E_p(r)$.
+    \item Calculer $E_{p,\text{eff}}(r)$ en fonction de $r$, $k$, $n$, $m$, $\sigma_0$.
+    \item Donner une condition sur $n$ pour avoir des possibilités d'existence d'états liés.
+\end{enumerate}
+
+\newpage
+\subsubsection*{M1.MP18.03 -- Piste Hélicoïdale \difficulte{3} \corrige}
+\sousinfo{Thèmes : Mécanique du point, Frottement solide}
+
+\begin{minipage}[t]{0.3\textwidth} % Colonne de gauche (48% de la largeur du texte)
+~
+\vspace{0.5em}
+
+ \includegraphic{}{images/tob.png}
+
+\end{minipage}
+\hfill % Espace entre les colonnes
+\begin{minipage}[t]{0.65\textwidth} % Colonne de droite (48% de la largeur du texte)
+
+\vspace{1em}
+
+Soit une entité $M$ de masse $m$ lâchée sans vitesse initiale sur un toboggan hélicoïdal de pas $2h\pi$ à l'altitude $z_i = 2Nh\pi$, $N \in \mathbb{N}$. On note la position de $M$ : $r = R$ et $z = h\theta$. Dans un premier temps, on néglige les frottements.
+
+\begin{enumerate}
+    \item Faire un schéma. Que représente $N$ ?
+\end{enumerate}
+
+\end{minipage}
+
+
+
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item Déterminer $\ddot{\theta}$.
+    \item En déduire le temps de chute pour atteindre $z_f = 0$.
+    \item Donner les composantes cylindriques de la réaction de la piste sur $M$.
+\end{enumerate}
+
+On tient compte des frottements solides de coefficient $f$.
+
+\begin{enumerate}
+    \setcounter{enumi}{4}
+    \item Exprimer le vecteur tangent à la piste $\overrightarrow{t}$.
+    \item Déterminer désormais l'équation différentielle reliant $\ddot{\theta}$ et $\dot{\theta}$.
+\end{enumerate}
+
+\subsubsection*{MP23.04 -- Plateau tournant \difficulte{2}}
+\sousinfo{Exercice retranscrit par Erwann H. - MPIE 2023 \\ Thèmes : Mécanique du point, Référentiel tournant}
+
+On considère un point $M$ sur un plateau carré de côté $2l$, qui subit de la part du centre $O$ une force $\overrightarrow{F} = -2k \overrightarrow{OM}$.
+
+\begin{enumerate}
+    \item Donner la dimension de $k$.
+\end{enumerate}
+
+Désormais, le plateau est en rotation, à une vitesse de rotation $\omega_0$ constante au cours du temps, autour d'un axe vertical passant par $O$.
+
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item En se plaçant dans le référentiel du plateau, faire le bilan des forces s'exerçant sur $M$.
+    \item Montrer que l'énergie potentielle du système peut se mettre sous la forme :
+    \[
+    E_p = \frac{1}{2} m \left(\omega_k^2 - \omega_0^2\right) r^2
+    \]
+    L'énergie totale du système est-elle conservée ? Position d'équilibre et stabilité ?
+    \item Dans un repère cartésien, écrire les équations du mouvement de $M$.
+    \item En écrivant $z = x + iy$, montrer que $z$ se met sous la forme $\lambda e^{i\omega_+ t} + \mu e^{i\omega_- t}$ où on donnera les expressions de $\omega_+$ et $\omega_-$.
+\end{enumerate}
+
+\newpage
+\section*{Optique}
+\addcontentsline{toc}{section}{Optique}
+\subsection*{Concours CCINP}
+\addcontentsline{toc}{subsection}{CCINP}
+\subsubsection*{INP22.06 - Doublet du sodium \difficulte{1} \corrige}
+\sousinfo{Exercice retranscrit par Manon L. - MPE 2022 \\ Thèmes : Interférences, Michelson, Doublet du sodium}
+
+On considère le doublet du sodium. On réalise un montage interféromètre de Michelson. On place une lampe à vapeur de sodium devant l'interféromètre. Le miroir $M_1$ est en translation à la vitesse $V$ donc l'épaisseur de la lame d'air est $e(t) = V \cdot t$. On visualise l'intensité lumineuse sur un écran, le point au centre de l'écran est noté $O'$.
+
+On note $\lambda_1$ et $\lambda_2$ les longueurs d'ondes associées aux raies du sodium. On note $\lambda_m = \frac{\lambda_1 + \lambda_2}{2}$ et $\Delta \lambda = \lambda_2 - \lambda_1$. On a $\Delta \lambda \ll \lambda_m$ et $\lambda_1 \approx \lambda_2 \approx \lambda_m$.
+
+\begin{enumerate}
+    \item Montrer que l'intensité lumineuse résultante en $O'$ est :
+    \[
+    I(t) = 4 I_0 \left(1 + \cos\left(\frac{2\pi t}{\Delta t}\right) \cos\left(\frac{2\pi t}{T}\right)\right)
+    \]
+    avec $\Delta t$ et $T$ ($\ll \Delta t$) à exprimer en fonction des données.
+    \item On relève l'intensité lumineuse en fonction du temps et on obtient 2 relevés : un relevé sur une courte durée et un relevé sur une longue durée. Déterminer $\lambda_m$ et $\Delta \lambda$ puis $\lambda_1$ et $\lambda_2$, sachant que $v = 1\, \mu \text{m/s}$.
+\end{enumerate}
+
+\begin{center}
+\includegraphic{}{images/doub.png}
+\end{center}
+
+
+\newpage
+\subsubsection*{INP15.03 -- Indice d'un gaz \difficulte{1} \corrige}
+\sousinfo{Thèmes : Interférences, Michelson}
+
+Sur un des bras d'un interféromètre de Michelson réglé en lame d'air, on met une cuve à vide (longueur $l = 5.00 \pm 0.05\, \text{cm}$). On remplit petit à petit cette cuve du vide, jusqu'à la pression ambiante dans la cuve. L'interféromètre est éclairé par un LASER de longueur d'onde $\lambda_0 = 638.6 \pm 0.1\, \text{nm}$. En un point de l'écran, on place un capteur d'éclairement et on détecte $N = 43$ franges brillantes défilant lors du remplissage de la cuve.
+
+\begin{enumerate}
+    \item Exprimer $n$, l'indice optique de l'air dans la cuve, en fonction de $N$, sous la forme :
+    \[
+    n = 1 + \frac{\lambda_0}{l} f(N)
+    \]
+    \item En déduire l'indice optique de l'air ambiant, assorti d'une incertitude.
+\end{enumerate}
+
+\newpage
+\subsubsection*{INP17.01 -- Microscope \difficulte{1} \corrige}
+\sousinfo{Thèmes : Microscope, Optique Géométrique}
+
+Soit un microscope composé de deux lentilles convergentes $\mathcal{L}_{1}$ et $\mathcal{L}_{2}$ de distances focales $f_{1}^{'} = 5\,\text{mm}$ et $f_{2}^{'} = 25\,\text{mm}$. On a $\overline{F_{1}^{'}F_{2}} = 16\,\text{cm}$. On place un objet AB de taille $0.1\,\text{mm}$ tel que A soit sur l'axe optique. $A_{1}B_{1}$ est son image à travers la lentille $\mathcal{L}_{1}$ et $A'B'$ l'image de $A_{1}B_{1}$ à travers $\mathcal{L}_{2}$.
+
+\begin{enumerate}
+\item Où doit se situer $A'B'$ pour qu'il n'y ait pas d'accommodation de la part de l'observateur ?
+\item En déduire où est $A_{1}$.
+\item Calculer $\overline{F_{1}A_{1}}$
+\item Tracer le schéma expliquant comment on obtient $A'B'$
+\item Calculer le grandissement $\gamma_{1}$ de la lentille $\mathcal{L}_{1}$.
+
+On note $\alpha'$ l'angle formé par les rayons à la sortie de $\mathcal{L}_{2}$.
+
+\item Calculer $\alpha'$.
+
+On place un objet AB de taille $0.1\,\text{mm}$ à la distance $d$ de l'oeil de l'observateur.
+
+\item En prenant une distance $d = 25\,\text{cm}$, calculer $\alpha$.
+\item On note $G_{c} = \left| \frac{\alpha^{'}}{\alpha} \right|$ le grossissement du microscope, calculer $G_{c}$.
+\end{enumerate}
+
+[Rappels :]
+Formules de Conjugaison (cas d'une lentille de centre O, de focale $f^{'}$, transformant un point A de l'axe optique en A') :
+$$\frac{1}{\overline{OA^{'}}} - \frac{1}{\overline{OA}} = \frac{1}{f^{'}}$$
+$$\overline{F^{'}A^{'}}.\overline{FA} = - f^{'2}$$
+
+\newpage
+\subsubsection*{O2.INP19.01 -- Brouillage et trous d'Young \difficulte{1} \indications}
+\sousinfo{Thèmes : Trous d'Young, Cohérence spatiale}
+
+On considère le système interférentiel suivant dans lequel on ajoute un filtre pour conserver seulement la longueur d'onde $\lambda = 0.50\,\mu\text{m}$. La lentille a une distance focale $f_{1}^{'}$. L'objectif est de mesurer le diamètre apparent $\alpha$ d'une étoile.
+
+\begin{center}
+\includegraphic{0.7}{images/young.png}
+\end{center}
+
+\begin{enumerate}
+\item Quel est l'ordre d'interférence en un point d'abscisse $x$ sur l'écran d'un point d'une étoile arrivant sur le dispositif avec un angle $\alpha$ ?
+\item Quelle est la différence d'ordre d'interférence lorsque $\alpha$ varie entre $0$ et $\alpha_{0}/2$.
+\item On augmente $d$ pour avoir un brouillage de la figure d'interférence. Quelle est la plus petite distance $d_{1}$ pour avoir un brouillage de la figure d'interférence ?
+\item Que vaut $\alpha_{0}$ si l'on a $d_{1} = 1.6\,\text{km}$ ?
+\end{enumerate}
+
+\subsubsection*{INP23.09 -- Michelson et anneaux \difficulte{1}}
+\sousinfo{Exercice retranscrit par Eloïse R. - MPE 2023 \\ Thèmes : Michelson}
+
+On considère une source étendue monochromatique de longueur d'onde $\lambda = 550\,\text{nm}$ en face d'un interféromètre de Michelson en lame d'air. On observe les interférences sur un écran placé dans le plan focal objet d'une lentille convergente de focale $f' = 50\,\text{cm}$ (L'énoncé donnait de plus une image de la figure d'interférence où on observe des anneaux, la tâche centrale est brillante).
+
+\begin{enumerate}
+\item Faire un schéma du montage.
+\item On observe des anneaux, en déduire la position relative des miroirs. Peut-on bouger l'écran ?
+\item On chariote un miroir jusqu'à obtenir une couleur uniforme sur l'écran. Expliquer et donner le nom de ce qu'on observe sur l'écran.
+\item On chariote de nouveau jusqu'à faire réapparaître les anneaux. On mesure le rayon $R_{1} = 1.5\,\text{cm}$ du premier anneau sombre et $R_{9} = 4.5\,\text{cm}$ celui du 9e anneau sombre. De quelle distance $e$ a-t-on fait translater le miroir ?
+\item Quel est l'ordre du 2e anneau sombre ? Quel est le rayon du 3e anneau lumineux ?
+\end{enumerate}
+\newpage
+\subsubsection*{INP23.02 -- Michelson et doublet du sodium \difficulte{3} \lesdeux}
+\sousinfo{Exercice retranscrit par Mathieu M. - MPE 2023 \\ Thèmes : Michelson, Cohérence temporelle}
+
+\begin{center}
+\includegraphic{0.7}{images/michelson.png}
+\end{center}
+
+\begin{enumerate}
+\item Expliquer la fonction des vis (1) à (7).
+\item Présenter les 2 types de configuration possibles pour le dispositif et préciser leurs méthodes d'utilisation.
+\end{enumerate}
+On éclaire le dispositif par une lampe à sodium, et on considère deux longueurs d'onde très proches $\lambda_{1} = 589\,\text{nm}$ et $\lambda_{2} = \lambda_{1} + \Delta\lambda$. Les miroirs forment un angle égal à $\frac{\pi}{2}$. On réalise alors le contact optique. On translate le miroir (M1) de telle sorte à observer sur un écran convenablement disposé une teinte uniforme. On poursuit la translation jusqu'à obtenir une autre configuration présentant une teinte uniforme sur l'écran. On constate que la différence de position du miroir (M1) entre les deux positions est de $292\,\mu\text{m}$.
+\begin{enumerate}[resume]
+\item Quel phénomène se produit entre les rayons 1 et 2 ?
+\item Déterminer une condition sur les ordres d'interférence des rayons pour obtenir une teinte uniforme sur l'écran.
+\item Déterminer une valeur numérique pour la longueur d'onde $\lambda_{2}$. Commenter.
+\end{enumerate}
+
+\newpage
+\subsection*{Concours Mines-Télécom}
+\addcontentsline{toc}{subsection}{Mines-Télécom}
+\subsubsection*{MT21.04 -- Miroirs de Lloyd \difficulte{1}}
+\sousinfo{Exercice retranscrit par Zoé D. -- MPE 2021 \\ Thèmes : Interférences}
+
+\begin{center}
+\includegraphic{0.5}{images/lloyd.png}
+\end{center}
+
+\begin{enumerate}
+\item Calculer la différence de marche entre deux rayons issus de S en M : un se réfléchissant sur le miroir et un autre arrivant directement en M.
+\item Décrire la figure observée sur l'écran lorsque S est une source ponctuelle monochromatique.
+\item Même question si S est une source émettant deux longueurs d'ondes très proches.
+\end{enumerate}
+
+\subsubsection*{MT23.01 -- Interférences et CD \difficulte{1}}
+\sousinfo{Exercice retranscrit par Clément D. -- MPE 2023 \\ Thèmes : Interférences à N ondes}
+
+\begin{center}
+\includegraphic{0.5}{images/cd.png}
+\end{center}
+
+On place un CD dans une pièce dont les murs ont une hauteur $h = 2.5\,\text{m}$ et un plafond de largeur $L = 5\,\text{m}$. On éclaire le CD avec un laser qui émet un rayon de longueur d'onde $\lambda = 632\,\text{nm}$ et faisant un angle de $45^\circ$ avec la droite perpendiculaire à la face du CD. Pour stocker les données, on considère que le CD possède des creux de pas $a = 1.6\,\mu\text{m}$. On observe alors des tâches lumineuses au plafond.
+
+\begin{enumerate}
+\item Expliquer qualitativement pourquoi observe-t-on des tâches lumineuses au plafond.
+\item Déterminer le nombre de tâches observables et les positions de ces tâches.
+\end{enumerate}
+
+\newpage
+\subsection*{Concours Centrale-Supélec}
+\addcontentsline{toc}{subsection}{Centrale-Supélec}
+
+\subsubsection*{OP4.Cent15.01 -- Résolution d'un doublet (sans prep.) \difficulte{2} \corrige}
+\sousinfo{Thèmes : Interférences à N ondes, Réseaux}
+
+On éclaire un réseau de fentes considérées comme infiniment fines et distantes de $a=10 \mu \mathrm{~m}$, par une OPPM, de longueur d'onde $\lambda$, perpendiculaire à la pupille et de largeur $L=1 \mathrm{~cm}$. On observe la figure de diffraction à l'infini dans la direction $\theta$.
+
+\begin{enumerate}
+\item Déterminer le déphasage $\phi$ entre deux rayons lumineux successifs.
+\item En utilisant les vecteurs de Fresnel, déterminer la position des maxima principaux et déterminer leur largeur. Justifier,à l'aide de la construction géométrique suivante que l'intensité diffractée $I(\theta)$ dans la direction $\theta$ est de la forme $I=I_0\left(\frac{\sin (N \phi / 2)}{\sin (\phi / 2)}\right)^2$.
+\end{enumerate}
+
+\begin{center}
+\includegraphic{0.7}{images/fres.png}
+\end{center}
+
+\begin{enumerate}[resume]
+\item Justifier alors que la condition pour obtenir des franges brillantes est très «stricte».
+\item On souhaite étudier le spectre d'une lampe à vapeur de mercure en utilisant la diapositive précédente et plus précisément on souhaite vérifier l'écart entre les deux raies jaunes du mercure: $\lambda_1=579,1 \mathrm{~nm}$ et $\lambda_2=577,0 \mathrm{~nm}$. En vous aidant de l'annexe, déterminer à partir de quel ordre il est possible de séparer les deux raies.
+
+\end{enumerate}
+
+\textbf{Annexe : Pouvoir de résolution d'un réseau}
+
+Le pouvoir de résolution d'un réseau est l'aptitude du réseau à séparer deux longueurs d'onde. Il est défini par le critère de Rayleigh qui considère que deux longueurs d'onde $\lambda$ et $\lambda+\Delta \lambda$ sont séparables si le maximum de l'une $(\lambda+\Delta \lambda)$ est à la position du premier minimum nul de l'autre $(\lambda)$. Le pouvoir de résolution vaut alors
+$$
+R=\frac{\lambda}{\Delta \lambda}=k N
+$$
+où $k$ est l'ordre et $N$ est le nombre de traits éclairés.
+
+\newpage
+\subsubsection*{Cent17.03 -- Couche anti-reflet (avec préparation) \difficulte{2} \corrige}
+\sousinfo{Thèmes : Ondes Electromagnétiques}
+
+Les panneaux solaires les plus performants ont actuellement un rendement de $25 \%$. On cherche à savoir ici quel gain on peut obtenir en utilisant une couche anti-reflet. L'ensemble des cellules photovoltaïques est protégé par une plaque de verre d'indice $N=1,50$. Les coefficients de réflexion $R$ et transmission $T$ en puissance d'un dioptres sont donnés par
+
+$$
+R=\left(\frac{n_1-n_2}{n_1+n_2}\right)^2 \quad T=\frac{4 n_1 n_2}{\left(n_1+n_2\right)^2}
+$$
+
+\begin{enumerate}
+\item En considérant $n_{\text {air }}=1$, quelle est la puissance perdue par réflexion sur un panneau?
+\end{enumerate}
+
+Une couche d'épaisseur $e$ d'un milieu transparent d'indice $n$ tel que $1 \leqslant n \leqslant N$ est déposée sur le verre. On ne tiendra compte que des deux premières réflexions sur chacun des dioptres.
+
+\begin{center}
+\includegraphic{0.5}{images/couche.png}
+\end{center}
+
+\begin{enumerate}[resume]
+\item Expliquer qualitativement comment un tel dispositif peut réduire la puissance réfléchie.
+\item On suppose que l'onde incidente, d'éclairement $E_0$ et de longueur d'onde $\lambda_0=600 \mathrm{~nm}$, arrive en incidence normale. Quels sont les éclairements $E_1$ et $E_2$ des ondes réfléchies ? Exprimer la différence de marche $\delta$; en déduire les caractéristiques de la couche anti-reflet la plus mince.
+\end{enumerate}
+
+La lumière du soleil n'est pas monochromatique, on considère alors que l'éclairement de l'onde totale réfléchie à la pulsation $\omega$ est
+$$
+\mathrm{d} E=2 E_0^\omega\left(1+\cos \left(\frac{\omega \delta}{c}\right)\right) \mathrm{d} \omega \quad \text { avec } \quad \omega_0-\frac{\Delta \omega}{2} \leqslant \omega \leqslant \omega_0+\frac{\Delta \omega}{2} .
+$$
+
+\begin{enumerate}[resume]
+\item En supposant $E_0^\omega$ constant sur tout le spectre, exprimer l'éclairement total $E_r$ de l'onde réfléchie ; étudier le coefficient de réflexion grâce au programme Python joint. Quelle doit être l'épaisseur de la couche pour une efficacité maximale? Quel gain obtient-on par rapport à un panneau solaire dépourvu d'une telle couche?
+\item En supposant $R$ et $T$ peu dépendants de l'angle d'incidence, comment peut-on définir un coefficient de réflexion en incidence quelconque? Compléter éventuellement le programme Python pour étudier ce coefficient. Que pensez-vous de l'efficacité d'une telle couche pour des angles d'incidence importants?
+\end{enumerate}
+
+\subsubsection*{Cent23.02 -- Résolution de deux étoiles \difficulte{2}}
+\sousinfo{Exercice retranscrit par Clément D. -- MPE 2023 \\ Thèmes : Diffraction, Interférences, Cohérence}
+
+On souhaite mesurer la distance angulaire $\alpha$ entre deux étoiles à l'aide d'un télescope. Le télescope possède un objectif que l'on modélise par une lentille mince de focale $f' = 0.6\,\text{m}$ et un diaphragme de diamètre $D = 20\,\text{cm}$. On observe une unique tâche sur l'écran.
+
+\begin{enumerate}
+\item Définir la distance angulaire entre les deux étoiles
+\item Expliquer la présence d'une unique tâche sur l'écran
+\item Quelle est la limite d'angle mesurable avec ce dispositif ?
+\end{enumerate}
+
+On ajoute un système interférentiel de Young et un filtre lumineux ne laissant passer que la longueur d'onde $\lambda = 636\,\text{nm}$. On note $a$ la distance entre les deux fentes.
+
+\begin{enumerate}[resume]
+\item Faire un schéma du montage.
+\item On remarque que la figure d'interférence disparaît à partir de $a = a_{0} = 0.3\,\mu\text{m}$. Déterminer $\alpha$.
+\end{enumerate}
+
+\newpage
+\subsection*{Concours Mines-Ponts}
+\addcontentsline{toc}{subsection}{Mines-Ponts}
+
+\subsubsection*{Questions de Cours}
+\begin{enumerate}
+\item Trous d'Young ponctuels en milieu non dispersif : source ponctuelle à distance finie et observation à grande distance. Perte de contraste par élargissement spectral de la source.
+\item Réseaux-Interférences à N ondes
+\item Interférences à $N$ ondes monochromatiques cohérentes entre elles.
+\item Lunette astronomique avec oculaire et objectif convergents. Grossissement -- Erwann H. MPIE 2023
+\end{enumerate}
+
+\newpage
+\subsubsection*{OP3.MP1701 -- Bande passante d'un filtre \difficulte{3} \corrige}
+\sousinfo{Thèmes : Interférences, Michelson, Cohérence}
+
+On cherche à mesurer la bande passante $\Delta\lambda$ d'un filtre jaune. On utilise pour cela un interféromètre de Michelson en lame d'air. L'interféromètre est éclairé par une source de lumière blanche devant laquelle on interpose le filtre étudié. Au centre de la figure d'interférences, on place un capteur photoélectrique qui donne une tension proportionnelle à l'intensité lumineuse qu'il reçoit. Cette tension est enregistrée à l'aide d'un logiciel d'acquisition. On « chariote » un miroir du Michelson en couplant sa vis de translation à un moteur à vitesse de rotation très faible et constante. Au début de l'enregistrement, de durée totale 5 mn, la vis micrométrique du Michelson indique $X_{1} = 38.61\,\text{mm}$. À la fin, $X_{2} = 38.53\,\text{mm}$. Le résultat de l'acquisition est donné Figure 1.
+\begin{center}
+\includegraphic{0.7}{images/figure1.jpg}
+\end{center}
+\begin{enumerate}
+\item Interpréter la forme de la figure obtenue.
+\end{enumerate}
+Un « zoom » de la partie la plus intéressante est présenté Figure 2.
+\begin{center}
+\includegraphic{0.8}{images/figure2.jpg}
+\end{center}
+\begin{enumerate}[resume]
+\item Déduire de ces deux enregistrements la longueur d'onde centrale du filtre ainsi que sa bande passante.
+\end{enumerate}
+
+\newpage
+\subsubsection*{MP23.05 -- Trous d'Young et Réseau \difficulte{2}}
+\sousinfo{Exercice retranscrit par Thomas P. -- MPE 2023 \\ Thèmes : Trous d'Young, Réseaux}
+
+On réalise un montage interférentiel de Young. La fente primaire est située dans le plan médian des deux fentes secondaires. La distance séparant les deux fentes secondaires est $a = 1.0\,\text{mm}$. On place un écran à une distance $D = 2\,\text{m}$.
+
+\begin{enumerate}
+\item Décrire et justifier la figure d'interférence observée sur l'écran.
+
+On perce un trou dans l'écran à une hauteur $d = 3.0\,\text{cm}$. On cherche maintenant à mesurer le spectre d'ordre 1 en ce point. Pour cela on utilise un réseau comportant 500 fentes/mm éclairé en incidence normale à l'aide d'une lentille convergente dont le plan focal objet est confondu avec l'écran. On ajoute un appareil photo pour mesurer le spectre, il est constitué d'une lentille convergente de distance focale $f'$. Le capteur de l'appareil photo est considéré carré de côté $h$.
+
+\item Justifier que certaines longueurs d'onde n'apparaissent pas dans le spectre mesuré.
+\item Donner la valeur de $f'$ permettant d'afficher l'ensemble de la figure d'interférence avec le plus de précision possible.
+\end{enumerate}
+
+\newpage
+\section*{Thermodynamique}
+\addcontentsline{toc}{section}{Thermodynamique}
+\subsection*{Concours CCINP}
+\addcontentsline{toc}{subsection}{CCINP}
+\subsubsection*{INP21.04 -- Profil de température dans un barreau \difficulte{1}}
+\sousinfo{Exercice retranscrit par Anne-Charlotte D. -- MPE 2021 \\ Thèmes : Diffusion Thermique}
+
+\begin{center}
+\includegraphic{0.5}{images/barreau.png}
+\end{center}
+
+On s'intéresse à un cylindre métallisé de section $S$, de longueur $L$, de conductivité thermique $\lambda$ et de capacité négligeable. La température évolue dans le barreau et on a $T(z = 0) = T_{1}$ et $T(z = L) = T_{2}$. On se place en régime permanent. On suppose que les parois autres que les extrémités sont calorifugées.
+
+\begin{enumerate}
+\item A l'aide d'un bilan énergétique, déterminer $T(z)$.
+\item Quel est le flux thermique traversant une section du tube ?
+\end{enumerate}
+
+On suppose désormais que les parois ne sont plus calorifugées et qu'elles ont un coefficient de conducto-convection $h$. On suppose que $T = T(z)$. La température extérieure est inférieure à la température dans le tube.
+
+\begin{enumerate}[resume]
+\item Effectuer un bilan énergétique entre $z$ et $z + dz$.
+\item En déduire l'équation différentielle vérifiée par $T$. Introduire une grandeur $\delta$ homogène à une longueur.
+\item Déterminer $T(z)$.
+\item Quel est le flux thermique traversant l'extrémité gauche du tube en $z = 0$ ? Que se passe-t-il si $L \ll \delta$ ?
+\end{enumerate}
+
+\newpage
+\subsubsection*{INP23.04 -- Pompe à Chaleur \difficulte{1}}
+\sousinfo{Exercice retranscrit par Clément D., Julien M. et Paula S. -- MPE 2023 \\ Thèmes : Machines Thermiques}
+
+On considère une maison où la température extérieure $T_{\text{ext}} = 273\,\text{K}$. On y installe une pompe à chaleur.
+
+\begin{itemize}[label=\textbullet]
+\item On veut savoir quel est le gain en puissance relatif si on accepte de chauffer la maison à $19^\circ\text{C}$ au lieu de $21^\circ\text{C}$ (on considérera toutes les transformations réversibles)
+\end{itemize}
+
+
+\subsubsection*{INP17.02 -- Conductivité Inconnue \difficulte{1} \corrige}
+\sousinfo{Thèmes : Diffusion Thermique}
+
+\begin{center}
+\includegraphic{0.6}{images/conductivite.png}
+\end{center}
+
+De l'eau à la température $T_{0}$ est versée dans une chambre en contact avec deux barres parallélépipédiques : une en cuivre, dont on connaît la conductivité thermique ($400\,\text{W/K/m}$) et l'autre en étain dont on recherche la conductivité thermique. On enduit les deux barres de paraffine. La paraffine est fondue sur une longueur de $15.6\,\text{cm}$ sur la barre de cuivre et de $6.4\,\text{cm}$ sur la barre d'étain. La température de fusion de la paraffine est de $60^\circ\text{C}$.
+
+\begin{itemize}[label=\textbullet]
+\item Déterminer la conductivité thermique de l'étain.
+\end{itemize}
+
+\newpage
+\subsubsection*{INP23.01 -- Température d'un dauphin \difficulte{1}}
+\sousinfo{Exercice retranscrit par Dimitri N. -- MPE 2022 \\ Thèmes : Diffusion Thermique}
+
+On considère un dauphin de $2\,\text{m}$ de long et $220\,\text{kg}$. Dans les parcs animaliers les dauphins sont nourris quotidiennement avec 5 à $10\,\text{kg}$ de poisson. $100\,\text{g}$ de poisson a un apport énergétique de $100\,\text{kilocalories}$ ($1\,\text{kilocal}=4\,\text{kJ}$). Le dauphin a une température interne de $36^\circ\text{C}$. Pour se protéger du froid, le dauphin a une couche de graisse répartie de façon homogène sur son corps de conductivité thermique $\lambda_{g} = 0.2\,\text{W}\cdot\text{m}^{-1}\cdot\text{K}^{-1}$ et d'épaisseur $e = 3\,\text{cm}$.
+
+\begin{itemize}[label=\textbullet]
+\item Le dauphin vit dans une eau à $10^\circ\text{C}$ dans son habitat naturel, quelle est la masse de poisson nécessaire pour qu'il résiste au froid pendant une journée ?
+\end{itemize}
+
+\subsubsection*{INP23.08 -- Igloo}
+\sousinfo{Exercice retranscrit par Eloïse R. -- MPE 2023 \\ Thèmes : Diffusion Thermique}
+
+\begin{itemize}[label=\textbullet]
+\item De quelle épaisseur doivent être les murs d'un igloo abritant un humain si la température extérieure est de $-20^\circ\text{C}$ ?
+\end{itemize}
+
+Données :
+\begin{itemize}
+\item Conductivité thermique de la glace
+\item Température minimale de survie d'un humain ($10^\circ\text{C}$)
+\item Métabolisme de l'humain ($360\,\text{kJ/h}$)
+\end{itemize}
+
+\subsubsection*{INP23.04 -- Barres en contact \difficulte{1}}
+\sousinfo{Exercice retranscrit par Thomas P. -- MPE 2023 \\ Thèmes : Diffusion Thermique}
+
+On considère une barre cylindrique composée de d'une partie de longueur $l_{1}$ en aluminium de conductivité thermique $K_{1}$ et d'une partie en Cuivre de longueur $l_{2}$ et de conductivité thermique $K_{2}$. On maintient l'extrémité en aluminium à la température $T_{1}$ et celle en cuivre à la température $T_{2}$. On se place en régime stationnaire.
+
+\begin{enumerate}
+\item Déterminer la température à la limite entre les deux matériaux.
+\item Déterminer le gradient de la température dans la partie en aluminium et dans la partie en cuivre.
+\item Déterminer la densité de flux thermique.
+\item Déterminer la quantité de chaleur traversant la surface entre les deux matériaux pendant 1 minute.
+\end{enumerate}
+
+\newpage
+\subsection*{Concours Mines-Télécom}
+\addcontentsline{toc}{subsection}{Mines-Télécom}
+\subsubsection*{MT22.02 -- Changement d'état \difficulte{1} \corrige}
+\sousinfo{Exercice retranscrit par Manon L. -- MPE 2022 \\ Thèmes : Changement d'état, Calorimétrie.}
+
+\begin{enumerate}
+\item Quelle masse de glace à $0^\circ\text{C}$ faut-il placer dans un calorimètre contenant $1\,\text{g}$ de vapeur d'eau à $100^\circ\text{C}$ pour obtenir de l'eau liquide à $100^\circ\text{C}$ ?
+\item Calculer l'entropie créée lors de cette réaction.
+\end{enumerate}
+
+Données :
+\begin{itemize}
+\item Pour une phase condensée : $S(T) = c \times \ln(T)$ + constante avec $c$ la capacité thermique de la phase condensée
+\item Capacité thermique massique de l'eau : $c_{e} = 4.18\,\text{kJ}\cdot\text{K}^{-1}\cdot\text{kg}^{-1}$
+\item Chaleur latente massique de fusion de l'eau : $l_{f} = 334\,\text{kJ}\cdot\text{kg}^{-1}$
+\item Chaleur latente massique de vaporisation de l'eau : $l_{v} = 2260\,\text{kJ}\cdot\text{kg}^{-1}$
+\end{itemize}
+
+\subsubsection*{MT22.03 -- Canette réfrigérée \difficulte{1} \corrige}
+\sousinfo{Exercice retranscrit par Charlotte H. -- MPE 2022 \\ Thèmes : Changement d'état, Bilans d'énergie}
+
+\begin{itemize}[label=\textbullet]
+\item Une canette réfrigérée se vend avec un surplus de 50 centimes, ce surplus est-il exagéré ?
+\end{itemize}
+
+\subsubsection*{MT17.02 -- Conduite de chauffage \difficulte{1}}
+\sousinfo{Thèmes : Diffusion Thermique}
+
+Une conduite de chauffage transporte un fluide de température $45^\circ\text{C}$, et est séparée de l'extérieur grâce à sa paroi cylindrique.
+
+\begin{center}
+\includegraphic{0.7}{images/conduite.png}
+\end{center}
+
+\begin{enumerate}
+\item Déterminer $T(r)$ dans l'isolant.
+\item Donner la résistance thermique de l'isolant.
+
+On arrête la circulation de fluide dans la conduite.
+
+\item Montrer que le système étudié est analogue à un circuit RC en électronique.
+\end{enumerate}
+
+\newpage
+\subsubsection*{TH1.MT17.01 -- Résistance dans un écoulement}
+\sousinfo{Thèmes : Fluide en écoulement.}
+
+\begin{center}
+\includegraphic{0.4}{images/resistance.png}
+\end{center}
+
+On plonge une résistance $R$ parcourue par un courant $i$ dans un conduit d'eau.
+
+\begin{itemize}[label=\textbullet]
+\item Approximer la différence de température $T_{2} - T_{1}$.
+\end{itemize}
+
+\newpage
+\subsection*{Concours Mines-Ponts}
+\addcontentsline{toc}{subsection}{Mines-Ponts}
+
+\subsubsection*{Questions de Cours}
+\begin{enumerate}
+\item Diffusion Thermique (Lucas D. -- MPE 2023)
+\end{enumerate}
+
+\subsubsection*{MP21.04 -- Chauffage d'une maison \difficulte{1} \lesdeux}
+\sousinfo{Exercice retranscrit par Enzo S. -- MPE 2021 \\ Thèmes : Diffusion Thermique, Principes de la Thermodynamique}
+
+On considère une maison de température $T_{i} = 20^\circ\text{C}$ avec un toit de résistance thermique $R_{\text{th2}} = 2.00 \times 10^{-3}\,\text{K}\cdot\text{W}^{-1}$ et des murs de résistance thermique $R_{\text{th1}} = 10.0 \times 10^{-3}\,\text{K}\cdot\text{W}^{-1}$. L'air extérieur est de température supposée constante $T_{\text{ext}} = 10^\circ\text{C}$. On considère que l'on se place en régime permanent.
+
+\begin{enumerate}
+\item Calculer la puissance $P$ nécessaire pour garder la maison à température constante.
+\item On ajoute une isolation supplémentaire sur le toit. Calculer la résistance thermique de l'isolation pour que la puissance nécessaire pour garder la maison à température constante soit 50\% plus faible.
+\item On éteint le chauffage de la maison. Déterminer alors l'évolution de la température au cours du temps au sein de la maison.
+\end{enumerate}
+
+\subsubsection*{MP17.03 -- Connexion de deux systèmes \difficulte{2} \corrige}
+\sousinfo{Thèmes : Diffusion Thermique}
+
+On considère une barre (représentée en gris sur le schéma) homogène de longueur $L$, de conductivité thermique $\lambda$, de section $S$, et de masse volumique $\rho$. Deux sources de température sont placées à ses extrémités comme indiqué sur le schéma.
+
+\begin{center}
+\includegraphic{0.6}{images/barre2.png}
+\end{center}
+
+On suppose les sources idéales.
+
+\begin{enumerate}
+\item Que valent $C_{1}$ et $C_{2}$ ?
+\item On se place en régime permanent. Donner $T(x)$.
+\end{enumerate}
+
+On ne considère plus que les sources sont idéales et on se place en régime quasi-stationnaire.
+\begin{enumerate}[resume]
+\item Validité de l'hypothèse ?
+\item Déterminer $T_1(t)$ et $T_2(t)$.
+\end{enumerate}
+
+\newpage
+\subsubsection*{MP23.04 -- Centrale Nucléaire \difficulte{2}}
+\sousinfo{Exercice retranscrit par Pierre N. -- MPE 2023 \\ Thèmes : Machines Thermiques}
+
+Une centrale nucléaire fonctionne comme un moteur ditherme entre 2 sources de chaleur $T_{F} = 290\,\text{K}$ et $T_{C} = 570\,\text{K}$.
+
+\begin{enumerate}
+\item Déterminer le rendement maximal $\eta_{\max}$ de la centrale
+
+La source froide est un fleuve dont le débit volumique est $D_{v} = 100\,\text{m}^{3}\cdot\text{s}^{-1}$ et la centrale fournit une puissance $P = 1\,\text{GW}$ avec un rendement de $0.5\,\eta_{\max}$.
+
+\item Quelle est l'influence de la centrale sur la température du fleuve ?
+\end{enumerate}
+
+Données :
+\begin{itemize}
+\item Capacité thermique massique de l'eau $c = 4.18 \times 10^{3}\,\text{J}\cdot\text{K}^{-1}\cdot\text{kg}^{-1}$
+\item Masse volumique de l'eau $\rho = 1.00 \times 10^{3}\,\text{kg}\cdot\text{m}^{-3}$
+\end{itemize}
+
+\newpage
+\subsection*{Concours Centrale-Supélec}
+\addcontentsline{toc}{subsection}{Centrale-Supélec}
+
+\subsubsection*{Cent21.01 -- Iceman \difficulte{2} \corrige}
+\sousinfo{Exercice retranscrit par Flavien M. -- MPE 2021 \\ Thèmes : Bilans d'énergie, Machines Thermiques}
+
+L'exercice était tourné autour de la capacité d'un personnage des X-men (iceman) à créer de la glace. On considérait que le personnage, à une température de $35^{\circ} \mathrm{C}$, prélevait la vapeur d'eau présente dans l'air (à une température de $15^{\circ} \mathrm{C}$ ) afin de la refroidir et de former de la glace. On considérait qu'il était capable de produire 100 kg de glace par seconde. On supposait que l'efficacité du personnage était égale à $76 \%$ de l'efficacité maximale. On définissait également le rapport entre la pression partielle en vapeur d'eau dans l'air et la pression de vapeur saturante, et on nous indiquait que ce rapport valait $80 \%$ ici.
+
+\begin{center}
+\includegraphic{}{images/iceman.png}
+\end{center}
+
+Le sujet comportait une table de données assez importante avec notamment:
+$$
+M_H=1 \mathrm{~g} \cdot \mathrm{~mol}^{-1} ; M_O=16 \mathrm{~g} \cdot \mathrm{~mol}^{-1} ; M_N=14 \mathrm{~g} \cdot \mathrm{~mol}^{-1}
+$$
+
+\begin{itemize}
+\item Pour l'eau, quelques enthalpies massiques de changement d'état: Fusion : $334 \mathrm{kJ.kg}^{-1}$; Vaporisation : $2265 \mathrm{kJ.kg}{ }^{-1}$
+\item Capacités thermiques massiques :  Air : $1005 \mathrm{~J} . \mathrm{K}^{-1} . \mathrm{kg}^{-1}$; Eau : $4180 \mathrm{~J} . \mathrm{K}^{-1} \cdot \mathrm{~kg}^{-1}$
+\end{itemize}
+
+\begin{enumerate}
+\item Présenter et rappeler le fonctionnement d'une machine frigorifique. Déterminer l'efficacité de Carnot de la machine.
+\item En déduire l'efficacité réelle d'Iceman.
+\item Déterminer la masse d'air nécessaire au personnage pour produire 100 kg de glace.
+\item En déduire la puissance qu'il faut fournir afin qu'il puisse la réaliser
+\item Si on considère que l'intégralité de l'énergie qu'utilise le personnage provient de l'oxydation du glucose $\mathrm{C}_6 \mathrm{H}_{12} \mathrm{O}_6$ qu'il consomme, quelle masse devrait-il en consommer pour produire de la glace pendant une minute? On attend une solution littérale pour laquelle vous introduirez les grandeurs nécessaires.
+\end{enumerate}
+
+\newpage
+\section*{Mécanique Quantique}
+\addcontentsline{toc}{section}{Mécanique Quantique}
+
+\subsection*{Concours CCINP}
+\addcontentsline{toc}{subsection}{CCINP}
+
+\subsubsection*{INP22.05 -- Atome d'hydrogène \difficulte{1} \lesdeux}
+\sousinfo{Exercice retranscrit par Louis A. -- MPE 2022 \\ Thèmes : Puits Quantique}
+
+\begin{enumerate}
+\item Donner l'expression des niveaux d'énergie $\mathcal{E}_{n}$ d'une particule de masse $m$ dans un puits de potentiel infini de longueur $a$.
+\end{enumerate}
+
+On considère l'atome d'hydrogène, on note $r$ la distance de l'électron au noyau.
+
+\begin{enumerate}[resume]
+\item Calculer $\mathcal{E}_{n}$ sachant que l'électron se trouve dans un puits de potentiel infini de longueur la demi-circonférence de son orbite.
+\end{enumerate}
+
+L'énergie totale de l'électron est $E_{n}$, somme de $\mathcal{E}_{n}$ et de l'énergie potentielle d'interaction de l'électron avec le noyau.
+
+\begin{enumerate}[resume]
+\item Donner l'expression de $E_{n}$.
+\item Donner les positions $r_{n}$ d'équilibre stable de l'électron. Calculer $r_{n}$ pour $n \in \{1,2,3\}$.
+\item Montrer que $E_{n}$ peut s'écrire sous la forme $E_{n} = -E_{0}/n^{2}$. Donner l'expression et la valeur de $E_{0}$.
+\item De quelle couleur est la radiation émise par un électron qui passe du niveau d'énergie 3 au 2 ?
+\end{enumerate}
+
+Données :
+\begin{itemize}
+\item Masse de l'électron : $m_{e} = 9.1 \times 10^{-31}\,\text{kg}$
+\item Permittivité diélectrique du vide : $\varepsilon_{0} = 8.9 \times 10^{-12}\,\text{F}\cdot\text{m}^{-1}$
+\item Constante de Planck : $h = 6.63 \times 10^{-34}\,\text{m}^{2}\cdot\text{kg}\cdot\text{s}^{-1}$
+\item Charge élémentaire : $e = 1.6 \times 10^{-19}\,\text{C}$
+\end{itemize}
+
+\newpage
+\subsubsection*{INP23.05 -- Hexatriene \difficulte{1}}
+\sousinfo{Exercice retranscrit par Thomas P. -- MPE 2023 \\ Thèmes : Puits Quantique, Niveaux d'énergie}
+
+\begin{center}
+\includegraphic{0.5}{images/hexatriene.png}
+\end{center}
+
+On considère une molécule de 1,3,5-Hexatriene. On s'intéresse aux électrons $\pi$ libres de se déplacer. On modélise la molécule comme un puits de potentiel de longueur L dans lequel se trouvent les électrons. Chaque niveau d'énergie ne peut contenir que 2 électrons au maximum.
+
+\begin{enumerate}
+\item Montrer à partir de l'inégalité d'Heisenberg que les électrons ne peuvent pas être au repos et que plus la longueur L est petite, plus l'énergie minimale d'un électron est élevée. En serait-il de même en mécanique classique ?
+\item A partir de l'équation de Schrödinger indépendante du temps, donner la fonction d'onde d'un électron dans le puits de longueur L.
+\item Dans le cas de la molécule de 1,3,5-Hexatriene, donner le plus haut niveau d'énergie occupé et le niveau d'énergie vacant le plus bas.
+\item A quel domaine de la lumière correspond une transition du premier ordre ?
+\end{enumerate}
+
+\newpage
+\subsection*{Concours Mines-Télécom}
+\addcontentsline{toc}{subsection}{Mines-Télécom}
+
+\subsubsection*{MT21.02 -- Barrière de potentiel \difficulte{1}}
+\sousinfo{Exercice retranscrit par Jules D. -- MPE 2021/2022 \\ Thèmes : Equation de Schrödinger, Barrière de Potentiel, Effet Tunnel}
+
+L'exercice consistait à étudier le passage ou non d'un faisceau d'électrons à travers une barrière de potentiel dont on connaît le potentiel $V_{0}$, l'énergie $E$ d'un électron et l'intensité $I$ qui caractérise le faisceau d'électrons. On fournit l'expression du coefficient de transmission $T$ et de $\delta$ :
+
+$$T = \frac{1}{1 + \frac{V_{0}^{2}}{4E(V_{0} - E)}\sinh^{2}(\frac{a}{\delta})}$$
+
+Avec $\delta = \frac{\hbar}{\sqrt{2m(V_{0} - E)}}$
+
+\begin{enumerate}
+\item Comment a été déterminé ce coefficient de transmission ? Que se passe-t-il si $\frac{a}{\delta} \gg 1$ ?
+\item Déterminer l'intensité $I$ après passage de la barrière (l'examinateur m'a demandé avec quel matériel en TP on pouvait la mesurer et si ici on pouvait la mesurer, en énonçant un ordre de grandeur des intensités des circuits électriques manipulés en TP).
+\item Que se passe-t-il si on remplace les électrons par des protons ?
+
+
+\end{enumerate}
+
+\textit{Il m'a ensuite demandé ce qui se passait avant le passage de la barrière (Réponse attendue : présence d'interférences quantiques).}
+
+\subsubsection*{Q2.MT19.02 -- Boîte quantique et carottes \difficulte{1}}
+\sousinfo{Exercice retranscrit par Yanice M. -- MPE 2021 \\ Thèmes : Equation de Schrödinger, Puits Quantique, Absorbance}
+
+Étude de la molécule de $\beta$-carotène. Il y a 22 électrons qui occupent les 11 premiers niveaux d'énergie. On suppose que ces électrons sont des particules quantiques situées dans un puits de potentiel infini de largeur $a$. Suite à un test d'absorbance sur le $\beta$-carotène, on trouve que la longueur d'onde correspondant au niveau d'énergie minimal est $\lambda = 456\,\text{nm}$.
+
+\begin{center}
+\includegraphic{0.5}{images/carotene.png}
+\end{center}
+
+\begin{itemize}[label=\textbullet]
+\item Déterminer la largeur $a$ du puits et la comparer à la valeur tabulée $a = 3.03\,\text{nm}$. Commenter.
+\end{itemize}
+
+\newpage
+\subsubsection*{MT23.04 -- Atome d'hydrogène \difficulte{1}}
+\sousinfo{Exercice retranscrit par Julien M. -- MPE 2023 \\ Thèmes : Puits Quantique}
+
+L'atome d'hydrogène est constitué d'un noyau avec un proton chargé $+e$ et d'un électron chargé $-e$ gravitant autour du noyau. L'électron est soumis à la force électrostatique de Coulomb. L'électron peut être vu comme une particule confinée dans un puits infini de largeur $a$.
+
+\begin{enumerate}
+\item Donner la solution stationnaire de l'équation de Schrödinger.
+\item Déterminer l'énergie de confinement.
+\item Donner l'expression de l'énergie totale $E(r)$ qui est la somme de l'énergie de confinement et de l'énergie potentielle électrostatique $U(r)$. Exprimer le rayon $r_{n}$ pour une position d'équilibre stable.
+\end{enumerate}
+
+\newpage
+\subsection*{Concours Centrale-Supélec}
+\addcontentsline{toc}{subsection}{Centrale-Supélec}
+
+\subsubsection*{Cent15.01 -- Effet photo-électrique (sans préparation) \difficulte{2} \corrige}
+\sousinfo{Thèmes : Quantification}
+
+On souhaite déterminer la constante de Planck en utilisant l'effet photoélectrique. Pour cela, on réalise le montage représenté Figure 1.
+
+\begin{enumerate}
+\item Rappeler en quelques mots en quoi consiste l'effet photoélectrique. En quelle année, Albert Einstein proposa-t-il une explication faisant intervenir la notion de particule de lumière?
+\item Montrer que le circuit électrique permet de faire varier la tension $V$ de $-E$ à $+E$. En considérant que la résistance équivalente au circuit électrique dans l'ampoule est très grande devant les autres résistances du circuit, exprimer $V$ en fonction de $x, E$.
+\item Dans un premier temps, on constate que quelle que soit la valeur de $V$, l'intensité détectée est nulle si la fréquence du rayonnement incident, $f$, est inférieure à une certaine valeur, appelée pour la suite $f_0$ et ce quelle que soit la puissance du rayonnement incident. En quoi ce résultat est-il incompatible avec une approche ondulatoire du phénomène ?
+\item  Dans un second temps, on constate que pour une fréquence donnée, il existe une valeur du potentiel $V$, dont la valeur absolue est notée $V_{\text {arrêt }}$, pour laquelle le courant détecté s'annule et ce quelle que soit la puissance de l'onde incidente. En quoi ce résultat est-il incompatible avec une approche ondulatoire du phénomène ?
+\end{enumerate}
+La relation proposée par Einstein est
+$$
+h f=K_{\max }+\Phi
+$$
+où $K_{\max }$ est l'énergie maximale d'un photo-électron et où $\Phi$ est le travail d'extraction du métal.
+
+\begin{enumerate}[resume]
+\item Interpréter physiquement l'équation 1 et notamment préciser pourquoi un électron peut être éjecté du métal avec une énergie cinétique inférieure à $K_{\max }$.
+\item Récrire l'équation 1 en faisant intervenir $f_0$ et $V_{\text {arrêt }}$.
+\item Afin de mesurer $h$, on détermine $V_{\text {arrêt }}$ pour différente valeur de $f$. Le graphe obtenu est représenté figure 2 . En déduire la valeur expérimentale de $h$. Conclure.
+\end{enumerate}
+
+\begin{center}
+\includegraphic{}{images/photo.png}
+\end{center}
+
+
+\subsubsection*{Q2.Cent19.10 -- Particules quantiques relativistes \difficulte{2} \lesdeux}
+\sousinfo{Thèmes : Equation de Schrödinger}
+
+On s'intéresse à des particules relativistes en physique quantique.
+
+\paragraph{I - Particule libre}
+
+Un court paragraphe donne l'équation de Klein-Gordon, présentée comme une version relativiste de l'équation de Schrödinger du programme "pour des particules massives de spin nul, sans ou avec charge électrique". On note $\psi$ la fonction d'onde et on a :
+
+$$\left(\frac{1}{c^{2}}\frac{\partial^{2}}{\partial t^{2}} - \Delta + \frac{m^{2}c^{2}}{\hbar^{2}}\right)\psi(\vec{r}, t) = 0$$
+
+\begin{enumerate}
+\item En supposant que la fonction d'onde est sous la forme d'une OPPM+ de vecteur d'onde $\vec{k} = k\vec{e}_{x}$, donner une relation entre son vecteur d'onde $k$ et sa pulsation $\omega$.
+\item On donne la relation $E^{2} = (pc)^{2} + (mc^{2})^{2}$. En supposant que $E \geq 0$, donner une relation entre $E$ et $\omega$.
+\end{enumerate}
+
+\paragraph{II - Particule dans une marche de potentiel}
+
+Une équation était donnée pour $\psi$ mais on travaille avec des états stationnaires $\psi(\vec{r},t) = \phi(x)g(t)$ et on donne l'équation vérifiée par la partie spatiale :
+
+$$\frac{\partial^{2}\phi}{\partial x^{2}} + \frac{((E - V(x))^{2} - (mc^{2})^{2})}{\hbar^{2}}\phi = 0$$
+
+On étudie une particule dans une marche de potentiel : $V(x < 0) = 0$ et $V(x > 0) = V_{0}$
+
+\begin{enumerate}[resume]
+\item Donner les expressions de $\phi$ avant et dans la marche. On pourra utiliser les constantes $k$ et $q$ définies comme suit, $q$ pouvant éventuellement être complexe :
+
+$$k^{2} = \frac{E^{2} - (mc^{2})^{2}}{\hbar^{2}} \quad \text{et} \quad q^{2} = \frac{(E - V_{0})^{2} - (mc^{2})^{2}}{\hbar^{2}}$$
+
+\item Calculer les coefficients de probabilité de réflexion et de transmission définis par :
+
+$$R = \frac{J_{\text{réfléchi}}}{J_{\text{incident}}} \quad \text{et} \quad T = \frac{J_{\text{transmis}}}{J_{\text{incident}}}$$
+
+avec :
+$$\vec{J}(x,t) = \frac{\hbar}{2im}\left(\phi^{*}\frac{\partial\phi}{\partial x} - \phi\frac{\partial\phi^{*}}{\partial x}\right)\vec{e}_{x}$$
+
+\item Discuter de leurs valeurs quand $E - mc^{2} \geq V_{0} \geq 0$ et quand $V_{0} \geq E - mc^{2}$.
+\end{enumerate}
+
+\newpage
+\subsection*{Concours Mines-Ponts}
+\addcontentsline{toc}{subsection}{Mines-Ponts}
+
+\subsubsection*{Questions de Cours}
+\begin{enumerate}
+\item États stationnaires d'une particule arrivant avec une énergie E sur une marche de potentiel V dans le cas où E > V.
+\item Equation de Schrödinger et particule quantique libre.
+\item Particule quantique libre. État stationnaire, relation de dispersion, vitesse de phase et vecteur courant de densité de probabilité.
+\end{enumerate}
+
+\subsubsection*{Q2.MP1801 -- Potentiel inconnu \difficulte{2} \corrige}
+\sousinfo{Thèmes : Quantification}
+
+On envoie un faisceau d'électrons sur un lieu de potentiel $V(x)$ : on considère le problème à une dimension, et on admet que $V(x)$ est nul en $\pm \infty$. On reçoit le graphe de la densité de probabilité de présence en fonction de $x$ :
+
+\begin{center}
+\includegraphic{0.7}{images/potentiel.png}
+\end{center}
+
+\begin{enumerate}
+\item La particule est-elle dans un état lié ou de diffusion?
+\item Que dire de la région $x < -a$ ? Peut-il y avoir la même chose en mécanique classique?
+\item Tracer l'allure de $V$ et déterminer $V$ pour $|x| < a$.
+\item Proposer une expression de l'énergie du faisceau incident.
+\end{enumerate}
+
+Données : masse de l'électron, $a = 0.5\,\text{nm}$, $h$ (constante de Planck)
+
+Sur le dessin on voit que la période des premières oscillations est 2 fois plus grande que celle des oscillations du milieu.
+
+\newpage
+\section*{Physique Statistique}
+\addcontentsline{toc}{section}{Physique Statistique}
+\subsection*{Concours CCINP}
+\addcontentsline{toc}{subsection}{CCINP}
+
+\subsubsection*{INP21.06 - Barrage \difficulte{1} \corrige}
+\sousinfo{Exercice retranscrit par Léa L.D. -- MPE 2021 \\ Thèmes : Statique des fluides}
+
+\begin{center}
+\includegraphic{0.8}{images/barrage.png}
+\end{center}
+
+On considère une écluse. De chaque côté se trouve de l'eau supposée incompressible de masse volumique $\rho$.
+
+\begin{enumerate}
+\item Déterminer la résultante et le moment des forces de pression sur la paroi de l'écluse en $O$ (au milieu de la paroi de largeur $l$).
+\item Montrer que cela revient à une force $\vec{F}$ s'exerçant sur un point $C$ à déterminer.
+\end{enumerate}
+
+\subsubsection*{INP19.01 - Système à 2 états \difficulte{1}}
+\sousinfo{Thèmes : Systèmes à spectre discret d'énergie, Statique des fluides}
+
+On cherche à retrouver la formule de Boltzmann $p = A\exp(-\frac{E_{j}}{k_{B}T})$.
+
+\begin{enumerate}
+\item Retrouver la formule de la pression dans l'atmosphère isotherme en considérant l'air comme un gaz parfait $p(z)$ en fonction $z$ l'altitude, $p_{0}$ la pression au niveau du sol, $M$ la masse molaire de l'air, $R$ la constante des gaz parfait, $T$ la température.
+\item Retrouver le facteur de Boltzmann à partir de cette expression.
+\end{enumerate}
+
+On étudie maintenant un système à deux niveaux d'énergie où les particules peuvent avoir une énergie $+E$ et $-E$.
+
+\begin{enumerate}[resume]
+\item Donner un exemple concret dans cette situation.
+\item Calculer l'énergie moyenne d'une particule $\langle E \rangle$.
+\item Étudier la valeur de $\frac{\langle E \rangle}{E}$ à très haute et à très basse température.
+\item Tracer le graphe de $\frac{\langle E \rangle}{E}$.
+\item Interpréter physiquement ces résultats.
+\end{enumerate}
+
+\newpage
+\subsubsection*{INP21.11 - Atmosphère isotherme \difficulte{1}}
+\sousinfo{Exercice retranscrit par Benjamin L. -- MPE 2021 \\ Thèmes : Facteur de Boltzmann, Atmosphère isotherme}
+
+On considère l'air comme un gaz parfait. On s'intéresse à une particule d'air de masse $m$. L'atmosphère est supposée en équilibre thermique à la température $T$. On note $dP = p(z)dz$ la probabilité de trouver la particule entre $z$ et $z + dz$. L'origine des altitudes est prise au niveau du sol.
+
+\begin{enumerate}
+\item Donner l'énergie potentielle de la particule.
+\item Donner l'expression de $dP$ faisant intervenir une constante.
+\item Déterminer l'expression de cette constante.
+\item Déterminer la hauteur caractéristique associée à la probabilité de présence. Donner son ordre de grandeur.
+\item Calculer l'altitude moyenne $\langle z \rangle$ d'une particule.
+\item Comment évolue la fluctuation de l'énergie du système « atmosphère » quand on augmente le nombre de particules ?
+\item Commenter les hypothèses faites dans cette étude.
+\end{enumerate}
+
+\newpage
+\subsection*{Concours Mines-Ponts}
+\addcontentsline{toc}{subsection}{Mines-Ponts}
+
+\subsubsection*{S1.MP15.01 -- Oscillation d'une montgolfière \difficulte{2} \lesdeux}
+\sousinfo{Thèmes : Atmosphère Isotherme, Poussée d'Archimède}
+
+On considère une montgolfière, assimilée à une sphère, en équilibre à une altitude $z_{0}$ dans l'atmosphère (gaz parfait à température $T$ indépendante de l'altitude $z$).
+
+\begin{enumerate}
+\item Calculer $z_{0}$. Commenter.
+\item Étudier les variations autour de la position d'équilibre. Période des oscillations ?
+\end{enumerate}
+
+\subsubsection*{S1.MP18.01 -- Pression dans un astre fluide \difficulte{2} \lesdeux}
+\sousinfo{Thèmes : Atmosphère isotherme, Gravitation}
+
+On considère un astre fluide à symétrie sphérique de rayon $R$ et de masse $M$ à l'équilibre. On procède en considérant le modèle polytropique, qui correspond à la relation $P(r) = C \rho(r)^{2}$ où $C$ est une constante strictement positive.
+
+
+\begin{enumerate}
+\item Etablir que la masse volumique vérifie l'équation différentielle
+$$
+r \rho^{\prime \prime}+2 \rho^{\prime}+\frac{2 \pi \mathcal{G}}{C} r \rho=0
+$$
+où $\mathcal{G}$ est la constante gravitationnelle.
+\item  La résoudre en posant $f(r)=r \rho(r)$. Donner l'allure de la masse volumique $\rho(r)$ et commenter. Déterminer la pression $P(r)$, son allure et commenter.
+\item En considérant le modèle du gaz parfait, déterminer la température $T(r)$, son allure et commenter.
+\item  De manière générale, est-il plus difficile de comprimer un gaz suivant le modèle polytropique ou suivant la relation d'état des gaz parfaits ?
+\end{enumerate}
+
+\subsubsection*{S2.MP15.01 -- Interactions de Van der Waals \difficulte{2} \corrige}
+\sousinfo{Thèmes : Dipôle électrostatique, Système à deux niveaux d'énergie}
+
+Soient deux dipôles électrostatiques de moment $\vec{p_0}$ et $\vec{p_1}$ situés en $A$ et $B$, à distance $r$ fixe, dont les vecteurs moments dipolaires restent alignés avec $\vec{AB}$.
+
+$\vec{p_0}$ est fixe et $\vec{p_1}$ possède uniquement deux orientations possibles (parallèle ou antiparallèle).
+
+On constate que la force exercée par le dipôle A sur le dipôle B est attractive et que sa norme est de la forme $\|\vec{f}\| = K/r^{7}$ où $K$ est une constante positive.
+
+\begin{itemize}[label=\textbullet]
+\item Justifier l'expression de la norme de cette force.
+\end{itemize}
+
+\end{document}
+
+% Fin du document
+\end{document}

@@ -1,0 +1,225 @@
+\documentclass[a4paper, 11pt,twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[french]{babel}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{fontawesome} % Pour des icônes modernes comme des étoiles
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox} % Pour les encadrés avec bords arrondis
+%\usepackage{fontspec} % Pour utiliser des polices personnalisées
+\usepackage{tikz} % Pour des éléments graphiques
+\usepackage[tikz]{bclogo}
+\usepackage{titlesec} % Pour personnaliser les sections et sous-sections
+\usepackage{fmtcount} % Pour formater les numéros en lettres
+\usepackage{qrcode}
+
+
+% Commande pour lien vers le corrigé
+\newcommand{\lcorr}[1]{~\hfill
+\textit{Corrigé : }~
+\begin{minipage}{10em}
+\qrcode[height=10em]{#1}
+\end{minipage}}
+
+% Commande pour lien absolu vers les images
+\newcommand{\includegraphic}[2]{
+\includegraphics[width=#1\linewidth]{C:/Users/simon/Google Drive/Enseignement/CPGE/MPE Wallon/Latex/Exercices/#2}
+}
+
+
+
+
+% Configuration de la géométrie de la page
+\geometry{hmargin=2.5cm, vmargin=2.5cm}
+
+
+% Charger le package xcolor pour les couleurs
+\usepackage{xcolor}
+\definecolor{titleblue}{RGB}{0, 0, 255} % Définir une couleur bleue
+\definecolor{vertclair}{RGB}{144, 238, 144} % Vert clair
+\definecolor{bleu}{RGB}{0, 0, 255} % Bleu
+\definecolor{rouge}{RGB}{255, 0, 0} % Rouge
+\definecolor{noir}{RGB}{0,0,0}% Noir
+\definecolor{grisclair}{rgb}{0.9,0.9,0.9}% Noir
+
+% Supprimer l'alinéa en début de paragraphe
+\usepackage{parskip}
+\setlength{\parindent}{0pt} % Pas d'alinéa
+\setlength{\parskip}{0.5em} % Espacement entre les paragraphes
+
+% Style des titres avec encadré et bords arrondis
+\usepackage{titlesec}
+
+
+% Définir une commande pour créer un tcolorbox avec le titre
+\newcommand{\titlebox}[1]{%
+  \begin{tcolorbox}[colback=gray, colframe=black, arc=0mm, boxrule=0pt]
+     \textcolor{white}{\textbf{#1}} % Titre en gras
+
+  \end{tcolorbox}%
+}
+\newcommand{\subsubsectionbox}[1]{%
+  \begin{tcolorbox}[colback=grisclair, colframe=black, arc=0mm, boxrule=0pt]
+     \textcolor{black}{\textbf{#1}}
+  \end{tcolorbox}%
+}
+
+% Redéfinir la numérotation des sections en lettres (A, B, C, ...)
+%\renewcommand{\thesection}{\Alph{section} -}
+%
+% Redéfinir la numérotation des sous-sections en "Exercice 1 :", "Exercice 2 :", ...
+%\renewcommand{\thesubsubsection}{Exercice \arabic{subsubsection} :}
+
+
+
+
+% Commande personnalisée pour les titres de sous-sections avec tcolorbox
+\newcommand{\subsubsectiontitle}[1]{%
+  \subsubsectionbox{\thesubsubsection\ #1}%
+}
+
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\sffamily} % CMU Sans Serif en gras
+  {\thesection}{}{\titlebox}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\sffamily} % CMU Sans Serif en gras
+  {\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries\sffamily} % CMU Sans Serif en gras
+  {\thesubsubsection}{1em}{\subsubsectionbox}
+
+
+
+%\titleformat{\subsubsection}
+%  {\normalfont\normalsize\bfseries\sffamily} % CMU Sans Serif en gras
+%  {\thesubsubsection}{1em}{} % Pas de boîte pour les sous-sous-sections
+%
+
+% Commandes pour les carrés de couleur dans la marge gauche
+\usepackage{tikz} % Pour dessiner les carrés
+\usepackage{marginnote} % Pour placer les carrés dans la marge
+
+% Définir les carrés de couleur
+\newcommand{\facile}{%
+  \marginnote{%
+    \begin{tikzpicture}[baseline=-0.5ex]
+      \fill[vertclair] (0,0) rectangle (0.5,0.5); % Carré vert clair
+    \end{tikzpicture}%
+  }%
+}
+\newcommand{\moyen}{%
+  \marginnote{%
+    \begin{tikzpicture}[baseline=-0.5ex]
+      \fill[bleu] (0,0) rectangle (0.5,0.5); % Carré bleu
+    \end{tikzpicture}%
+  }%
+}
+
+\newcommand{\ouvert}{%
+  \marginnote{%
+    \begin{tikzpicture}[baseline=-0.5ex]
+      \fill[noir] (0,0) rectangle (0.1,0.5); % Carré bleu
+    \end{tikzpicture}%
+  }%
+}
+\newcommand{\dur}{%
+  \marginnote{%
+    \begin{tikzpicture}[baseline=-0.5ex]
+      \fill[rouge] (0,0) rectangle (0.5,0.5); % Carré rouge
+    \end{tikzpicture}%
+  }%
+}
+
+% Ajuster la marge gauche pour les carrés
+\reversemarginpar % Placer les notes dans la marge gauche
+
+
+% Ajuster l'espacement sous les sections
+\titlespacing{\section}{0pt}{3em}{-1em} % Espacement avant et après la section
+\titlespacing{\subsubsection}{0pt}{2em}{-1em} % Espacement avant et après la sous-section
+%\titlespacing{\subsubsection}{0pt}{1em}{0.5em} % Espacement avant et après la sous-sous-section
+
+% Style des listes
+\usepackage{enumitem}
+\setlist[enumerate,1]{label=\textbf{Q\arabic*.}, % Format des numéros de questions
+                     leftmargin=3.2em, % Alignement à gauche
+                     itemsep=0em,  
+		  align=left, % Alignement à gauche
+                     labelwidth=2.8em, % Largeur fixe pour les labels
+                     labelsep=0.5em, % Espace entre le label et le texte% espace entre les items
+                     topsep=0pt} % Pas d'espace avant la liste
+
+% Style des équations
+\newcommand{\eq}[1]{\begin{equation}#1\end{equation}}
+\newcommand{\eqn}[1]{\begin{equation*}#1\end{equation*}}
+
+% Style des tableaux
+\renewcommand{\arraystretch}{1.2}
+
+% Style des figures
+\newcommand{\fig}[3]{
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=#2]{#1}
+    \caption{#3}
+  \end{figure}
+}
+
+% Difficulté des Exercices
+\newcommand{\difficulte}[1]{%
+  \hfill\textcolor{black}{\textbf{\large%
+    \ifnum#1=1\faStar\fi%
+    \ifnum#1=2  \faStar\hspace{-0.1em}\faStar\fi%
+    \ifnum#1=3 \faStar\hspace{-0.1em}\faStar\hspace{-0.1em}\faStar\fi%
+  }}%
+}
+
+
+
+% Logo pour corrigé ou indications
+\newcommand{\corrige}{ \textcolor{blue}{\faFileTextO}} % Logo pour un corrigé disponible
+\newcommand{\indications}{ \textcolor{orange}{\faLightbulbO}} % Logo pour des indications disponibles
+\newcommand{\lesdeux}{ \textcolor{orange}{\faLightbulbO}\hspace{-0.1em}  \textcolor{blue}{\faFileTextO}} % Logo pour les deux disponibles
+
+\newcommand\gauchedroite[2]{\noindent{}#1\hfill#2}
+
+
+% Texte pour thème et provenance
+\newcommand{\sousinfo}[1]{%
+  \vspace{-1.2em} % Espacement après la sous-section
+  {\itshape\footnotesize #1} % Texte en italique et petit
+  \vspace{1.2em} % Espacement avant le texte suivant
+}
+
+%\newenvironment{gbar}[1]{ %
+%\def \FrameCommand{{\color{#1}\vrule width=3pt}\colorbox{fbase}} %
+%\MakeFramed{\advance \hsize-\width   \FrameRestore }} %
+%{\endMakeFramed}
+
+\renewcommand{\headrulewidth}{0pt}
+
+\newcommand{\planche}[2]{
+\begin{tcolorbox}[colback=white,colframe=black!75!black]
+\gauchedroite{Physique-Chimie }{#1 Wallon}\par
+\begin{center}
+    \LARGE{\textbf{Interrogation Orale}}
+
+\vspace{0.5em}
+
+\large{\textbf{Planche #2}}
+\vspace{0.5em}
+\end{center}
+\end{tcolorbox}
+}
