@@ -3,9 +3,6 @@
 Bienvenue sur la page regroupant les ressources concernant les Ateliers Jazz de la Maison de la Musique
 
 
-## Ressources Théoriques
-
-
 ## Sessions Passées
 
 ### Atelier #AJ01 - So What
@@ -27,3 +24,9 @@ Introduction de la notion d'accords à 3 et 4 sons.
 
 Bilan sur les techniques d'improvisation.
 Ecriture des accords pour affiner les gammes utilisées.
+
+
+## Ressources Théoriques
+
+<a href = "https://nuage03.apps.education.fr/index.php/s/T3cqFqwRgDS9s95" target="_blank">Fichier pdf </a> regroupant tous les concepts théoriques étudiés.
+
